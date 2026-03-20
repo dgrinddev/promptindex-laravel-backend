@@ -1,0 +1,301 @@
+[
+    {
+        "key": "pixel-sora-001",
+        "title": "Turn messy meeting notes into clear action items and a decision log",
+        "type": "text",
+        "category_key": "writing",
+        "content": "Rewrite my raw meeting notes into a clean, professional output that I can paste into Slack or a project doc.\n\nInput notes:\n[PASTE NOTES HERE]\n\nRequirements:\n- Keep it concise and factual; don\u2019t add assumptions.\n- Preserve names, dates, numbers, and commitments exactly as written.\n- If something is unclear or conflicting, flag it under \u201cOpen Questions\u201d instead of guessing.\n\nOutput format:\n1) Summary (2\u20134 bullets)\n2) Decisions (bullet list; include owner if mentioned)\n3) Action Items (table with: Task | Owner | Due date | Status/next step)\n4) Risks/Blockers (bullets)\n5) Open Questions (bullets)\n\nIf the notes contain no decisions or action items, say so explicitly and still produce the full structure.",
+        "images": [
+            {
+                "original_filename": "messy-notes-to-action-items-01.jpg",
+                "is_cover": true
+            }
+        ]
+    },
+    {
+        "key": "pixel-sora-002",
+        "title": "Turn Product Features into Benefit-Driven Marketing Copy (Website + Ads)",
+        "type": "text",
+        "category_key": "marketing",
+        "content": "I\u2019m going to paste a product/service description. Turn it into benefit-driven marketing copy that sounds friendly and helpful (not hypey).\n\nInput:\n- Product/service: [paste]\n- Target customer: [who it\u2019s for]\n- Main problem it solves: [pain point]\n- Key features: [bullets]\n- Differentiator: [why choose this]\n- Price/offer (if any): [details]\n- Brand vibe (3 adjectives): [e.g., warm, clear, practical]\n\nOutput:\n1) One-sentence positioning statement (plain English)\n2) Website hero section:\n   - Headline (max 10 words)\n   - Subheadline (1\u20132 sentences)\n   - 3 benefit bullets (not features)\n   - Primary CTA + Secondary CTA\n3) 3 short ad variations (each: 1 headline + 1 line of body + CTA)\n4) 5 social captions (1\u20132 sentences each) with light, natural tone\u2014no hashtags unless they\u2019re genuinely relevant\n\nRules:\n- Keep sentences short and easy to skim.\n- Avoid buzzwords like \u201crevolutionary,\u201d \u201cgame-changing,\u201d \u201csynergy,\u201d \u201cbest-in-class.\u201d\n- If something is unclear, make the safest assumption and note it in one brief line at the end (\u201cAssumption: \u2026\u201d).",
+        "images": [
+            {
+                "original_filename": "benefit-driven-copy-glass-bottle-kraft-tag-01.jpg",
+                "is_cover": true
+            }
+        ]
+    },
+    {
+        "key": "pixel-sora-003",
+        "title": "Bold Instagram Reel Cover: Neon Streetwear Portrait With Clean Text Space",
+        "type": "image",
+        "category_key": "social_media",
+        "content": "Create a vertical 9:16 Instagram Reel cover.\n\nSubject: a confident young adult in modern streetwear (oversized jacket + graphic tee), subtle smirk, looking slightly off-camera. Diverse, realistic skin texture.\n\nScene: nighttime city alley with wet pavement and soft steam from a vent; neon signage reflections (cyan + magenta) on the ground. Minimal clutter\u2014keep the background readable.\n\nComposition: waist-up portrait centered, slight low angle for presence. Leave a clean negative-space band at the top 25% for headline text (no actual text in the image). Add a small empty badge area bottom-right (rounded rectangle space) for a logo.\n\nLighting & color: dramatic rim light from neon signs, soft key light on face, high contrast but not crushed blacks; vibrant cyberpunk palette (cyan/magenta/purple) with natural skin tones preserved.\n\nStyle: photorealistic with cinematic grading, crisp focus on eyes, shallow depth of field, light film grain.\n\nCamera: 35mm lens, f/1.8, ISO 800, 1/125s.\n\nConstraints: no watermarks, no readable text, no distorted hands/face, avoid exaggerated anime features. Output sharp, high-resolution, social-media-ready.",
+        "images": [
+            {
+                "original_filename": "neon-streetwear-reel-cover-portrait-01.jpg",
+                "is_cover": true
+            }
+        ]
+    },
+    {
+        "key": "pixel-sora-004",
+        "title": "Modern, direct email generator (with subject lines + clear ask)",
+        "type": "text",
+        "category_key": "email",
+        "content": "Write a modern, direct email in my voice based on the details below. Keep it concise, specific, and easy to skim. Avoid buzzwords and long intros.\n\nContext\n- Who I am (role/company): [fill]\n- Recipient (name + role + relationship to me): [fill]\n- Goal of the email (what I want to happen): [fill]\n- Background (1\u20133 bullets of relevant context):\n  - [fill]\n  - [fill]\n- The ask (exact action + deadline): [fill]\n- Constraints (budget/timing/legal/privacy/what we can\u2019t do): [fill]\n- Tone: modern and direct (confident, not rude)\n\nOutput requirements\n1) Provide 3 subject line options (short, specific, no gimmicks).\n2) Then write the email body (120\u2013200 words).\n3) Structure:\n   - First line: why I\u2019m reaching out (1 sentence).\n   - Next: key context (2\u20134 short sentences or bullets).\n   - Clear ask with deadline (1\u20132 sentences).\n   - Close with an easy next step (e.g., \u201cReply with\u2026\u201d or \u201cPick a time\u2026\u201d).\n4) Include 1 optional sentence in brackets I can delete if I want it even shorter.\n5) If any critical detail is missing, make reasonable assumptions and list them under \u201cAssumptions\u201d after the email (max 3 bullets).",
+        "images": []
+    },
+    {
+        "key": "pixel-sora-005",
+        "title": "Write a one-page business proposal (problem \u2192 solution \u2192 budget \u2192 timeline)",
+        "type": "text",
+        "category_key": "business",
+        "content": "Help me draft a clear, practical one-page business proposal.\n\nContext\n- Audience: [who will read it]\n- Goal: [what decision you want from them]\n- Company/project: [name + 1-line description]\n- Customer/problem: [who is affected + what hurts]\n- Proposed solution: [what you will do]\n- Differentiator: [why this is better than alternatives]\n- Scope: [what\u2019s included] / Out of scope: [what\u2019s not]\n- Budget: [price or range] and what it covers\n- Timeline: [start date] \u2192 [milestones] \u2192 [delivery date]\n- Assumptions/dependencies: [anything required from the client]\n- Risks + mitigations: [top 2\u20133]\n- Proof: [case study, metric, credential, or testimonial]\n- Call to action: [next step + date]\n\nRequirements\n- Keep it to ~350\u2013500 words.\n- Use short headings and tight paragraphs (no fluff).\n- Make the value concrete (time saved, revenue impact, risk reduction).\n- End with a simple acceptance/next-step line.\n\nOutput format\n1) Title\n2) Summary (2\u20133 sentences)\n3) Problem\n4) Proposed solution\n5) Deliverables (bullet list)\n6) Budget\n7) Timeline\n8) Assumptions & risks\n9) Next steps\n\nIf any key info is missing, list up to 3 questions first, then write a best-guess version using clearly marked assumptions.",
+        "images": [
+            {
+                "original_filename": "evening-home-proposal-momentum-01.jpg",
+                "is_cover": true
+            }
+        ]
+    },
+    {
+        "key": "pixel-sora-006",
+        "title": "Design Critique Checklist + Actionable Fixes (Paste Any Screen or Flow)",
+        "type": "text",
+        "category_key": "design",
+        "content": "Act as a senior product designer. I\u2019m going to paste a screen description, user flow, or rough copy. Give me a fast, practical critique and specific fixes.\n\nInput I\u2019ll provide:\n- Product + target user:\n- Platform (web/iOS/Android):\n- Primary goal of the screen/flow:\n- Constraints (dev/time/legal/brand):\n- Screen description or copy (paste here):\n\nYour output (concise, no fluff):\n1) Top 3 issues (highest impact first) with a one-line rationale each.\n2) UX fixes: 5\u201310 bullet changes I can make today (layout, hierarchy, interaction, states).\n3) Copy fixes: rewrite key UI text (headings, button labels, helper/error text) in the same voice.\n4) Accessibility check: color/contrast, focus order, tap targets, labels, motion\u2014call out risks.\n5) Edge cases & states: empty/loading/error/success + what to show.\n6) A/B test ideas (optional): 2 variants with what metric each should improve.\n\nKeep recommendations realistic and implementation-ready. If anything essential is missing, ask up to 2 questions at the end.",
+        "images": [
+            {
+                "original_filename": "library-cafe-design-critique-ceramic-table-01.jpg",
+                "is_cover": true
+            }
+        ]
+    },
+    {
+        "key": "pixel-sora-007",
+        "title": "Friendly image prompt builder (give me a concept, I\u2019ll return 3 ready prompts)",
+        "type": "text",
+        "category_key": "image_generation",
+        "content": "Help me write an image-generation prompt.\n\nMy concept (1\u20132 sentences): [paste here]\nMust include: [subject], [setting], [mood]\nOptional: [style reference], [time of day], [color palette], [camera/lens], [aspect ratio]\nAvoid: [things you don\u2019t want]\n\nOutput exactly:\n1) One clean, paste-ready prompt (single paragraph) with concrete visual details: subject, environment, action/pose, composition, lighting, materials/textures, color palette, camera angle + lens, depth of field, and the mood.\n2) Two variations: (a) more cinematic, (b) more minimal/graphic.\n3) A short negative prompt list (comma-separated) tailored to the concept.\n\nKeep it beginner-friendly, no jargon unless I asked for it. If anything critical is missing, ask at most 2 quick questions before generating the prompts.",
+        "images": [
+            {
+                "original_filename": "friendly-prompt-builder-library-pinboard-01.jpg",
+                "is_cover": true
+            }
+        ]
+    },
+    {
+        "key": "pixel-sora-008",
+        "title": "Futuristic coding workstation hero image (no text, cover-safe layout)",
+        "type": "image",
+        "category_key": "coding",
+        "content": "Create a futuristic coding workstation scene that visually communicates software engineering without using any readable text.\n\nSubject & setting:\n- A developer\u2019s desk in a dim, modern studio at night, with a large ultrawide monitor showing abstract code-like patterns (glyphs/blocks/lines) that resemble code but are not legible.\n- Keyboard, trackpad, notebook with blank pages, a microcontroller board, and a coiled USB-C cable arranged neatly.\n\nComposition (cover-safe):\n- 16:9 wide hero image.\n- Main desk and monitor anchored slightly left of center.\n- Leave a clean, low-detail negative space area on the right third for a future title overlay (no text added in the image).\n- Camera at a slightly elevated 3/4 angle, medium-wide shot.\n\nLighting & mood:\n- Cinematic teal-and-amber lighting, soft rim light on the desk edges, subtle screen glow on hands/objects.\n- Shallow depth of field with crisp focus on the keyboard and monitor bezel; gentle bokeh in the background.\n\nStyle & realism:\n- High-detail, realistic 3D/photoreal look with clean materials (brushed aluminum, matte plastic, tempered glass).\n- No brand logos, no watermarks, no UI text, no readable code, no symbols that form words.\n\nBackground details:\n- Minimal shelves with a few geometric objects and a small plant, softly out of focus.\n- A faint grid-like light pattern on the wall to hint at \u201ccoding\u201d/\u201csystems\u201d without text.\n\nOutput:\n- Ultra sharp, high resolution, natural film grain, balanced contrast, professional color grading.",
+        "images": [
+            {
+                "original_filename": "futuristic-coding-workstation-hero-negative-space-01.jpg",
+                "is_cover": true
+            }
+        ]
+    },
+    {
+        "key": "pixel-sora-009",
+        "title": "Turn a messy to-do list into a realistic 1-day plan (with time blocks)",
+        "type": "text",
+        "category_key": "productivity",
+        "content": "Take the to-do list I paste below and turn it into a realistic plan for TODAY.\n\nRules:\n- Assume I have [X] hours available, starting at [start time] and ending at [end time].\n- Create a time-blocked schedule with breaks.\n- Pick at most 7 tasks total for today.\n- If tasks are vague, rewrite them into clear next actions.\n- If there are dependencies, order them correctly.\n- If the list is too big, triage: must-do, should-do, nice-to-have.\n- Flag anything that won\u2019t fit and propose the smallest \u201cgood enough\u201d version.\n\nOutput format:\n1) Quick triage (Must / Should / Nice)\n2) Today\u2019s schedule (time blocks)\n3) Parking lot (deferred items)\n4) 3-minute kickoff step (what I should do first)\n\nAvailable time: [X hours], from [start time] to [end time]\nEnergy pattern (optional): [morning/afternoon/evening]\nHard commitments (optional): [meetings/appointments]\nTo-do list:\n[paste here]",
+        "images": [
+            {
+                "original_filename": "cafe-time-block-tiles-ceramic-table-01.jpg",
+                "is_cover": true
+            },
+            {
+                "original_filename": "library-triage-piles-ceramic-mug-02.jpg",
+                "is_cover": false
+            },
+            {
+                "original_filename": "train-watch-stone-timeblocks-ceramic-cup-03.jpg",
+                "is_cover": false
+            },
+            {
+                "original_filename": "coworking-timer-triage-ceramic-table-04.jpg",
+                "is_cover": false
+            },
+            {
+                "original_filename": "museum-cafe-seven-pastries-timeblocks-05.jpg",
+                "is_cover": false
+            },
+            {
+                "original_filename": "atrium-token-selection-ceramic-ledge-06.jpg",
+                "is_cover": false
+            },
+            {
+                "original_filename": "lobby-break-token-ceramic-coffee-table-07.jpg",
+                "is_cover": false
+            },
+            {
+                "original_filename": "marketplace-seven-selected-tokens-ceramic-bowl-08.jpg",
+                "is_cover": false
+            },
+            {
+                "original_filename": "campus-cafe-parking-lot-saucer-09.jpg",
+                "is_cover": false
+            },
+            {
+                "original_filename": "waiting-area-ceramic-tray-triage-10.jpg",
+                "is_cover": false
+            },
+            {
+                "original_filename": "overcast-patio-matchstick-timeblocks-11.jpg",
+                "is_cover": false
+            },
+            {
+                "original_filename": "bookstore-cafe-kickoff-blank-cards-12.jpg",
+                "is_cover": false
+            }
+        ]
+    },
+    {
+        "key": "pixel-sora-010",
+        "title": "Research Sprint: Map the Evidence, Stakeholders, and Open Questions on Any Topic",
+        "type": "text",
+        "category_key": "research",
+        "content": "Help me run a fast but rigorous research sprint on the topic below and produce an evidence-backed brief I can use to make a decision.\n\nTopic / question:\n- [Paste the exact question you need answered]\n\nContext (why I care, constraints, and how the output will be used):\n- Audience:\n- Decision to be made:\n- Time horizon:\n- Geography / industry:\n- Constraints (budget, policy, tech stack, legal, ethics):\n\nWhat I already believe (and I want you to challenge):\n- \n\nDeliverable requirements:\n- Prefer primary sources, official documentation, peer-reviewed work, and reputable datasets.\n- Distinguish clearly between facts, estimates, and interpretation.\n- If you\u2019re uncertain, say so and show what would reduce uncertainty.\n\nProduce the following sections (use headings exactly):\n\n1) Executive Answer (1\u20132 paragraphs)\n- Directly answer the question.\n- Include the decision implications in plain language.\n\n2) Key Claims + Strength of Evidence\n- Provide 6\u201310 claims as a table with columns: Claim | Evidence strength (High/Medium/Low) | Why | What would change your mind.\n\n3) Definitions and Scope Boundaries\n- Define important terms.\n- State what is explicitly out of scope.\n\n4) Stakeholder and Incentive Map\n- Identify major stakeholders and their incentives, risks, and likely narratives.\n\n5) What the Best Sources Say (with citations)\n- Summarize 8\u201315 sources.\n- For each: citation, what it claims, methodology/type, limitations, and relevance.\n- If you can\u2019t browse, list the exact sources you would look for and why (titles/organizations/journals), plus search queries.\n\n6) Quantitative Reality Check\n- Provide any key numbers, ranges, or back-of-the-envelope calculations.\n- Show assumptions and sensitivity (what happens if assumptions change).\n\n7) Risks, Failure Modes, and Edge Cases\n- Identify operational, legal/regulatory, ethical, and reputational risks.\n- Add \u201cunknown unknowns\u201d and how to surface them.\n\n8) Decision Options and Trade-offs\n- Give 3\u20135 options (including \u201cdo nothing\u201d).\n- For each: benefits, costs, risks, prerequisites, and time-to-impact.\n\n9) Open Questions + Research Plan\n- List 10\u201320 unanswered questions.\n- Propose a research plan prioritized by impact and effort (who to talk to, what to measure, what to read, what to prototype).\n\n10) One-Page Brief (copy/paste)\n- Provide a tight bullet version of the above that fits on one page.\n\nBefore you start, ask up to 5 clarifying questions ONLY if missing info would materially change the conclusions; otherwise, proceed with reasonable assumptions and list them explicitly.",
+        "images": [
+            {
+                "original_filename": "evidence-map-research-sprint-glassboard-01.jpg",
+                "is_cover": true
+            }
+        ]
+    },
+    {
+        "key": "pixel-sora-011",
+        "title": "Write a conversion-focused landing page hero section (headline, subhead, bullets, CTA)",
+        "type": "text",
+        "category_key": "marketing",
+        "content": "Create a landing page HERO section that increases sign-ups for the offer below. Keep it professional, concise, and easy to scan.\n\nInput:\n- Product/service:\n- Target customer:\n- Primary problem it solves:\n- Top 3 benefits (plain language):\n- Key differentiator:\n- Proof available (stats, logos, testimonials, years, certifications):\n- Primary CTA (e.g., Start free trial, Book a demo):\n- Secondary CTA (optional):\n- Brand voice notes (optional):\n- Words/claims to avoid (optional):\n\nOutput exactly:\n1) Headline (max 8 words)\n2) Subheadline (max 22 words)\n3) 3 bullets (each max 10 words; benefit-first)\n4) Primary CTA button label (2\u20135 words)\n5) One-sentence reassurance line under CTA (privacy, cancel anytime, no credit card, etc.)\n6) Micro-proof line (max 12 words) using the proof provided (no invented numbers)\n\nRules:\n- No hype, no superlatives unless supported by proof.\n- Prefer concrete outcomes over features.\n- Avoid jargon; write at an 8th-grade reading level.\n- If any input is missing, make the best neutral assumption and keep claims conservative.",
+        "images": [
+            {
+                "original_filename": "morning-signup-moment-brushed-metal-entryway-01.jpg",
+                "is_cover": true
+            }
+        ]
+    },
+    {
+        "key": "pixel-sora-012",
+        "title": "Run a fast UI critique and deliver a prioritized fix list",
+        "type": "text",
+        "category_key": "design",
+        "content": "Act as my UX/UI design reviewer. I\u2019ll paste a screen description or screenshots (or both). Your job is to critique it quickly but thoughtfully, then give me a prioritized list of improvements I can implement this week.\n\nInput I\u2019ll provide:\n- Product + target users:\n- Primary goal of this screen (1 sentence):\n- Platform (web/iOS/Android) + any constraints:\n- Current layout description OR screenshots:\n- Known problems (if any):\n\nWhat I want from you:\n1) First impression (5\u20137 bullets): what feels clear vs confusing at a glance.\n2) Top issues ranked by impact (High/Med/Low). For each issue include:\n   - Why it\u2019s a problem (usability principle in plain English)\n   - Exactly what to change (copy/layout/spacing/component behavior)\n   - Tradeoffs or risks\n3) Accessibility check: color contrast, tap targets, keyboard/focus order, labels, error messaging.\n4) Content & microcopy improvements: rewrite key labels/buttons/helper text (keep it concise and consistent).\n5) Information hierarchy: what should be primary/secondary/tertiary; suggest grouping and visual emphasis.\n6) 2 alternative layout directions (describe in words):\n   - Option A: \u201cminimal + fast\u201d\n   - Option B: \u201cguided + explanatory\u201d\n7) A mini QA checklist I can hand to an engineer (10\u201315 items).\n\nConstraints:\n- Keep recommendations practical; no huge redesign unless the current approach is fundamentally broken.\n- If something is ambiguous, make your best assumption and state it, then give 2 quick questions I should answer next.\n- Use short headings and bullets so I can scan it.",
+        "images": [
+            {
+                "original_filename": "fast-ui-critique-prioritized-fix-list-01.jpg",
+                "is_cover": true
+            }
+        ]
+    },
+    {
+        "key": "pixel-sora-013",
+        "title": "Cinematic cyberpunk street portrait with rain, neon bokeh, and shallow depth of field",
+        "type": "image",
+        "category_key": "image_generation",
+        "content": "Create a cinematic cyberpunk street portrait at night in a dense neon-lit alley during a light rain. Subject: a confident young adult standing 3/4 turned toward camera, wearing a matte black jacket with subtle reflective piping, minimal tech accessories (earpiece + thin wrist band), natural skin texture, understated makeup, calm focused expression. Environment: wet asphalt with puddle reflections, glowing kanji signage, steam from a street vent, distant scooters and pedestrians as soft silhouettes.\n\nComposition: vertical 4:5, medium close-up (chest to head), subject centered with slight lead room to the right, foreground raindrops and bokeh elements framing the face, background heavily defocused. Camera + lens look: 85mm portrait lens, f/1.4, shallow depth of field, crisp eye focus, creamy neon bokeh.\n\nLighting: key light from a magenta sign at camera-left, rim light cyan from camera-right, soft fill from ambient street glow; wet surfaces should sparkle with specular highlights. Mood: confident, sleek, modern noir. Style: photorealistic, high dynamic range, clean color separation (magenta/cyan/amber), fine film grain, no over-sharpening.\n\nNegative prompts: cartoonish, anime, heavy blur on face, plastic skin, overexposed neon, extra fingers, warped hands, text gibberish in foreground, lens distortion, low-res, watermark, logo.",
+        "images": [
+            {
+                "original_filename": "cyberpunk-rainy-alley-portrait-neon-bokeh-01.jpg",
+                "is_cover": true
+            }
+        ]
+    },
+    {
+        "key": "pixel-sora-014",
+        "title": "Turn one long idea into a 10-post social thread (with hooks + CTA)",
+        "type": "text",
+        "category_key": "social_media",
+        "content": "Take the long text below and turn it into a 10-post social media thread.\n\nRequirements:\n- Keep it modern, direct, and skimmable.\n- Each post: 240\u2013280 characters (aim near the limit without going over).\n- No hashtags, no emojis, no links, no \u201cthread \ud83e\uddf5\u201d language.\n- Write like a real person: crisp sentences, minimal jargon, no fluff.\n- Make the thread coherent: each post should lead naturally to the next.\n- Include one concrete example by post 4.\n- Add a small counterpoint/nuance around post 7.\n- End with a simple CTA that invites replies (not follows) in post 10.\n\nOutput format:\n1) Hook\n2) \u2026\n10) CTA\n\nLong text to convert:\n[PASTE YOUR LONG CONTENT HERE]",
+        "images": [
+            {
+                "original_filename": "evening-living-room-thread-writing-motion-01.jpg",
+                "is_cover": true
+            }
+        ]
+    },
+    {
+        "key": "pixel-sora-015",
+        "title": "Turn a messy feature idea into a one-page product design spec",
+        "type": "text",
+        "category_key": "design",
+        "content": "Take my rough feature idea and convert it into a tight one-page product design spec I can hand to a PM/engineer.\n\nFeature idea (raw):\n[PASTE HERE]\n\nConstraints (platform, timeline, tech, policy, etc.):\n[PASTE HERE]\n\nTarget users:\n[PASTE HERE]\n\nWrite the spec with these sections (keep it concise, practical, and implementation-aware):\n- Problem & goal: what we\u2019re solving and why now\n- Success metrics: 3\u20135 measurable outcomes\n- Primary user stories: 3\u20137 bullets in \u201cAs a\u2026, I want\u2026, so that\u2026\u201d format\n- Key flows: describe the happy path + 1\u20132 critical edge cases\n- Information architecture: proposed screens/pages and what lives on each\n- Interaction notes: key states (empty/loading/error/success) and any important micro-interactions\n- Content/UX copy: draft labels, helper text, and error messages for the main UI\n- Accessibility checklist: keyboard, focus, contrast, motion, screen reader notes\n- Open questions & risks: what needs a decision and what could go wrong\n\nIf anything is missing or unclear, ask up to 5 targeted questions first. Otherwise, produce the spec immediately.",
+        "images": [
+            {
+                "original_filename": "cozy-living-room-design-spec-clarity-01.jpg",
+                "is_cover": true
+            }
+        ]
+    },
+    {
+        "key": "pixel-sora-016",
+        "title": "Turn a rough UI idea into a clear spec for a designer and developer",
+        "type": "text",
+        "category_key": "design",
+        "content": "Act as a product designer who writes crisp, implementation-ready UI specs.\n\nI\u2019ll paste a rough feature idea below. Convert it into a structured spec that a designer and engineer can execute without back-and-forth.\n\nInclude:\n- Goal: 1\u20132 sentences\n- Users & primary use case: bullet list\n- Key screens/states: list each state (empty, loading, error, success, permissions, edge cases)\n- Layout & components: describe the main regions and components (tables, cards, filters, modals), including hierarchy and spacing rules\n- Interactions: what happens on click/tap/hover, keyboard navigation, focus order, and shortcuts where relevant\n- Validation & error handling: field rules and exact error copy suggestions\n- Responsive behavior: breakpoints and what changes\n- Accessibility: WCAG-oriented requirements (labels, contrast, ARIA notes, motion)\n- Analytics events: event names + properties to capture\n- Open questions/assumptions: anything ambiguous, with recommended defaults\n\nConstraints:\n- Keep it professional and concise.\n- Prefer unambiguous language (\u201cmust/should\u201d).\n- When you suggest UI copy, keep it short.\n\nRough idea:\n[PASTE IDEA HERE]\n\nPlatform/context (optional):\n- App type (web/mobile):\n- Target users:\n- Design system (if any):\n- Data/API constraints:\n- Privacy/compliance needs:",
+        "images": [
+            {
+                "original_filename": "wood-blocks-from-chaos-to-order-01.jpg",
+                "is_cover": true
+            }
+        ]
+    },
+    {
+        "key": "pixel-sora-017",
+        "title": "Cozy rainy-night bookstore window scene (cinematic, photoreal)",
+        "type": "text",
+        "category_key": "image_generation",
+        "content": "Generate a photoreal, cinematic image of a cozy independent bookstore on a rainy night, viewed from the sidewalk looking in through a large glass window.\n\nInclude: warm tungsten interior lighting, condensation and raindrops on the glass, reflections of streetlights and passing cars, stacks of books on wooden tables, a small handwritten \u201cOpen\u201d sign, a barista-style corner with a steaming mug, and one person in a knit sweater reading near the window.\n\nComposition & camera: eye-level, 35mm lens look, shallow depth of field focused on the reader, foreground bokeh from raindrops, slight angle so the window reflection layers over the interior. \n\nMood & color: inviting, calm, amber-and-teal palette, soft film grain, subtle haze.\n\nConstraints: no visible brand logos, no extra text besides the \u201cOpen\u201d sign, natural human proportions, realistic reflections.",
+        "images": [
+            {
+                "original_filename": "rainy-night-bookstore-window-reader-01.jpg",
+                "is_cover": true
+            }
+        ]
+    },
+    {
+        "key": "pixel-sora-018",
+        "title": "Bold social media hero image: creator at desk, neon accents, negative space for text",
+        "type": "image",
+        "category_key": "social_media",
+        "content": "Create a scroll-stopping social media hero image (4:5 portrait, 1080\u00d71350). Scene: a modern creator workspace with a single subject (late-20s to 30s) seated at a clean desk, laptop open, microphone on boom arm, subtle RGB keyboard glow. Background: dark matte wall with a soft neon gradient wash (teal-to-magenta) and minimal decor (one small plant, one framed print). Composition: subject on the left third, clear negative space on the right for headline text (leave it empty\u2014no text, no logos, no watermarks). Lighting: cinematic three-point lighting, soft key light on face, rim light in neon hues, gentle bokeh practicals in the background. Style: high-end lifestyle photography, crisp details, natural skin texture, shallow depth of field (50mm, f/1.8), slight film grain. Mood: confident, focused, forward-looking. Color grading: rich contrast, deep blacks, vibrant but controlled neon accents. Add subtle motion energy via a faint light streak or reflections, but keep the scene realistic and uncluttered.",
+        "images": [
+            {
+                "original_filename": "creator-desk-neon-negative-space-hero-01.jpg",
+                "is_cover": true
+            }
+        ]
+    },
+    {
+        "key": "pixel-sora-019",
+        "title": "Turn a Messy Idea Into a Clear, Actionable Plan (1 Page)",
+        "type": "text",
+        "category_key": null,
+        "content": "Take the messy idea below and turn it into a clear, actionable one-page plan.\n\nIdea (paste):\n[PASTE HERE]\n\nOutput exactly these sections (keep it modern, direct, and practical):\n- One-liner: What this is and why it matters.\n- Goal: What \u201cdone\u201d looks like (measurable).\n- Audience/User: Who it\u2019s for and their main pain point.\n- Key constraints: Time, budget, tools, permissions, or non-negotiables.\n- Assumptions: What we\u2019re assuming to be true.\n- Approach: 3\u20136 bullet steps that get to the goal.\n- Risks + mitigations: Top 3 things that could derail it.\n- First 30 minutes: The very next actions I should take today.\n\nRules:\n- If anything is unclear, make reasonable assumptions and list them under \u201cAssumptions\u201d (don\u2019t ask me questions).\n- Use short bullets, no fluff.\n- Keep it under ~250 words.",
+        "images": [
+            {
+                "original_filename": "glass-jar-chaos-to-clarity-plan-01.jpg",
+                "is_cover": true
+            }
+        ]
+    },
+    {
+        "key": "pixel-sora-020",
+        "title": "Storyboard + Shot Plan + Asset List Generator (for any writing project)",
+        "type": "other",
+        "category_key": "writing",
+        "content": "Act as a storyboard director and production planner for a writing project. Your output must be operational (tables, lists, checklists), not narrative prose.\n\nProject input (paste and fill):\n- Working title:\n- Format (novel / short story / screenplay / audio drama / web serial / game narrative):\n- Target length or runtime:\n- Genre + subgenre:\n- One-sentence premise:\n- Core theme:\n- Audience + content boundaries (violence, romance, language, etc.):\n- Setting (place/time, key locations):\n- Main characters (name + goal + flaw + secret):\n- Antagonistic force:\n- Must-include beats (3\u201310):\n- Must-avoid (3\u201310):\n- Constraints (POV, tense, budget for research, number of locations, etc.):\n\nDeliverables (produce in this order):\n\n1) Story Engine Snapshot\n- Logline (1 line)\n- Central dramatic question (1 line)\n- Stakes ladder (personal \u2192 interpersonal \u2192 public)\n- Throughline for protagonist (start belief \u2192 end belief)\n- Key promise-to-reader (what experience they\u2019re here for)\n\n2) Beat Map (macro structure)\nCreate a beat list with 12\u201318 beats. For each beat include:\n- Beat name\n- Purpose (setup / escalation / reversal / payoff)\n- New information revealed\n- Decision made (by whom)\n- Consequence that must carry into the next beat\n- Tension level (1\u20135)\n\n3) Scene/Shot Board (micro plan)\nGenerate a scene list with 10\u201325 scenes (or fewer if runtime is short). Present as a table with columns:\n- Scene #\n- Location\n- Time (day/night/season)\n- POV/Camera lens (for prose: POV character + distance; for scripts: camera style)\n- Objective (what must change by end of scene)\n- Conflict type (internal / interpersonal / environmental / institutional)\n- Turning point (the moment the scene flips)\n- Visual anchor (a concrete image/object that carries meaning)\n- Dialogue payload (what must be said or avoided)\n- Subtext (what\u2019s really happening)\n- Hook into next scene (question or promise)\n- Estimated words/minutes\n\nThen, for the 5 most important scenes, add a \u201cShot Breakdown\u201d beneath each:\n- Establishing\n- 3\u20138 key shots/moments (framed like beats: what we see + why it matters)\n- Insert/close-up opportunities (props, hands, screens, letters, etc.)\n- Sound cues (if relevant)\n\n4) Asset Orchestration\nCreate an asset checklist grouped as:\n- Locations (with sensory notes: 3 smells/sounds/textures each)\n- Props (with narrative function: clue / symbol / obstacle / payoff)\n- Wardrobe/visual identifiers per character\n- Research needs (questions to answer, sources to consult)\n- Continuity trackers (what must remain consistent across scenes)\n- Reusable motifs (2\u20135 motifs + where to plant and pay off)\n\n5) Dependency Graph (write-order plan)\nOutput a dependency list in the format:\n- Asset/Decision \u2192 Blocks which scenes? \u2192 Minimum needed to draft those scenes\nThen propose an efficient drafting order that reduces rework.\n\n6) Risk & Fix Pass\nIdentify 8\u201312 potential failure points (pacing sag, unclear motivations, repeated beats, missing payoff, tonal drift, exposition clumps, etc.). For each:\n- Symptom\n- Likely cause\n- Specific fix (scene-level, not vague)\n- Which scene(s) to adjust\n\n7) Acceptance Checklist (ready-to-draft gate)\nCreate a checklist of 12\u201320 yes/no items that confirm:\n- Every major setup has a payoff\n- Each scene changes something\n- Conflict escalates or deepens\n- Character choices drive outcomes\n- Stakes are legible\n- Theme is shown through action\n\nStyle constraints for your output:\n- Be clear, compact, and practical.\n- Prefer concrete nouns and actions.\n- No long paragraphs; use tables/bullets.\n- If my inputs are missing or contradictory, list the exact questions you need answered at the end under \u201cOpen Questions,\u201d limited to 10.",
+        "images": [
+            {
+                "original_filename": "storyboard-shotplan-asset-orchestrator-carousel-01.jpg",
+                "is_cover": true
+            }
+        ]
+    }
+]

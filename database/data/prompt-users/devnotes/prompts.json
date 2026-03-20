@@ -1,0 +1,283 @@
+[
+    {
+        "key": "devnotes-001",
+        "title": "Turn rough dev notes into a crisp changelog entry",
+        "type": "text",
+        "category_key": "writing",
+        "content": "Take my raw development notes and turn them into a release-ready changelog entry.\n\nInput (paste below):\n- Version (if known):\n- Date (optional):\n- Notes:\n\nRules:\n- Write in a modern, direct tone.\n- Keep it brief: 3\u20137 bullets total.\n- Group bullets under these headings only when needed: Added, Changed, Fixed, Removed.\n- Start each bullet with a strong verb.\n- Include user impact (what gets better) when it\u2019s clear.\n- If something is ambiguous, make a reasonable assumption and flag it with \u201c(assumed)\u201d.\n- Don\u2019t include internal implementation details unless they matter to users.\n\nOutput format:\n## vX.Y.Z \u2014 YYYY-MM-DD\nAdded\n- ...\nChanged\n- ...\nFixed\n- ...\nRemoved\n- ...",
+        "images": [
+            {
+                "original_filename": "crisp-changelog-from-rough-notes-01.jpg",
+                "is_cover": true
+            }
+        ]
+    },
+    {
+        "key": "devnotes-002",
+        "title": "Turn product features into benefit-led website copy (headline, subhead, bullets)",
+        "type": "text",
+        "category_key": "marketing",
+        "content": "Rewrite my rough product notes into benefit-led website copy.\n\nInput:\n- Product name:\n- Target customer:\n- The job they\u2019re trying to get done:\n- 5\u201310 features (can be messy):\n- Key differentiator(s):\n- Proof/credibility (numbers, customers, results, guarantees):\n- Tone constraints (e.g., straightforward, playful, premium):\n- Primary CTA (e.g., Start free trial, Book a demo):\n\nOutput (keep it concise and skimmable):\n1) 8 headline options (max 8 words each), no buzzwords.\n2) 4 subhead options (1 sentence each) that clarify who it\u2019s for + outcome.\n3) Value prop section: 5 bullets in the format \u201cVerb + outcome + how/why\u201d (each \u2264 18 words).\n4) \u201cHow it works\u201d in 3 steps (short, concrete).\n5) Objection handling: 5 common objections + 1 crisp rebuttal line each.\n6) CTA microcopy: 6 button text options + 6 one-line supporting lines.\n\nRules:\n- Use plain language; avoid clich\u00e9s like \u201crevolutionary\u201d, \u201ccutting-edge\u201d, \u201cseamless\u201d.\n- Make claims only using the proof I provide; if proof is missing, phrase as potential benefits.\n- Prefer specifics over adjectives.\n- If my notes are unclear, make reasonable assumptions and list them at the end under \u201cAssumptions made\u201d.",
+        "images": [
+            {
+                "original_filename": "benefit-led-website-copy-studio-wall-cards-01.jpg",
+                "is_cover": true
+            }
+        ]
+    },
+    {
+        "key": "devnotes-003",
+        "title": "LinkedIn-ready hero image for a product launch announcement",
+        "type": "image",
+        "category_key": "social_media",
+        "content": "Create a modern LinkedIn hero image for a SaaS product launch.\n\nScene & subject:\n- Clean, minimal tech aesthetic. No people.\n- Central floating app UI card (rounded corners) showing a simple dashboard: line chart trending upward, 3 metric tiles, and a small \u201cNew\u201d badge.\n- Subtle abstract shapes in the background (soft blobs + thin grid lines) to suggest data and momentum.\n\nComposition:\n- 1:1 square crop with generous negative space.\n- Main UI card centered, slightly angled (3\u20135\u00b0) with a soft shadow.\n- Leave clear space at the top for a headline and bottom for a logo (do not include any text).\n\nStyle & lighting:\n- Professional, premium, enterprise-friendly.\n- Cool neutral palette: off-white/very light gray background, accents in deep navy and teal.\n- Soft studio lighting, gentle gradients, crisp edges, high clarity.\n\nConstraints:\n- No readable text, no brand marks, no watermarks.\n- Output should look like a polished product marketing graphic, not a photo.\n\nDetail level:\n- High-resolution, sharp, minimal noise, vector-like cleanliness with subtle depth.",
+        "images": [
+            {
+                "original_filename": "saas-launch-linkedin-hero-ui-card-01.jpg",
+                "is_cover": true
+            }
+        ]
+    },
+    {
+        "key": "devnotes-004",
+        "title": "Write a friendly, helpful email that moves a project forward (with clear next steps)",
+        "type": "text",
+        "category_key": "email",
+        "content": "Help me draft a friendly, helpful email that moves the project forward without sounding pushy.\n\nContext (paste and keep what's relevant):\n- Who I am / my role:\n- Recipient(s) + relationship:\n- Project/topic:\n- Current status (what\u2019s done, what\u2019s blocked):\n- What I need from them (decision, info, approval, meeting, etc.):\n- Deadline or preferred timeline:\n- Constraints (budget, scope, access, dependencies):\n- Any prior threads or promises to reference:\n\nRequirements:\n- Keep it concise (aim for 120\u2013200 words) and easy to scan.\n- Use a warm, professional tone.\n- Include: (1) a one-line summary of where things stand, (2) the specific ask, (3) 2\u20133 bullet-point options or questions to make replying easy, (4) a clear next step with a date.\n- Avoid guilt-tripping, jargon, and long preambles.\n\nOutput:\n1) Subject line options (3): one neutral, one direct, one slightly upbeat.\n2) The email body.\n3) A short follow-up message (40\u201360 words) to send if there\u2019s no reply after 3 business days.\n\nSign-off style preference (choose one): Best / Thanks / Appreciate it / Cheers",
+        "images": []
+    },
+    {
+        "key": "devnotes-005",
+        "title": "Turn a rough business idea into a 1-page plan (problem, offer, pricing, next steps)",
+        "type": "text",
+        "category_key": "business",
+        "content": "Take my rough business idea below and turn it into a crisp one-page plan I can share with a cofounder or boss. Keep it confident, structured, and easy to scan.\n\nRough idea:\n[PASTE IDEA]\n\nConstraints:\n- Assume a small team (1\u20133 people) and a 30\u201360 day validation window.\n- No fluff; use plain business language.\n- If info is missing, make reasonable assumptions and list them.\n\nOutput exactly in this format:\n1) One-sentence summary\n2) Customer & problem\n- Primary customer:\n- Pain points (3 bullets):\n- Current alternatives:\n3) Proposed solution\n- What it is:\n- Key features (5 bullets max):\n- What it is NOT (to prevent scope creep):\n4) Value proposition\n- Why we win (3 bullets):\n- Differentiators:\n5) Business model\n- Pricing approach (2\u20133 options):\n- Expected costs/drivers:\n- Success metric to validate willingness to pay:\n6) Go-to-market (first 30 days)\n- Acquisition channels (3):\n- First outreach script (4\u20136 lines):\n- Simple funnel steps:\n7) Risks & unknowns\n- Top risks (3):\n- Assumptions to test (3):\n8) 30/60-day execution plan\n- Week-by-week milestones:\n- Deliverables:\n9) Immediate next actions\n- 10 actions, each starting with a verb, ordered by impact.\n\nEnd with: \u201cIf you answer these 5 questions, I can tighten the plan further:\u201d and list 5 targeted questions.",
+        "images": [
+            {
+                "original_filename": "cafe-one-page-plan-moment-01.jpg",
+                "is_cover": true
+            }
+        ]
+    },
+    {
+        "key": "devnotes-006",
+        "title": "Turn rough UI ideas into a clear screen spec (components, states, and copy)",
+        "type": "text",
+        "category_key": "design",
+        "content": "Convert my rough UI idea into a concise screen specification I can hand to a designer or build myself.\n\nInput (my rough idea):\n[PASTE NOTES]\n\nOutput format:\n- Screen name: \n- Primary user goal (1 sentence): \n- Layout overview (top-to-bottom, short): \n- Components (bulleted): for each include purpose + key props (e.g., label, type, default, validation)\n- States: loading / empty / error / success (what the user sees + what actions are available)\n- Interactions: click/keyboard flows, confirmations, edge behaviors (bulleted)\n- Responsive notes: what changes on mobile vs desktop (3\u20136 bullets)\n- Accessibility: focus order, labels, contrast, keyboard traps to avoid (bulleted)\n- Microcopy: exact button labels, helper text, error messages (include 3\u20138 lines)\n- Analytics hooks: 5 events with names + when they fire\n\nRules:\n- Keep it product-realistic and minimal.\n- Don\u2019t invent new features; if something is missing, list assumptions at the end (max 5).\n- Use modern, direct language. Avoid fluff.",
+        "images": [
+            {
+                "original_filename": "morning-concourse-ui-spec-clarity-01.jpg",
+                "is_cover": true
+            }
+        ]
+    },
+    {
+        "key": "devnotes-007",
+        "title": "Minimalist dev notebook desk scene (top-down, natural light)",
+        "type": "text",
+        "category_key": "image_generation",
+        "content": "Generate an image: a clean, minimalist developer\u2019s desk shot from directly overhead (90\u00b0 top-down). A slim laptop with a dark-themed code editor open (no readable text), a mechanical keyboard, a small notebook with hand-drawn UI wireframes, a pen, a mug of coffee with light steam, and a single green plant in the corner. Neutral color palette (soft grays, warm wood), tidy cable management, subtle shadows. Morning natural window light from the left, gentle contrast, realistic materials (anodized aluminum, matte plastic, paper texture). Composition balanced with negative space, no people, no brand logos, no watermark. Photorealistic, high detail, crisp focus, 4k.",
+        "images": [
+            {
+                "original_filename": "minimalist-dev-desk-topdown-natural-light-01.jpg",
+                "is_cover": true
+            }
+        ]
+    },
+    {
+        "key": "devnotes-008",
+        "title": "Minimalist coding cover image (no text, room for later title)",
+        "type": "image",
+        "category_key": "coding",
+        "content": "Create a clean, professional cover-style image for a coding topic with NO text, logos, or watermarks. Scene: a modern developer workspace shot from a 30\u201345\u00b0 top-down angle\u2014sleek laptop open with a dark-themed code editor visible (generic syntax, no recognizable product UI), a mechanical keyboard, a minimal mouse, and a small notebook. Include subtle tech props (USB-C cable, a couple of sticky notes without writing) but keep it uncluttered.\n\nStyle: minimalist, high-end product photography meets subtle cyber/tech ambiance. Color palette: charcoal/black, cool gray, a restrained accent of teal or electric blue from screen glow. Lighting: soft diffused key light plus gentle rim light; realistic reflections on anodized aluminum and keycaps; shallow depth of field.\n\nComposition: strong negative space on the right side and upper third to allow a title to be added later; keep the subject elements weighted to the left/lower-left. Background: matte desk surface (dark walnut or black composite) with fine texture. Output: ultra-detailed, photorealistic, 16:9, high resolution.",
+        "images": [
+            {
+                "original_filename": "minimalist-coding-workspace-negative-space-01.jpg",
+                "is_cover": true
+            }
+        ]
+    },
+    {
+        "key": "devnotes-009",
+        "title": "Turn my messy dev notes into a crisp, prioritized action list",
+        "type": "text",
+        "category_key": "productivity",
+        "content": "I\u2019m going to paste rough development notes. Convert them into a clean, prioritized to-do list I can execute today.\n\nRequirements:\n- Keep it short and practical (no long explanations).\n- Output in this exact structure:\n  1) Top 5 priorities (each: 1 sentence outcome + 2\u20134 concrete steps)\n  2) Quick wins (<= 30 min each)\n  3) Blockers & open questions (bullet list)\n  4) Risks / gotchas to watch\n  5) Next time (what I should capture in my notes to make this easier)\n- If something is ambiguous, make a best guess and flag it under \u201copen questions\u201d rather than asking me lots of questions.\n- Preserve any explicit deadlines, owners, and constraints you find.\n\nHere are my notes:\n[PASTE NOTES HERE]",
+        "images": [
+            {
+                "original_filename": "evening-priority-board-dev-notes-01.jpg",
+                "is_cover": true
+            },
+            {
+                "original_filename": "hands-sorting-notes-on-blanket-02.jpg",
+                "is_cover": false
+            },
+            {
+                "original_filename": "hallway-motion-phone-checklist-03.jpg",
+                "is_cover": false
+            },
+            {
+                "original_filename": "kitchen-keys-execute-today-04.jpg",
+                "is_cover": false
+            },
+            {
+                "original_filename": "rug-bundling-do-now-later-05.jpg",
+                "is_cover": false
+            },
+            {
+                "original_filename": "window-nook-checkmark-action-06.jpg",
+                "is_cover": false
+            },
+            {
+                "original_filename": "bedside-index-cards-priorities-07.jpg",
+                "is_cover": false
+            },
+            {
+                "original_filename": "tote-bag-neat-stack-left-behind-08.jpg",
+                "is_cover": false
+            },
+            {
+                "original_filename": "felt-board-open-questions-dish-09.jpg",
+                "is_cover": false
+            },
+            {
+                "original_filename": "couch-collab-priority-line-10.jpg",
+                "is_cover": false
+            },
+            {
+                "original_filename": "living-room-turn-with-tray-11.jpg",
+                "is_cover": false
+            },
+            {
+                "original_filename": "macro-tear-smooth-crisp-note-12.jpg",
+                "is_cover": false
+            }
+        ]
+    },
+    {
+        "key": "devnotes-010",
+        "title": "Research Assistant for Comparing Two Technical Approaches (evidence-first)",
+        "type": "text",
+        "category_key": "research",
+        "content": "Act as my research assistant for a technical decision. I\u2019m comparing two approaches and need an evidence-first recommendation.\n\nDecision question:\n- [State the decision in one sentence]\n\nApproach A:\n- [Describe A: how it works, key dependencies, constraints]\n\nApproach B:\n- [Describe B: how it works, key dependencies, constraints]\n\nContext & constraints:\n- Domain/industry: [ ]\n- Current stack/environment: [ ]\n- Scale/traffic/data volume: [ ]\n- Team skills/size: [ ]\n- Budget/time constraints: [ ]\n- Non-negotiables (compliance/security/latency/etc.): [ ]\n\nWhat I need from you (follow this structure and keep it tight):\n1) Clarifying questions (max 7)\n   Ask only what materially changes the conclusion.\n\n2) Assumptions\n   If info is missing, list explicit assumptions you\u2019ll use.\n\n3) Evaluation criteria + weights\n   Propose 6\u201310 criteria with suggested weights that sum to 100 (e.g., performance, reliability, complexity, cost, security, maintainability, vendor lock-in, migration risk).\n\n4) Research plan\n   - What sources you would consult (docs, benchmarks, incident reports, academic papers, vendor whitepapers, community discussions)\n   - What you would measure/verify\n   - How you would detect marketing bias or weak evidence\n\n5) Findings table (fill with best available general knowledge; mark confidence)\n   Create a table with rows = criteria and columns = Approach A, Approach B, Evidence notes, Confidence (High/Med/Low).\n   - If you don\u2019t have strong evidence, say so and propose what would confirm/deny.\n\n6) Risk analysis\n   - Top 5 risks for each approach\n   - Mitigations and early warning signals\n   - \u201cUnknown unknowns\u201d: what could blindside us?\n\n7) Recommendation\n   - Pick A, B, or a hybrid path and justify in 5\u201310 bullet points\n   - Include the conditions under which you\u2019d switch to the other option\n\n8) Implementation outline (first 30/60/90 days)\n   - Key milestones\n   - Decision checkpoints\n   - Minimal pilot/proof plan with success metrics\n\nOutput rules:\n- Be confident but transparent about uncertainty.\n- Prefer concrete examples, failure modes, and operational details over generic pros/cons.\n- Don\u2019t write a long essay; use structured bullets and tables.\n\nStart by asking your clarifying questions.",
+        "images": [
+            {
+                "original_filename": "evidence-first-technical-choice-prototypes-01.jpg",
+                "is_cover": true
+            }
+        ]
+    },
+    {
+        "key": "devnotes-011",
+        "title": "Turn messy meeting notes into a 1-page action plan with owners and due dates",
+        "type": "text",
+        "category_key": "business",
+        "content": "Take my raw meeting notes and convert them into a clean, business-ready action plan.\n\nInput (paste notes below):\n[PASTE NOTES]\n\nOutput requirements:\n- Start with a 2\u20133 sentence \u201cDecision & Direction\u201d summary.\n- Then a table with columns: Workstream | Task | Owner | Due date | Dependencies | Status (New/Doing/Blocked) | Notes.\n- Pull out explicit decisions and list them under \u201cDecisions\u201d (bullets).\n- Pull out open questions and list them under \u201cOpen Questions\u201d (bullets) with who should answer.\n- Pull out risks and list them under \u201cRisks\u201d with impact + mitigation.\n- If owners or dates aren\u2019t stated, infer likely ones from context; mark as \u201cTBD\u201d when you can\u2019t.\n- Remove duplicates, fix unclear wording, and keep everything concise.\n- Do not invent new initiatives beyond what\u2019s implied in the notes.\n\nIf anything is too ambiguous to structure, ask up to 3 clarifying questions at the end under \u201cClarify\u201d.",
+        "images": [
+            {
+                "original_filename": "plaza-exit-action-plan-tablet-01.jpg",
+                "is_cover": true
+            }
+        ]
+    },
+    {
+        "key": "devnotes-012",
+        "title": "Debug this bug report into a minimal repro, root cause, and fix plan",
+        "type": "text",
+        "category_key": "coding",
+        "content": "I\u2019m going to paste a bug report and (optionally) code snippets/logs. Turn it into an actionable developer plan.\n\nInput:\n- Bug report: [paste]\n- Expected behavior: [paste]\n- Actual behavior: [paste]\n- Environment: (OS, runtime, versions, browser/device): [paste]\n- Recent changes/PRs (if known): [paste]\n- Code/logs (optional): [paste]\n\nWhat I need from you:\n1) Clarifying questions (only the ones that truly change the diagnosis). If none, say \u201cNo questions needed.\u201d\n2) A minimal reproduction plan:\n   - Smallest set of steps/data/config to reproduce\n   - Suggested test harness (unit/integration/e2e) and where to place it\n   - Any mocks/stubs needed\n3) Root-cause analysis:\n   - 2\u20134 likely causes ranked by probability\n   - For each: the specific evidence to look for in code/logs, and how to confirm/deny quickly\n4) Fix strategy:\n   - The safest fix first (low risk), then alternatives\n   - Exact code areas/files to inspect and why\n   - Backwards-compatibility and performance considerations\n5) Regression prevention:\n   - Concrete test cases to add (inputs/outputs)\n   - Monitoring/alerts/logs to add (exact fields)\n6) A short \u201ccommit plan\u201d checklist (3\u20138 commits max) with commit message suggestions.\n\nConstraints:\n- Be specific; avoid generic advice.\n- If you propose changes, show small illustrative pseudocode or code snippets.\n- If information is missing, make explicit assumptions and label them as assumptions.",
+        "images": [
+            {
+                "original_filename": "minimal-repro-debugging-workbench-01.jpg",
+                "is_cover": true
+            },
+            {
+                "original_filename": "root-cause-isolation-bike-fix-02.jpg",
+                "is_cover": false
+            }
+        ]
+    },
+    {
+        "key": "devnotes-013",
+        "title": "Minimalist productivity desk scene for a focus-themed hero image",
+        "type": "image",
+        "category_key": "productivity",
+        "content": "Create a clean, modern productivity hero image: a minimalist desk setup in a quiet home office. Composition: top-down 3/4 angle from the front-left, desk fills the lower 2/3 of frame with negative space in the upper-right for headline text. Objects: slim laptop open with a simple calendar app UI (no readable brand names), a paper notebook with neat bullet points, a black pen, a ceramic mug with faint steam, a small desk plant, and a phone face-down. Lighting: soft morning window light from the left, gentle shadows, high clarity, natural color. Style: photorealistic, neutral palette (white/gray/wood), subtle texture on paper and wood grain, no clutter, no visible logos. Mood: calm focus, organized, professional. Camera: 35mm lens look, crisp focus across desk, slight depth-of-field falloff toward background. Output: 16:9, high resolution, clean and sharp.",
+        "images": [
+            {
+                "original_filename": "minimalist-productivity-desk-focus-hero-01.jpg",
+                "is_cover": true
+            }
+        ]
+    },
+    {
+        "key": "devnotes-014",
+        "title": "Turn messy web research into a decision-ready summary (with citations)",
+        "type": "text",
+        "category_key": "research",
+        "content": "Help me synthesize research on the topic below into something I can act on.\n\nTopic / question:\n[PASTE TOPIC OR DECISION HERE]\n\nWhat I\u2019m trying to decide or produce:\n[OPTIONAL: e.g., pick a tool, choose an approach, write a spec, set a policy]\n\nSources (paste links, quotes, notes, or excerpts \u2014 can be long):\n[PASTE ALL RESEARCH MATERIAL HERE]\n\nOutput requirements:\n- Start with a 5\u20138 bullet \u201cWhat matters\u201d summary.\n- Then create a structured breakdown with these sections:\n  1) Key findings (group similar points; avoid repetition)\n  2) Evidence & citations (for each finding, cite which source/excerpt supports it)\n  3) Trade-offs and risks (include assumptions and what could invalidate the finding)\n  4) Open questions (what\u2019s missing, what to verify next)\n  5) Recommendation (if the evidence supports one) OR decision matrix (if it\u2019s unclear)\n- When you cite sources, label them like (S1), (S2)\u2026 based on the order I pasted them, and quote the exact supporting snippet when possible.\n- If sources disagree, call it out explicitly and explain why.\n- Keep the tone friendly, practical, and non-academic.\n\nBefore you start, ask up to 3 quick questions only if you truly need them (otherwise proceed).",
+        "images": [
+            {
+                "original_filename": "decision-ready-research-synthesis-01.jpg",
+                "is_cover": true
+            }
+        ]
+    },
+    {
+        "key": "devnotes-015",
+        "title": "Turn messy UI ideas into a clear spec (flows, states, copy, acceptance criteria)",
+        "type": "text",
+        "category_key": "design",
+        "content": "Help me turn rough UI ideas into a clear, build-ready design spec.\n\nContext\n- Product: [what it is]\n- Target user: [who]\n- Primary job-to-be-done: [what they\u2019re trying to accomplish]\n- Platform: [web/mobile/desktop]\n- Constraints: [tech, brand, accessibility, performance]\n\nRaw notes (paste as-is)\n[PASTE NOTES]\n\nOutput a structured spec with these sections:\n1) Goal & non-goals (keep to 3\u20136 bullets each)\n2) User flow (step-by-step, including entry points and exits)\n3) Information architecture (screens/pages + what lives on each)\n4) Component inventory (reusable components + variations)\n5) Key UI states (empty/loading/error/permission/offline/success)\n6) Interaction details (validation rules, keyboard behavior, gestures, focus order)\n7) Content requirements (microcopy for buttons, errors, helper text; write actual suggested copy)\n8) Accessibility checklist (WCAG-minded: contrast, labels, focus, motion, hit targets)\n9) Analytics events (event name, when it fires, properties)\n10) Acceptance criteria (Gherkin-style: Given/When/Then; 6\u201312 items)\n\nRules\n- Be decisive: if my notes are vague, make a reasonable assumption and list it under \u201cAssumptions\u201d.\n- Keep it concise and scannable; prefer bullets over paragraphs.\n- Flag open questions at the end (max 8), prioritized by impact.",
+        "images": [
+            {
+                "original_filename": "messy-ideas-to-clear-ui-spec-board-01.jpg",
+                "is_cover": true
+            },
+            {
+                "original_filename": "ui-states-and-acceptance-criteria-closeup-02.jpg",
+                "is_cover": false
+            }
+        ]
+    },
+    {
+        "key": "devnotes-016",
+        "title": "Debug and fix my code: root cause, patch, and regression tests",
+        "type": "text",
+        "category_key": "coding",
+        "content": "Act as a pragmatic senior engineer. I\u2019ll paste a bug report and the relevant code. Your job is to identify the root cause, propose the smallest safe fix, and show how to prevent regressions.\n\nInput I will provide:\n- Language/runtime:\n- Expected behavior:\n- Actual behavior (including error messages):\n- Repro steps (or a minimal snippet):\n- Relevant code (files or functions):\n- Constraints (performance, compatibility, style rules):\n\nWhat to produce:\n1) Quick triage\n- Restate the bug in one sentence.\n- List 2\u20135 most likely causes ranked, with what evidence would confirm each.\n\n2) Root-cause analysis\n- Pinpoint the exact line(s)/logic responsible.\n- Explain why it fails (include edge cases).\n\n3) Patch\n- Provide a minimal diff-style fix (or copy-pastable updated functions).\n- Keep changes tight; don\u2019t refactor unless necessary.\n- Call out any behavior changes.\n\n4) Tests\n- Add/modify tests to reproduce the failure and verify the fix.\n- Include at least: one happy path, one edge case, one regression test matching the reported bug.\n- Use the project\u2019s testing style (if unknown, pick a common one for the language and state assumptions).\n\n5) Verification checklist\n- Steps to run locally.\n- Any extra logging/metrics to add temporarily.\n\nRules:\n- If info is missing, ask up to 3 targeted questions, then proceed with best assumptions.\n- Prefer clarity over verbosity.\n- Don\u2019t invent APIs that aren\u2019t shown; if needed, mark as pseudocode.",
+        "images": [
+            {
+                "original_filename": "hairline-crack-glass-cube-patch-01.jpg",
+                "is_cover": true
+            }
+        ]
+    },
+    {
+        "key": "devnotes-017",
+        "title": "Turn my messy dev notes into an actionable plan for today",
+        "type": "text",
+        "category_key": "productivity",
+        "content": "I\u2019m going to paste my raw dev notes below. Convert them into a realistic plan I can execute today.\n\nRules:\n- Keep it short, clear, and practical.\n- Don\u2019t invent tasks I didn\u2019t mention.\n- If something is ambiguous, make a single best assumption and flag it as \u201cAssumption\u201d.\n\nOutput format:\n1) Top 3 outcomes for today (one line each)\n2) Task list (checkboxes) grouped by outcome\n   - Each task should start with a verb and be small enough to finish in 15\u201345 minutes\n3) Quick decisions to unblock (bullet list)\n4) \u201cIf I only have 60 minutes\u201d mini-plan\n5) End-of-day checklist (5 items max)\n\nRaw notes:\n[PASTE HERE]",
+        "images": [
+            {
+                "original_filename": "dev-notes-to-today-plan-kitchen-light-01.jpg",
+                "is_cover": true
+            }
+        ]
+    },
+    {
+        "key": "devnotes-018",
+        "title": "Extract research claims into a validated JSON evidence map",
+        "type": "other",
+        "category_key": "research",
+        "content": "Take the research text I paste below and convert it into a strict JSON evidence map for downstream analysis.\n\nInput:\n<<<\nPASTE TEXT HERE\n>>>\n\nOutput requirements:\n- Output ONLY valid JSON (no markdown, no commentary).\n- Use this exact schema and field names.\n- Every string must be trimmed. Use ISO-8601 dates when present.\n- If information is missing, use null (don\u2019t guess).\n- Deduplicate repeated claims and sources.\n\nJSON schema to produce:\n{\n  \"doc\": {\n    \"title\": string|null,\n    \"authors\": [string],\n    \"publication\": string|null,\n    \"year\": integer|null,\n    \"date\": string|null,\n    \"url\": string|null,\n    \"doi\": string|null\n  },\n  \"claims\": [\n    {\n      \"claim_id\": string,\n      \"claim_text\": string,\n      \"claim_type\": \"causal\"|\"correlational\"|\"descriptive\"|\"forecast\"|\"normative\"|\"definition\"|\"other\",\n      \"domain\": string|null,\n      \"population\": string|null,\n      \"intervention_or_exposure\": string|null,\n      \"comparator\": string|null,\n      \"outcome\": string|null,\n      \"effect_direction\": \"increase\"|\"decrease\"|\"no_change\"|\"mixed\"|\"unclear\"|null,\n      \"effect_size\": {\n        \"value\": number|null,\n        \"unit\": string|null,\n        \"metric\": string|null\n      },\n      \"confidence_language\": \"high\"|\"medium\"|\"low\"|\"unclear\"|null,\n      \"evidence\": [\n        {\n          \"evidence_id\": string,\n          \"evidence_type\": \"study\"|\"dataset\"|\"meta_analysis\"|\"systematic_review\"|\"expert_opinion\"|\"case_study\"|\"anecdote\"|\"method\"|\"other\",\n          \"citation\": string|null,\n          \"source_url\": string|null,\n          \"quote\": string|null,\n          \"location_in_text\": string|null,\n          \"sample_size\": integer|null,\n          \"method_summary\": string|null,\n          \"limitations\": [string]\n        }\n      ],\n      \"assumptions\": [string],\n      \"confounders_or_caveats\": [string],\n      \"contradictions\": [\n        {\n          \"contradiction_with_claim_id\": string,\n          \"summary\": string\n        }\n      ],\n      \"tags\": [string]\n    }\n  ],\n  \"entities\": {\n    \"people\": [string],\n    \"organizations\": [string],\n    \"locations\": [string],\n    \"chemicals_or_drugs\": [string],\n    \"methods_or_tools\": [string]\n  },\n  \"metrics\": [\n    {\n      \"name\": string,\n      \"value\": number|null,\n      \"unit\": string|null,\n      \"context\": string|null\n    }\n  ],\n  \"parser_warnings\": [string]\n}\n\nParsing rules:\n- Create claim_id as \"C1\", \"C2\", \u2026 in order of appearance.\n- Create evidence_id as \"E1\", \"E2\", \u2026 globally across the whole output.\n- Each claim must have at least one evidence item; if none is explicit, add one evidence item with evidence_type=\"other\" and include a warning in parser_warnings.\n- quote should be a short verbatim snippet that best supports the claim (or null if none).\n- location_in_text should be a lightweight pointer like \"Abstract\", \"Results\", \"Table 2\", \"Paragraph 5\" when detectable; otherwise null.\n- limitations/confounders/caveats must be extracted if mentioned; otherwise empty arrays.\n- contradictions: if the text contains conflicting results/claims, link them via claim_id.\n\nValidation:\n- Ensure the JSON is syntactically valid.\n- Ensure enums match exactly.\n- Ensure arrays are present (use [] not null), except where schema specifies null.\n- If you had to infer structure (e.g., guessing sections), record it in parser_warnings.\n\nNow parse the provided text.",
+        "images": [
+            {
+                "original_filename": "evidence-map-claim-validator-sorter-01.jpg",
+                "is_cover": true
+            }
+        ]
+    }
+]

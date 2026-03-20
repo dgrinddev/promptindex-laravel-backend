@@ -1,0 +1,52 @@
+[
+    {
+        "key": "writing",
+        "name": "Writing",
+        "description": "Prompts for writing, editing, rewriting, outlining, and drafting."
+    },
+    {
+        "key": "marketing",
+        "name": "Marketing",
+        "description": "Prompts for campaigns, messaging, positioning, and promotion."
+    },
+    {
+        "key": "social_media",
+        "name": "Social Media",
+        "description": "Prompts for captions, post ideas, hooks, and content planning."
+    },
+    {
+        "key": "email",
+        "name": "Email",
+        "description": "Prompts for outreach, newsletters, follow-ups, and replies."
+    },
+    {
+        "key": "business",
+        "name": "Business",
+        "description": "Prompts for strategy, planning, meetings, and business operations."
+    },
+    {
+        "key": "design",
+        "name": "Design",
+        "description": "Prompts for visual concepts, layouts, UI ideas, and design direction."
+    },
+    {
+        "key": "image_generation",
+        "name": "Image Generation",
+        "description": "Prompts for scenes, product shots, illustrations, and AI visuals."
+    },
+    {
+        "key": "coding",
+        "name": "Coding",
+        "description": "Prompts for debugging, refactoring, architecture, and code review."
+    },
+    {
+        "key": "productivity",
+        "name": "Productivity",
+        "description": "Prompts for planning, organization, workflows, and focus."
+    },
+    {
+        "key": "research",
+        "name": "Research",
+        "description": "Prompts for analysis, summaries, comparisons, and structured findings."
+    }
+]
