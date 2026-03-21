@@ -26,10 +26,12 @@ return new class extends Migration
                 ->nullable() // allows a prompt to have no category
                 ->constrained() // refers to the 'id' column in the 'categories' table
                 ->nullOnDelete(); // if the referenced category is deleted, the field is set to NULL
+            /*
             $table->foreignId('coverimage_id')
                 ->nullable() // allows a prompt to have no cover-image
                 ->constrained('images') // refers to the 'id' column in the 'images' table
                 ->nullOnDelete(); // if the referenced image is deleted, the field is set to NULL
+            */
             $table->timestamps();
         });
     }
