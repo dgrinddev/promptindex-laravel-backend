@@ -1,8 +1,5 @@
 *.log
 .DS_Store
-.env
-.env.backup
-.env.production
 .phpactor.json
 .phpunit.result.cache
 /.fleet
@@ -26,3 +23,5 @@ Thumbs.db
 # my own ignores
 /database/*.sqlite*
 _dev_assets/
+.env*
+!.env.example
