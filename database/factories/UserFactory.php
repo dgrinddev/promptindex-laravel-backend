@@ -23,9 +23,17 @@ class UserFactory extends Factory
      */
     public function definition(): array
     {
+        if (app()->isProduction()) {
+            $name = strtolower(Str::random(10));
+            $email = strtolower(Str::random(10)) . '@example.com';
+        } else {
+            $name = fake()->regexify('[a-z0-9_]{4,20}');
+            $email = fake()->unique()->safeEmail();
+        }
+
         return [
-            'name' => fake()->regexify('[a-z0-9_]{4,20}'),
-            'email' => fake()->unique()->safeEmail(),
+            'name' => $name,
+            'email' => $email,
             'email_verified_at' => now(),
             'password' => static::$password ??= Hash::make('password'),
             'remember_token' => Str::random(10),

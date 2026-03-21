@@ -13,6 +13,7 @@ use Illuminate\Support\Str;
 use Illuminate\Support\Facades\Hash;
 use App\Observers\PromptObserver;
 use Carbon\Carbon;
+use DateTimeInterface;
 use Illuminate\Support\Facades\Storage;
 use RuntimeException;
 
@@ -30,13 +31,15 @@ class PromptUsersSeeder extends Seeder
         );
 
         foreach ($categoriesData as $cat) {
-            $categoryCreatedAt = fake()->dateTimeBetween('-10 days', '-9 days');
+            //$categoryCreatedAt = fake()->dateTimeBetween('-10 days', '-9 days');
+            $categoryCreatedAt = $this->randomDateBetween('-10 days', '-9 days');
             Category::factory()->create([
                 'name' => $cat['name'],
                 'description' => $cat['description'],
                 'slug' => Str::slug($cat['name']),
                 'created_at' => $categoryCreatedAt,
-                'updated_at' => fake()->dateTimeBetween($categoryCreatedAt, '-8 days'),
+                //'updated_at' => fake()->dateTimeBetween($categoryCreatedAt, '-8 days'),
+                'updated_at' => $this->randomDateBetween($categoryCreatedAt, '-8 days'),
             ]);
         }
 
@@ -47,13 +50,15 @@ class PromptUsersSeeder extends Seeder
         $appNameSlug = Str::slug(config('app.name'));
 
         foreach ($usersData as $userItem) {
-            $userCreatedAt = fake()->dateTimeBetween('-7 days', '-6 days');
+            //$userCreatedAt = fake()->dateTimeBetween('-7 days', '-6 days');
+            $userCreatedAt = $this->randomDateBetween('-7 days', '-6 days');
             $user = User::factory()->create([
                 'name' => $userItem['name'],
                 'email' => strtolower($userItem['name']) . "@{$appNameSlug}.io",
                 'password' => Hash::make(env('PROMPTUSERS_PASSWORD')),
                 'created_at' => $userCreatedAt,
-                'updated_at' => fake()->dateTimeBetween($userCreatedAt, '-5 days'),
+                //'updated_at' => fake()->dateTimeBetween($userCreatedAt, '-5 days'),
+                'updated_at' => $this->randomDateBetween($userCreatedAt, '-5 days'),
             ]);
             
             $promptsData = collect(
@@ -74,8 +79,11 @@ class PromptUsersSeeder extends Seeder
                     }
                 }
 
-                $promptCreatedAt = Carbon::instance(fake()->dateTimeBetween($userCreatedAt, '-5 days'));
-                $promptUpdatedAt = Carbon::instance(fake()->dateTimeBetween($promptCreatedAt, '-4 days'));
+                //$promptCreatedAt = Carbon::instance(fake()->dateTimeBetween($userCreatedAt, '-5 days'));
+                $promptCreatedAt = $this->randomDateBetween($userCreatedAt, '-5 days');
+
+                //$promptUpdatedAt = Carbon::instance(fake()->dateTimeBetween($promptCreatedAt, '-4 days'));
+                $promptUpdatedAt = $this->randomDateBetween($promptCreatedAt, '-4 days');
 
                 $prompt = Prompt::factory()->create([
                     'user_id' => $user->id,
@@ -123,7 +131,8 @@ class PromptUsersSeeder extends Seeder
                     }
 
                     $imageCreatedAt = $promptCreatedAt->copy()->addSeconds(
-                        ($index * $secondsPerImage) + fake()->numberBetween(0, $secondsPerImage - 1)
+                        //($index * $secondsPerImage) + fake()->numberBetween(0, $secondsPerImage - 1)
+                        ($index * $secondsPerImage) + random_int(0, $secondsPerImage - 1)
                     );
 
                     $image = Image::factory()->create([
@@ -145,5 +154,20 @@ class PromptUsersSeeder extends Seeder
                 }
             }
         }
+    }
+
+    private function randomDateBetween(DateTimeInterface|string $from, DateTimeInterface|string $to): Carbon
+    {
+        $start = $from instanceof DateTimeInterface ? Carbon::instance($from) : Carbon::parse($from);
+        $end = $to instanceof DateTimeInterface ? Carbon::instance($to) : Carbon::parse($to);
+
+        if ($start->gt($end)) {
+            [$start, $end] = [$end, $start];
+        }
+
+        return Carbon::createFromTimestamp(
+            random_int($start->timestamp, $end->timestamp),
+            config('app.timezone')
+        );
     }
 }
