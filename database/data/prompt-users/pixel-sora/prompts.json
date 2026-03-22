@@ -249,7 +249,7 @@
     {
         "key": "pixel-sora-017",
         "title": "Cozy rainy-night bookstore window scene (cinematic, photoreal)",
-        "type": "text",
+        "type": "image",
         "category_key": "image_generation",
         "content": "Generate a photoreal, cinematic image of a cozy independent bookstore on a rainy night, viewed from the sidewalk looking in through a large glass window.\n\nInclude: warm tungsten interior lighting, condensation and raindrops on the glass, reflections of streetlights and passing cars, stacks of books on wooden tables, a small handwritten \u201cOpen\u201d sign, a barista-style corner with a steaming mug, and one person in a knit sweater reading near the window.\n\nComposition & camera: eye-level, 35mm lens look, shallow depth of field focused on the reader, foreground bokeh from raindrops, slight angle so the window reflection layers over the interior. \n\nMood & color: inviting, calm, amber-and-teal palette, soft film grain, subtle haze.\n\nConstraints: no visible brand logos, no extra text besides the \u201cOpen\u201d sign, natural human proportions, realistic reflections.",
         "images": [

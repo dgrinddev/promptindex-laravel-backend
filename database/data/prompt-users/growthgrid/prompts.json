@@ -75,7 +75,7 @@
     {
         "key": "growthgrid-007",
         "title": "Clean app growth dashboard illustration (hero image prompt)",
-        "type": "text",
+        "type": "image",
         "category_key": "image_generation",
         "content": "Create an image: a modern SaaS \u201cgrowth dashboard\u201d hero illustration on a light background. Show a laptop screen with a clean analytics UI: line chart trending upward, bar chart by channel, small KPI cards (MRR, CAC, Conversion Rate), and a subtle grid pattern in the background. Add a few minimal floating UI elements (toggle, filter dropdown, calendar) to imply interactivity. Style: crisp vector + slight depth (soft shadows), rounded corners, friendly color palette (teal, indigo, coral accents), lots of whitespace. Composition: centered laptop, dashboard clearly readable, balanced negative space for headline text on the left. Lighting: soft, even, no harsh contrast. Mood: optimistic, calm, trustworthy. No people, no logos, no brand names, no watermark. High resolution, sharp edges, clean typography shapes (not actual readable text).",
         "images": [

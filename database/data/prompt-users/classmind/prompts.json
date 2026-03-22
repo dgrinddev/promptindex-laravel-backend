@@ -75,7 +75,7 @@
     {
         "key": "classmind-007",
         "title": "Photorealistic product hero shot for an AI classroom app (mobile UI in hand)",
-        "type": "text",
+        "type": "image",
         "category_key": "image_generation",
         "content": "Create a photorealistic product hero image for an AI classroom app called \u201cclassmind\u201d. Scene: a teacher\u2019s hand holding a modern smartphone showing a clean, minimal app dashboard (no readable text, just simple UI shapes and charts). Background: softly blurred classroom with warm daylight through windows, students out of focus, subtle chalkboard texture. Composition: vertical 4:5, phone centered slightly right, shallow depth of field (bokeh), crisp focus on the phone and fingertips. Lighting: natural morning light with gentle highlights, soft shadows, neutral color grading. Style: high-end tech marketing photo, realistic skin texture, accurate reflections on glass screen, no exaggerated HDR. Add a small desk edge at bottom-left with a notebook and pen slightly blurred. Avoid logos, watermarks, extra hands, distorted fingers, or messy UI. Output: ultra-detailed, photorealistic, clean and modern.",
         "images": [
