@@ -22,25 +22,25 @@ class Prompt extends Model
         'coverimage_id',
     ];
 
-    // Relation: en prompt tilhører en bruger
+    // relation: a prompt belongs to a user
     public function user()
     {
         return $this->belongsTo(User::class);
     }
 
-    // Relation: en prompt tilhører en Category
+    // Relation: a prompt belongs to a Category
     public function category()
     {
         return $this->belongsTo(Category::class);
     }
 
-    // Relation: en prompt har mange images
+    // Relation: a prompt has many images
     public function images()
     {
         return $this->hasMany(Image::class);
     }
 
-    // Relation: en prompt tilhører et cover-image (hasOne er ikke det rette her fordi den model der ejer foreign key skal have belongsTo. prompt-tabellen har "coverimage_id"-foreign key)
+    // Relation: a prompt belongs to a cover image (hasOne is not the right one here because the model that owns the foreign key should have belongsTo. The prompt table has the "coverimage_id" foreign key)
     public function coverImage()
     {
         return $this->belongsTo(Image::class, 'coverimage_id');
@@ -49,7 +49,7 @@ class Prompt extends Model
     protected function categoryId(): Attribute
     {
         return Attribute::make(
-            get: fn (?int $value) => $value, // get: Returnér værdien uændret
+            get: fn (?int $value) => $value, // get: Return the value unchanged
             set: fn (null|string|int $value) => $value === '' || is_null($value) ? null : (int) $value,
         );
     }

@@ -14,6 +14,8 @@ return Application::configure(basePath: dirname(__DIR__))
     )
     ->withMiddleware(function (Middleware $middleware): void {
         $middleware->statefulApi();
+        
+        // custom middleware used because the default one doesn't take into account API requests that expect JSON responses
         $middleware->alias([
             'guest' => RedirectIfAuthenticated::class,
         ]);

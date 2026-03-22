@@ -13,7 +13,7 @@ class Category extends Model
     protected $fillable = [];
 
     /**
-     * Relation: En category kan have mange prompts
+     * Relation: A category can have many prompts
      */
     public function prompts()
     {

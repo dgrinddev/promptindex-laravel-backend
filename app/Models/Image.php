@@ -25,13 +25,13 @@ class Image extends Model
         'upload_image_token',
     ];
 
-    // Hver image tilhører én bruger
+    // every image belongs to one user
     public function user()
     {
         return $this->belongsTo(User::class);
     }
 
-    // Hver image tilhører én prompt
+    // every image belongs to one prompt
     public function prompt()
     {
         return $this->belongsTo(Prompt::class);

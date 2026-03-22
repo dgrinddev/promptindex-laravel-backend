@@ -36,12 +36,12 @@ class SavePromptRequest extends FormRequest
             ],
             'category_id' => [
                 'nullable',
-                'exists:categories,id', // alle brugere har adgang til alle kategorier
+                'exists:categories,id', // all users share the same categories
             ],
             'content' => [
                 'required',
                 'string',
-                'max:1000000', // max 1 million tegn
+                'max:1000000', // max 1 million characters
             ],
             'coverimage_id' => [
                 'nullable',
@@ -55,7 +55,7 @@ class SavePromptRequest extends FormRequest
     }
 
     /**
-     * Returnerer unique title-regel afhængigt af store eller update
+     * Returns unique title rule depending on if we are creating (store) or updating (update) a prompt
      */
     protected function titleUniqueRule(): Unique
     {
@@ -68,7 +68,7 @@ class SavePromptRequest extends FormRequest
     }
 
     /**
-     * Hvilke billeder må vælges som cover?
+     * Determine which images can be selected as cover image. For update, only images belonging to the prompt can be selected. For create, only images uploaded with the same upload_image_token can be selected.
      */
     protected function allowedImageIds(): array
     {

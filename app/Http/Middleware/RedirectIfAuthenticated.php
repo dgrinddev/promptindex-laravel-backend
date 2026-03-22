@@ -21,6 +21,7 @@ class RedirectIfAuthenticated extends BaseRedirectIfAuthenticated
 
         foreach ($guards as $guard) {
             if (Auth::guard($guard)->check()) {
+                // If the request expects a JSON response, return a 409 Conflict with a message
                 if ($request->expectsJson()) {
                     return response()->json([
                         'message' => 'Already authenticated.',

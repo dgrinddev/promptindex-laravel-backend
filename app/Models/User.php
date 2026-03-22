@@ -26,22 +26,22 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
-        // 'role', // DENNE ER GUARDED
+        // 'role', // 'role' is not in $fillable, so it cannot be mass assigned. This is a security measure to prevent unauthorized role changes.
     ];
 
-    // Relation: en bruger har mange prompts
+    // Relation: a user has many prompts
     public function prompts()
     {
         return $this->hasMany(Prompt::class);
     }
 
-    // Relation: en bruger har mange images
+    // Relation: a user has many images
     public function images()
     {
         return $this->hasMany(Image::class);
     }
 
-    // tjek om en bruger har en specifik rolle
+    // This method checks if the user has a specific role
     public function hasRole(string $role): bool
     {
         return $this->role === $role;

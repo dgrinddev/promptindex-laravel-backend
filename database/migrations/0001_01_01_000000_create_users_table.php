@@ -13,11 +13,11 @@ return new class extends Migration
     {
         Schema::create('users', function (Blueprint $table) {
             $table->id();
-            $table->string('name', 20)->unique(); // jeg har tilføjet begrænsning til 20 tegn og unikt
+            $table->string('name', 20)->unique(); // I added a limit of 20 characters and unique constraint
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
-            $table->enum('role', ['user', 'admin'])->default('user'); // dette er en jeg har tilføjet
+            $table->enum('role', ['user', 'admin'])->default('user'); // I added this column to differentiate between regular users and admins
             $table->rememberToken();
             $table->timestamps();
         });
