@@ -40,7 +40,7 @@
     },
     {
         "key": "classmind-004",
-        "title": "Write a confident, structured email that gets a clear decision",
+        "title": "Draft a concise decision-driving email (clear ask, no pressure)",
         "type": "text",
         "category_key": "email",
         "content": "Help me write a confident, structured email that drives a clear decision without sounding pushy.\n\nContext (paste and keep what\u2019s relevant):\n- Recipient(s) + role(s):\n- My role / team:\n- Relationship / history in 1\u20132 lines:\n- Topic / request:\n- Why it matters (impact, deadline, risk):\n- What I\u2019ve already done:\n- Constraints (budget, policy, scope, dependencies):\n- Proposed path forward:\n- Decision needed from them (be explicit):\n- Options I can offer (up to 3):\n- My recommended option and why:\n- Timeline (preferred decision date + key dates):\n- Links / docs to reference:\n- Any sensitivities (politics, tone, legal, layoffs, etc.):\n\nRequirements:\n- Tone: confident and structured; calm, professional, and respectful.\n- Keep it skimmable: short paragraphs, clear headers, and bullets where helpful.\n- Lead with the ask in the first 2 sentences.\n- Include a single, unambiguous call to action with a date/time.\n- If information is missing, make reasonable assumptions and mark them as [ASSUMPTION].\n- Avoid jargon, filler, and apology-heavy language.\n\nOutput:\n1) Subject line options (5), varying urgency.\n2) Email body.\n3) A 1-sentence follow-up message if there\u2019s no reply after 48 hours.\n4) A version that is 30% shorter (same content, tighter).\n\nHere is the raw input to use:\n<<<\nPASTE MY NOTES HERE\n>>>",
