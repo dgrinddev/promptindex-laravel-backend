@@ -1,247 +1,259 @@
 [
     {
         "key": "growthgrid-001",
-        "title": "Turn rough notes into a crisp 1-page business memo",
+        "title": "Rewrite any draft into a concise, professional version (with optional variants)",
         "type": "text",
         "category_key": "writing",
-        "content": "Convert my raw notes into a clear, professional one-page business memo.\n\nRequirements:\n- Keep it concise and skimmable (max ~400 words).\n- Use plain language; no hype, no jargon.\n- Preserve all facts and numbers exactly; don\u2019t invent details.\n- If anything is ambiguous or missing, list it under \u201cOpen Questions\u201d instead of guessing.\n\nFormat:\n1) Title\n2) Context (2\u20133 sentences)\n3) Key Points (5\u20137 bullets)\n4) Recommendation (1 short paragraph)\n5) Risks & Mitigations (3 bullets)\n6) Next Steps (3 bullets with owner + due date placeholders)\n7) Open Questions (bullets)\n\nMy notes:\n[PASTE NOTES HERE]",
+        "content": "Rewrite the text below to be professional, concise, and easy to scan.\n\nRequirements:\n- Keep the original meaning and any concrete facts.\n- Remove filler, repetition, and vague claims.\n- Use plain language and active voice.\n- Prefer short sentences.\n- If something is unclear, make the smallest safe assumption and don\u2019t invent details.\n\nOutput:\n1) Polished version (single best rewrite)\n2) Three alternative first sentences (different angles)\n3) 5-bullet key points (no more than 12 words each)\n\nText to rewrite:\n[PASTE HERE]",
         "images": [
             {
-                "original_filename": "library-ceramic-table-notes-to-memo-01.jpg",
+                "original_filename": "precision-trimmed-pages-cinematic-concrete-01.jpg",
                 "is_cover": true
             }
         ]
     },
     {
         "key": "growthgrid-002",
-        "title": "Turn a Feature List into a High-Converting Landing Page (SaaS)",
+        "title": "Turn product features into a simple marketing message (website + social + email)",
         "type": "text",
         "category_key": "marketing",
-        "content": "Help me write landing page copy for my SaaS in a friendly, helpful tone. Keep it simple and conversion-focused.\n\nHere\u2019s the input:\n- Product name: [NAME]\n- Target customer: [WHO IT\u2019S FOR]\n- Problem they have: [PAIN]\n- Desired outcome: [OUTCOME]\n- Top 5 features (bullets):\n  1) [FEATURE]\n  2) [FEATURE]\n  3) [FEATURE]\n  4) [FEATURE]\n  5) [FEATURE]\n- Key differentiator: [WHY US]\n- Proof available (optional): [TESTIMONIALS / METRICS / LOGOS]\n- Primary CTA: [CTA]\n- Secondary CTA (optional): [CTA]\n- Any words to avoid: [LIST]\n\nWrite:\n1) Hero section: headline (max 10 words) + subheadline (1\u20132 sentences) + primary CTA + a short trust line.\n2) \u201cHow it works\u201d section: 3 steps, each with a one-line title and 2\u20133 lines of explanation.\n3) Benefits section: 6 benefit bullets written from the customer\u2019s perspective (not feature repeats).\n4) Feature highlights: pick the 3 most compelling features and write a short paragraph for each.\n5) Social proof block: 2 testimonial examples (if none provided, write placeholders that don\u2019t sound fake).\n6) FAQ: 6 questions with concise answers; include pricing, setup time, integrations, security/privacy, and \u201cis this for me?\u201d.\n7) Closing CTA section: a fresh headline + 2 lines of reassurance + primary CTA.\n\nConstraints:\n- Use plain language. No hype, no jargon.\n- Assume the reader is skimming; keep paragraphs short.\n- If anything is unclear, make reasonable assumptions and note them at the end under \u201cAssumptions.\u201d",
+        "content": "I\u2019m going to paste a few product notes. Turn them into clear marketing copy that a non-expert will understand.\n\nProduct notes:\n- Product/service:\n- Who it\u2019s for:\n- The #1 problem it solves:\n- Top 3 features:\n- What makes it different:\n- Proof (numbers, testimonials, logos), if any:\n- Price/free trial/guarantee, if relevant:\n- Primary call-to-action:\n- Anything we should NOT claim:\n\nOutput (keep it simple, friendly, and not hypey):\n1) One-sentence value proposition (max 18 words)\n2) Website hero section: headline + subheadline + 3 bullet benefits + CTA button text\n3) 3 short social posts (each under 240 characters, with a light, helpful tone; no more than 2 hashtags)\n4) A short email (subject line + 120\u2013160 word body + one clear CTA)\n\nStyle rules:\n- Use plain language (aim for ~8th-grade reading level)\n- Focus on outcomes, not just features\n- Avoid buzzwords (e.g., \u201crevolutionary,\u201d \u201ccutting-edge,\u201d \u201csynergy\u201d)\n- If any details are missing, make 2\u20133 reasonable assumptions and list them at the end.",
         "images": [
             {
-                "original_filename": "cta-tap-saas-landing-page-hero-01.jpg",
+                "original_filename": "premium-marketing-message-in-motion-01.jpg",
                 "is_cover": true
             }
         ]
     },
     {
         "key": "growthgrid-003",
-        "title": "Instagram carousel hero image for a growth marketing framework",
+        "title": "Cinematic product hero image for a social media scheduler (dark UI aesthetic)",
         "type": "image",
         "category_key": "social_media",
-        "content": "Create a square Instagram carousel cover (1:1) featuring a bold, modern \u201cGrowth Marketing Framework\u201d hero graphic. Minimalist design with a clean grid layout and strong hierarchy.\n\nScene & composition:\n- Centered title: \u201cGROWTH MARKETING FRAMEWORK\u201d in large, uppercase sans-serif\n- Subheading beneath: \u201cAcquire \u2022 Activate \u2022 Retain \u2022 Revenue \u2022 Referral\u201d\n- A subtle 5-step pipeline diagram across the middle (five connected blocks with small icons)\n- Bottom-right small tag: \u201cPlaybook\u201d\n- Plenty of negative space; symmetrical alignment; crisp margins\n\nStyle & palette:\n- Confident, structured, tech-forward aesthetic\n- Background: off-white (#F6F4EF) with a faint grid texture\n- Primary accent: deep navy (#0B1F3B)\n- Secondary accents: electric blue (#2D7FF9) and lime (#A7F542) used sparingly for highlights\n\nTypography & graphics:\n- Typeface: modern geometric sans (similar to Inter / Neue Haas Grotesk)\n- Clean vector icons (no cartoons): magnet (Acquire), spark (Activate), shield (Retain), chart (Revenue), megaphone (Referral)\n- Thin line dividers, consistent stroke weight, precise spacing\n\nLighting & rendering:\n- Flat design / vector look, ultra-sharp edges\n- No photos, no 3D, no mockups, no drop shadows beyond a very subtle 2% shadow for depth\n\nOutput constraints:\n- No watermarks, no extra logos, no clutter\n- Text must be perfectly legible and correctly spelled\n- High-resolution, print-ready clarity",
+        "content": "Create a premium, cinematic hero image for a social media scheduling app inside a dark interface.\n\nSubject: a modern smartphone (thin bezels) and a compact laptop on a matte black desk, both screens showing a social media content calendar with color-coded posts, a \u201cSchedule\u201d button, analytics mini-cards, and a clean dark-mode UI (no real brand logos).\n\nComposition: 3/4 angle from slightly above, centered product stack with negative space on the right for headline text; subtle foreground blur; crisp focus on the calendar grid and primary CTA.\n\nLighting & mood: low-key studio lighting with a cool rim light from the left and a soft top light; controlled reflections on glass; gentle shadow falloff; confident, structured feel.\n\nColor & styling: cool/neutral grading (deep navy, charcoal, cool white accents, restrained teal highlights), minimal props (one metal pen, one small sticky note), no warm wood tones, no bright daylight.\n\nBackground: subdued dark gradient backdrop with faint bokeh and soft haze; keep it clean and minimal so it integrates with a dark product UI.\n\nLook: photorealistic, high-end tech advertising, subtle contrast, sharp micro-detail, no over-saturation.\n\nCamera: 50mm lens look, f/2.8, ISO low, shallow depth of field, ultra-high resolution.\n\nConstraints: no text that looks like a real company name, no watermarks, no busy environment, avoid cheerful lifestyle vibes.",
         "images": [
             {
-                "original_filename": "growth-marketing-framework-carousel-cover-01.jpg",
+                "original_filename": "dark-ui-scheduler-cinematic-hero-01.jpg",
                 "is_cover": true
             }
         ]
     },
     {
         "key": "growthgrid-004",
-        "title": "Modern, direct outreach email that earns a reply (with 3 subject options)",
+        "title": "Direct follow-up email that moves a stalled thread to a clear next step",
         "type": "text",
         "category_key": "email",
-        "content": "Write a modern, direct outreach email I can send to a potential customer.\n\nContext\n- Who I\u2019m emailing: [job title + company + brief context]\n- What they likely care about: [top 2 priorities]\n- My offer: [what you sell in 1 sentence]\n- Proof: [1 metric, result, or recognizable customer/logo\u2014optional]\n- CTA I want: [15-min call / quick reply / intro]\n- Link (optional): [URL]\n- My name + role: [signature]\n\nRequirements\n- Provide 3 subject lines (short, non-salesy, no emojis)\n- Email body: 110\u2013160 words\n- Tone: modern and direct, confident but not pushy\n- Personalize using the context above; don\u2019t invent facts\n- Make the value specific (not \u201cincrease efficiency\u201d)\n- Include one clear CTA question at the end\n- Avoid: hype, buzzwords, excessive exclamation points, and \u201cjust following up\u201d phrasing\n\nDeliver\n1) Subject line options\n2) Email (plain text)\n3) One optional alternate closing line (e.g., \u201cWorth a look?\u201d)",
+        "content": "Write a modern, direct follow-up email that re-engages a stalled conversation and makes the next step easy.\n\nContext:\n- Recipient: [name, title, company]\n- What we discussed / last touchpoint: [1\u20132 sentences]\n- How long it\u2019s been since last reply: [e.g., 10 days]\n- What I\u2019m offering: [product/service + 1-line value]\n- Most relevant outcome for them: [metric or business result]\n- Proof point: [short case study stat, customer name, or credibility signal]\n- Desired next step: [15-min call / intro to stakeholder / send info / pilot]\n- My availability: [2\u20134 time windows + timezone]\n- If they\u2019re not the right person, who is: [role/team]\n\nRequirements:\n- Keep it 120\u2013170 words.\n- Subject line: 5\u20137 words, no hype.\n- Opening line should feel human (not \u201cjust checking in\u201d).\n- Include exactly 3 bullet points: (1) why this matters now, (2) what\u2019s different about our approach, (3) a quick proof point.\n- Ask one clear question that can be answered with a single reply.\n- Add a \u201cbreakup\u201d fallback sentence that\u2019s polite and low-pressure.\n- Avoid: exclamation points, buzzwords, long setup, and \u201ctouching base.\u201d\n\nOutput format:\nSubject: \u2026\n\nEmail body:\n\u2026",
         "images": []
     },
     {
         "key": "growthgrid-005",
-        "title": "Turn a Business Idea into a 1-Page Execution Plan",
+        "title": "Turn a rough product idea into a one-page business brief",
         "type": "text",
         "category_key": "business",
-        "content": "I\u2019m considering this business idea:\n\n[Paste your idea in 3\u20138 sentences]\n\nTurn it into a one-page execution plan I can act on this week. Keep it clear, practical, and low-jargon. Include:\n\n- Target customer: who they are, what they\u2019re trying to accomplish, and what triggers them to look for a solution\n- Problem & current alternatives: how they solve it today and why that\u2019s frustrating/expensive/risky\n- Value proposition: 1 sentence + 3 bullet benefits (outcomes, not features)\n- Offer: what exactly I\u2019m selling (package, pricing model options, what\u2019s included/excluded)\n- Acquisition: 3 realistic channels to test first, with a simple first experiment for each (what to do, what to measure)\n- MVP scope: the smallest version that delivers the core result, plus what to deliberately NOT build yet\n- First 10 customers plan: a step-by-step outreach plan for the next 7 days\n- Key risks & assumptions: top 5, and a quick way to validate each\n- Metrics: 5 numbers to track weekly (leading + lagging)\n- 30/60/90-day milestones: short bullets with a \u201cdone means\u201d definition\n\nIf anything essential is missing from my idea, ask up to 5 questions first. Otherwise, make reasonable assumptions and state them.",
+        "content": "Take my rough product idea and convert it into a one-page business brief I can share with a teammate. Keep it clear, practical, and free of fluff.\n\nMy idea (paste):\n[PASTE HERE]\n\nOutput:\n- Product in one sentence: \n- Target customer: (who they are + where to find them)\n- Problem: (what hurts today, how they currently solve it)\n- Proposed solution: (key workflow in 3\u20135 steps)\n- Unique angle: (why this is meaningfully different)\n- Key features (MVP): (5 bullets max)\n- Not doing (explicit exclusions): (3 bullets)\n- Pricing hypothesis: (1\u20132 options)\n- Go-to-market first steps: (3 concrete actions for the next 2 weeks)\n- Success metrics: (3 measurable signals)\n- Biggest risks + mitigations: (3 pairs)\n\nIf anything is missing, make reasonable assumptions and label them as \u201cAssumption:\u201d rather than asking questions.",
         "images": [
             {
-                "original_filename": "cafe-weekly-execution-focus-01.jpg",
+                "original_filename": "one-page-brief-concrete-wall-01.jpg",
                 "is_cover": true
             }
         ]
     },
     {
         "key": "growthgrid-006",
-        "title": "Turn a rough UI idea into a crisp PRD + wireframe checklist",
+        "title": "Turn a Feature List Into a Clean UI Copy & Microcopy Set",
         "type": "text",
         "category_key": "design",
-        "content": "Take my rough product idea and turn it into a lightweight UI/UX spec I can hand to design and engineering.\n\nInput (I\u2019ll paste below):\n- Product/context:\n- Target users:\n- Core job-to-be-done:\n- Platform (web/iOS/Android):\n- Key screens I think we need (optional):\n- Constraints (timeline/tech/legal/brand):\n- Success metric:\n\nOutput:\n1) One-sentence problem statement\n2) Assumptions + open questions (only the ones that materially change the design)\n3) Primary user flows (3\u20137) written as: Trigger \u2192 Steps \u2192 Outcome\n4) Screen inventory with purpose for each screen\n5) For each screen: required components + key states (loading/empty/error/success)\n6) Data requirements: what data is shown/created/edited and validations\n7) Edge cases: top 8 that will break the experience if ignored\n8) Accessibility and responsive considerations (short, actionable)\n9) Analytics events: event name \u2192 when fired \u2192 key properties\n10) Acceptance criteria: 8\u201312 bullet checks written as testable statements\n\nStyle rules:\n- Be professional and concise.\n- Prefer specifics over jargon.\n- If details are missing, make a reasonable assumption and label it clearly.\n\nHere\u2019s the idea:\n[PASTE IDEA]",
+        "content": "Convert the product details below into UI-ready copy.\n\nInput\n- Product/feature description (paste):\n- Target user:\n- Primary action the screen should drive:\n- Brand voice (3 adjectives):\n- Constraints (character limits, legal notes, must-use terms):\n\nOutput (keep it concise)\n1) Screen name + one-line purpose\n2) Primary headline (3 options)\n3) Supporting subhead (3 options)\n4) Primary CTA label (5 options) + one-line rationale for the best pick\n5) Secondary CTA label (3 options)\n6) Empty state copy: title + 1\u20132 lines + button label\n7) Error states (3): short message + recovery suggestion (no blame)\n8) Helper text for 3 key fields (if applicable)\n9) Tooltip/learn-more text (2 options, max 200 chars)\n\nRules\n- Use plain language; avoid buzzwords.\n- Make actions specific (verb + outcome).\n- Prefer sentence case labels.\n- If info is missing, make reasonable assumptions and list them at the end under \u201cAssumptions.\u201d",
         "images": [
             {
-                "original_filename": "transit-platform-ui-idea-clarity-01.jpg",
+                "original_filename": "night-walk-clean-ui-cta-microcopy-01.jpg",
                 "is_cover": true
             }
         ]
     },
     {
         "key": "growthgrid-007",
-        "title": "Clean app growth dashboard illustration (hero image prompt)",
-        "type": "image",
+        "title": "Dark, cinematic hero image of a SaaS analytics dashboard (no text)",
+        "type": "text",
         "category_key": "image_generation",
-        "content": "Create an image: a modern SaaS \u201cgrowth dashboard\u201d hero illustration on a light background. Show a laptop screen with a clean analytics UI: line chart trending upward, bar chart by channel, small KPI cards (MRR, CAC, Conversion Rate), and a subtle grid pattern in the background. Add a few minimal floating UI elements (toggle, filter dropdown, calendar) to imply interactivity. Style: crisp vector + slight depth (soft shadows), rounded corners, friendly color palette (teal, indigo, coral accents), lots of whitespace. Composition: centered laptop, dashboard clearly readable, balanced negative space for headline text on the left. Lighting: soft, even, no harsh contrast. Mood: optimistic, calm, trustworthy. No people, no logos, no brand names, no watermark. High resolution, sharp edges, clean typography shapes (not actual readable text).",
+        "content": "Create a premium, dark-mode product hero image for a SaaS analytics platform.\n\nScene & subject:\n- A sleek laptop on a matte black desk, screen showing a modern analytics dashboard UI (charts, tables, KPI cards) with realistic layout but NO readable text (use abstract glyphs/lines).\n- Subtle secondary elements: a smartphone face-down, a metal pen, and a faintly glowing desk lamp in the background.\n\nComposition:\n- 3/4 angle from slightly above desk height, laptop centered with a gentle perspective.\n- Shallow depth of field; keep the dashboard sharp, background softly blurred.\n\nLighting & mood:\n- Low-key, cinematic lighting with a cool/neutral color grade (deep navy, charcoal, cool gray).\n- Soft directional key light from the side, minimal reflections, controlled highlights on aluminum edges.\n- Add subtle volumetric falloff and soft shadows for depth.\n\nStyle:\n- Photorealistic, high-end tech advertising aesthetic; clean, minimal, not cozy.\n- Background should be subdued and dark so it fits a dark UI context.\n\nOutput:\n- 16:9 aspect ratio, high resolution, crisp details, no logos, no watermarks, no readable text.",
         "images": [
             {
-                "original_filename": "saas-growth-dashboard-hero-laptop-01.jpg",
+                "original_filename": "dark-saas-dashboard-laptop-hero-01.jpg",
                 "is_cover": true
             }
         ]
     },
     {
         "key": "growthgrid-008",
-        "title": "Futuristic coding workstation hero image (no overlay text, clean cover-ready)",
+        "title": "Cinematic coding workstation hero image for a dark UI (no text, no cover overlay space)",
         "type": "image",
         "category_key": "coding",
-        "content": "Create a cover-ready hero image for a coding-themed project with NO text, NO logos, NO watermarks, and plenty of clean negative space for a title added later.\n\nScene: a modern developer workstation in a dim, futuristic studio. A wide ultrawide monitor shows crisp code (generic syntax, not recognizable snippets), a terminal window, and subtle UI panels. Desk is matte black with tidy cable management, compact mechanical keyboard, trackpad, and a small notebook.\n\nComposition: 16:9 landscape. Camera at a slight high angle, three-quarter view from the left. Subject centered-right, leaving a smooth dark gradient area on the left for later typography. Keep the frame uncluttered.\n\nLighting & mood: confident, high-clarity, cinematic. Cool teal and deep indigo ambient light with a warm rim light on the desk edge. Soft volumetric light, subtle bokeh, realistic reflections on the monitor, gentle haze.\n\nStyle: photorealistic, premium tech aesthetic, sharp details, clean lines, modern minimalism. High dynamic range, low noise, natural depth of field.\n\nBackground: abstract but believable studio backdrop with faint geometric patterns and a few out-of-focus LED strips; no brand shapes.\n\nNegative prompts: text, captions, logos, watermarks, UI brand marks, messy desk, extra hands, faces, distorted keyboard, unreadable glitch text, overexposed highlights.",
+        "content": "Create a premium, cinematic hero image for a coding product interface. Subject: a modern developer workstation seen at a 3/4 angle\u2014ultrawide monitor showing a blurred, abstract code editor layout (no readable text), matte-black keyboard, graphite mouse, minimal desk items (one notebook, one pen), and a subtle glass of water. Setting: dark, subdued studio workspace with deep charcoal background and soft falloff; no bright windows, no cozy warm wood tones.\n\nLighting & mood: low-key, cool-neutral color grading with deep blacks and controlled highlights; one directional key light from screen-left creating gentle rim light on the monitor edge and keyboard; soft shadows; slight atmospheric haze for depth.\n\nComposition: center-weighted subject with balanced negative space, but NOT designed as a cover with extra blank area; fill the frame with the workstation while keeping the background clean and uncluttered. Camera: 35mm lens look, f/2.8 shallow depth of field, crisp foreground details, bokeh in the background.\n\nStyle: high-end product photography, realistic materials (anodized aluminum, matte plastics, subtle fingerprints), restrained saturation, no logos, no UI branding, no people, no visible text anywhere. Output: 16:9, sharp, high resolution.",
         "images": [
             {
-                "original_filename": "futuristic-coding-workstation-hero-teal-indigo-01.jpg",
+                "original_filename": "cinematic-dark-ui-coding-workstation-hero-01.jpg",
                 "is_cover": true
             }
         ]
     },
     {
         "key": "growthgrid-009",
-        "title": "Daily Priority Triage: Pick the 3 Tasks That Actually Move the Needle",
+        "title": "Turn a messy to-do list into a realistic 1-day plan (time-blocked)",
         "type": "text",
         "category_key": "productivity",
-        "content": "I\u2019m going to paste a list of tasks, messages, and loose ideas. Turn it into a simple plan for today.\n\nRules:\n- Choose the Top 3 priorities based on impact and urgency.\n- Flag anything that\u2019s not worth doing today as \u201cDefer\u201d or \u201cDrop\u201d (be decisive).\n- Keep it realistic for a normal workday.\n- If something is unclear, make a reasonable assumption and note it.\n\nOutput format:\n1) Top 3 (in order)\n- Task:\n- Why it matters (1 sentence):\n- Next action (specific, <15 minutes):\n- Time block suggestion:\n\n2) Quick Wins (optional, max 5)\n- Each: task + next action\n\n3) Defer\n- Task + when to revisit\n\n4) Drop\n- Task + short reason\n\nHere\u2019s my list:\n[paste tasks here]",
+        "content": "Take my raw to-do list below and convert it into a realistic plan for the next workday.\n\nRules:\n- Assume an 8-hour day with 60 minutes of total breaks.\n- Time-block the day in 30\u201390 minute blocks.\n- Prioritize impact and urgency, but keep cognitive load in mind.\n- If the list is too big, choose what to defer and explain why in one short line.\n- For each block, include: goal, first tiny action (<= 2 minutes), and a clear \u201cdone\u201d definition.\n- Add a short \u201cprep tonight\u201d checklist (max 5 bullets).\n- Do not mention images or ask for files.\n\nOutput format:\n1) Top 3 outcomes for the day (one line each)\n2) Time-blocked schedule (with times)\n3) Deferred items (grouped by reason: waiting on others / nice-to-have / too large)\n4) Risks & quick mitigations (max 5)\n5) Prep tonight (max 5)\n\nMy constraints (optional): [start time], [hard stops], [meetings], [energy highs/lows]\nMy to-do list:\n- ...",
         "images": [
             {
-                "original_filename": "three-priority-tiles-wall-board-01.jpg",
+                "original_filename": "messy-to-do-to-time-blocked-day-01.jpg",
                 "is_cover": true
             },
             {
-                "original_filename": "three-tabs-day-planner-closeup-02.jpg",
+                "original_filename": "sorting-sticky-notes-into-blocks-02.jpg",
                 "is_cover": false
             },
             {
-                "original_filename": "three-tokens-on-kitchen-tray-03.jpg",
+                "original_filename": "coffee-nook-day-plan-order-03.jpg",
                 "is_cover": false
             },
             {
-                "original_filename": "three-cards-pocket-organizer-04.jpg",
+                "original_filename": "dawn-lobby-from-chaos-to-plan-04.jpg",
                 "is_cover": false
             },
             {
-                "original_filename": "windowsill-three-blocks-aligned-05.jpg",
+                "original_filename": "overhead-time-block-column-05.jpg",
                 "is_cover": false
             },
             {
-                "original_filename": "tactile-priority-slider-lock-06.jpg",
+                "original_filename": "relief-after-planning-window-portrait-06.jpg",
                 "is_cover": false
             },
             {
-                "original_filename": "cafe-table-three-coins-timer-07.jpg",
+                "original_filename": "timeline-cards-on-ceramic-ledge-07.jpg",
                 "is_cover": false
             },
             {
-                "original_filename": "three-fobs-on-peg-rail-08.jpg",
+                "original_filename": "boundaries-breaks-pocket-cards-08.jpg",
                 "is_cover": false
             },
             {
-                "original_filename": "hands-build-three-tile-runway-09.jpg",
+                "original_filename": "prep-tonight-minimal-kit-09.jpg",
                 "is_cover": false
             },
             {
-                "original_filename": "bench-three-chips-triangle-10.jpg",
+                "original_filename": "elevator-deferral-pocketing-notes-10.jpg",
                 "is_cover": false
             },
             {
-                "original_filename": "three-compartment-tray-filled-11.jpg",
+                "original_filename": "leave-plan-on-coffee-table-11.jpg",
                 "is_cover": false
             },
             {
-                "original_filename": "three-clips-on-strap-shortlist-12.jpg",
+                "original_filename": "tiny-first-action-clock-tap-12.jpg",
                 "is_cover": false
             }
         ]
     },
     {
         "key": "growthgrid-010",
-        "title": "Deep Research Prompt: Evaluate a Market Opportunity and Produce an Evidence-Backed POV",
+        "title": "Decision-Ready Market Research Brief (with assumptions, gaps, and next steps)",
         "type": "text",
         "category_key": "research",
-        "content": "Help me evaluate a market opportunity with rigorous, source-aware research and produce an actionable point of view.\n\nContext\n- Topic / market: [PASTE]\n- Target customer: [PASTE]\n- Geography: [PASTE]\n- Time horizon (now / 12\u201324 months): [PASTE]\n- My starting hypothesis (if any): [PASTE]\n- What a \u201cgood answer\u201d helps me decide: [PASTE]\n\nRequirements\n- Be clear, practical, and skeptical. Prefer primary sources, official datasets, and credible industry research.\n- If you are unsure, say so and propose how to verify.\n- Use explicit assumptions; separate facts vs. inference.\n- No fluff, no motivational language.\n\nFirst, ask up to 7 high-leverage clarifying questions only if the answers would materially change the conclusion. Otherwise proceed and state assumptions.\n\nDeliverables (use headings exactly)\n1) Executive POV (10 bullets max)\n- My best current conclusion, plus the single biggest \u201cmake-or-break\u201d uncertainty.\n\n2) Market Definition\n- Define the market precisely (what\u2019s in/out).\n- List adjacent markets that are commonly confused with it.\n\n3) Demand: Who Buys and Why Now\n- Top buyer segments and jobs-to-be-done.\n- 3\u20135 triggers that cause purchase.\n- Evidence and proxies you used (search trends, hiring, spend categories, regulation, etc.).\n\n4) Supply/Competition Map\n- Identify major competitor types (incumbents, specialists, DIY, substitutes).\n- Provide a 2x2 positioning map (axes you choose) and place archetypes on it.\n- Call out likely non-obvious substitutes.\n\n5) Economics Snapshot\n- Typical pricing models and rough price bands.\n- Unit economics drivers (CAC, payback, gross margin levers) and what would need to be true.\n\n6) Adoption Friction and Risks\n- Top 7 blockers (technical, organizational, regulatory, switching costs, trust).\n- A pre-mortem: \u201cIf this fails, it\u2019s because\u2026\u201d with probabilities.\n\n7) Wedge and Differentiation Options\n- 3 plausible entry wedges with rationale.\n- For each: required capabilities, time-to-value, and why incumbents won\u2019t copy quickly.\n\n8) Evidence Table\n- A table with columns: Claim | Confidence (High/Med/Low) | Evidence needed | How to get it fast | Notes.\n\n9) 30-Day Validation Plan\n- 10 specific tests (customer interviews, landing page, pricing tests, data collection, concierge pilot).\n- For each: method, sample size target, success metric, decision rule, and expected cost/time.\n\n10) Sources\n- Provide links and citations for key numbers and claims. If you can\u2019t browse, list the exact sources to check (publisher + report/database + what to extract).\n\nFormatting rules\n- Use short paragraphs and tables where useful.\n- Quantify whenever possible; otherwise provide ranges and explain.\n- End with: \u201cWhat I would do next\u201d (5 bullets) tailored to my context.",
+        "content": "Help me produce a decision-ready market research brief for the topic below. I don\u2019t want a generic overview\u2014I need something I can use to choose a strategy and prioritize experiments.\n\nTopic / market / problem to research:\n[PASTE HERE]\n\nContext you should assume (edit if I leave blanks):\n- My product/service: [what it is]\n- Target customer: [who]\n- Geography: [where]\n- Price point / business model: [if known]\n- Primary goal: [e.g., validate demand, find wedge, pick segment, messaging]\n- Constraints: [budget/time/tech/regulatory]\n\nDeliverable format (use these exact sections):\n1) Executive decision (1\u20133 sentences)\n- Give your best current recommendation, explicitly labeled as a hypothesis.\n\n2) What we\u2019re trying to learn (the \u201cdecision stack\u201d)\n- List 5\u201310 decision-driving questions in priority order (e.g., Which segment first? What\u2019s the switching trigger? What pricing band is plausible?).\n\n3) Market map (segmentation that actually helps)\n- Create a segmentation table with: Segment | Core job-to-be-done | Current workaround | Budget/ability to pay | Buying motion | Why now | Risks.\n- Include at least 4\u20137 segments and tell me which 1\u20132 are the best initial wedge and why.\n\n4) Demand signals and proxies\n- Provide 10\u201320 concrete signals to look for (queries, behaviors, communities, tooling stacks, hiring patterns, regulatory changes, seasonality, etc.).\n- For each signal: what it suggests, where to observe it, and how to quantify quickly.\n\n5) Competitive landscape (not a list\u2014an angle)\n- Identify competitor archetypes (e.g., incumbents, vertical SaaS, agencies, DIY tools, internal teams).\n- For each archetype: strengths, weaknesses, who they serve best, and the common \u201cgap\u201d we can exploit.\n- Add a positioning map: axes you choose + where the archetypes sit.\n\n6) Customer economics (rough, but explicit)\n- Provide a simple model: value created, cost of the problem, willingness-to-pay logic, and plausible pricing ranges.\n- State assumptions and sensitivity (what would change the conclusion).\n\n7) Go-to-market hypotheses\n- Propose 3 distinct GTM approaches (e.g., PLG, sales-led, channel/partner, community-led, wedge product).\n- For each: target segment, hook, acquisition channel, activation milestone, retention driver, and 2 \u201ckill criteria.\u201d\n\n8) Risks, unknowns, and what would falsify this\n- List the top 10 uncertainties.\n- For each: why it matters, what evidence would change your mind, and the fastest way to test.\n\n9) 30-day research and validation plan\n- A week-by-week plan with: activities, expected artifacts, and success criteria.\n- Include: interview script outline (10 questions), survey outline (8 questions), and a lightweight landing-page test plan.\n\n10) Sources + confidence\n- Separate: what you know vs what you\u2019re inferring.\n- Give confidence scores (High/Med/Low) per major claim.\n- If you can\u2019t cite sources, say so and propose what sources I should consult.\n\nWriting constraints:\n- Be clear and practical; avoid jargon unless it\u2019s necessary.\n- Make assumptions explicit; do not hide uncertainty.\n- Prefer bullet points, tables, and testable statements.\n\nBefore you start, ask up to 5 clarifying questions only if they materially change the output. Otherwise, proceed with reasonable assumptions and label them.",
         "images": [
             {
-                "original_filename": "evidence-backed-market-pov-quiet-archive-01.jpg",
+                "original_filename": "decision-ready-market-map-glass-wall-01.jpg",
                 "is_cover": true
             }
         ]
     },
     {
         "key": "growthgrid-011",
-        "title": "Turn One Blog Post Into 10 Platform-Specific Social Media Posts (Concise, Professional)",
+        "title": "Turn One Product Update Into 12 Social Posts (LinkedIn, X, Instagram, Threads)",
         "type": "text",
         "category_key": "social_media",
-        "content": "I\u2019m sharing a piece of content and I need ready-to-post social copy.\n\nSource content (paste):\n[PASTE BLOG/ARTICLE/THREAD/NOTES]\n\nTarget audience:\n[WHO IT\u2019S FOR]\n\nPrimary goal (pick one): awareness / clicks / leads / saves / replies\n\nPlatforms (pick any): LinkedIn, X, Instagram caption, TikTok caption, Facebook, Threads\n\nWrite 10 posts total, optimized for the selected platforms. Keep the tone professional and concise.\n\nRequirements:\n- For each post, include: Platform + Post text + 3\u20136 relevant hashtags (if appropriate for that platform).\n- Vary the angle each time (e.g., insight, contrarian take, quick tip, mini-case study, myth vs fact, checklist, mistake to avoid, lesson learned, quote, question).\n- Use plain language. No hype. No emojis unless the platform typically expects them.\n- Include one clear call-to-action per post (comment, save, share, click, DM, etc.).\n- If the source content is too long, extract the 5\u20137 most shareable points first, then write from those.\n\nOutput format:\nPost 1:\nPlatform:\nText:\nHashtags:\n\n\u2026through Post 10.",
+        "content": "Take the product update below and turn it into a ready-to-post social pack.\n\nProduct update (paste):\n- What\u2019s new:\n- Who it\u2019s for:\n- Key benefits (3):\n- Proof/metrics (optional):\n- CTA (what you want people to do):\n- Link (optional):\n- Brand voice notes (optional):\n\nOutput rules:\n- Write in a professional, concise tone.\n- No hashtags unless explicitly requested.\n- Avoid hype words (\"game-changing\", \"revolutionary\").\n- Keep claims specific; don\u2019t invent numbers.\n\nDeliver:\n1) LinkedIn: 2 posts (max 900 characters each)\n   - Post A: customer problem \u2192 update \u2192 benefit \u2192 CTA\n   - Post B: quick story (2\u20133 lines) \u2192 lesson \u2192 CTA\n2) X (Twitter): 4 tweets (max 240 characters each)\n   - 2 straightforward announcement tweets\n   - 1 \u201cbefore vs after\u201d tweet\n   - 1 question-led tweet\n3) Instagram: 3 captions\n   - 1 short (1\u20132 sentences)\n   - 1 medium (4\u20136 sentences)\n   - 1 carousel script: 6 slides with slide titles + 1 line each\n4) Threads: 3 posts (max 350 characters each) with a conversational but still professional tone\n\nEnd with:\n- 5 alternate CTA lines\n- A one-sentence \u201cpositioning line\u201d I can reuse across channels",
         "images": [
             {
-                "original_filename": "evening-content-repurpose-smartphone-living-room-01.jpg",
+                "original_filename": "one-update-many-posts-cinematic-social-pack-01.jpg",
                 "is_cover": true
             }
         ]
     },
     {
         "key": "growthgrid-012",
-        "title": "Turn Product Notes Into a High-Converting Landing Page (with A/B variants)",
+        "title": "Turn one product feature into a week of marketing content (multi-channel)",
         "type": "text",
         "category_key": "marketing",
-        "content": "Act like a conversion-focused marketing copywriter. Using the inputs below, write landing page copy that is clear, specific, and benefits-led (friendly, helpful tone\u2014no hype).\n\nInputs:\n- Product/service:\n- Ideal customer:\n- Customer\u2019s top pain points (bullets):\n- Primary promise/outcome:\n- Key features (bullets):\n- Proof assets (testimonials, stats, logos, case studies):\n- Objections/risks customers mention:\n- Competitors/alternatives:\n- Pricing model (if relevant):\n- Voice constraints (words to avoid, brand personality):\n\nDeliverables (keep each section skimmable):\n1) Above-the-fold block\n   - 8 headline options (mix of benefit-led, problem-led, outcome-led)\n   - 8 subheadline options (clarify who it\u2019s for + why now)\n   - 6 CTA button options (varied intent: demo, trial, download, talk to sales)\n\n2) Full landing page draft (in this order)\n   - Hero (headline + subhead + primary CTA + secondary CTA)\n   - \u201cFor who / not for who\u201d (2 short lists)\n   - Problem \u2192 impact \u2192 why current solutions fail (short, specific)\n   - Solution overview (how it works in 3 steps)\n   - Benefits (5\u20137 bullets) mapped to pains\n   - Feature-to-benefit table (at least 6 rows)\n   - Social proof section (write placeholders if none provided)\n   - Objection handling (answer top 5 objections)\n   - Pricing/plan framing (if pricing unknown, suggest 2\u20133 packaging options)\n   - FAQ (6\u20138 questions)\n   - Closing CTA block (restate outcome + risk reducer)\n\n3) A/B test pack\n   - 3 positioning angles (e.g., speed, reliability, cost, status/identity)\n   - For each angle: headline + subhead + primary CTA + 2 proof ideas\n   - 5 experiment ideas beyond copy (layout, proof placement, CTA style)\n\nRules:\n- Avoid vague claims (\u201cbest\u201d, \u201crevolutionary\u201d). Replace with concrete specifics.\n- If any critical input is missing, make reasonable assumptions and label them as assumptions at the top.\n- Keep reading level around grade 7\u20139.\n- Use short paragraphs and bullets; no walls of text.",
+        "content": "I\u2019m marketing a product and I want you to turn ONE feature into a cohesive, one-week content set across multiple channels.\n\nProduct context:\n- Product: [PRODUCT NAME]\n- Audience: [WHO IT\u2019S FOR]\n- The feature to focus on: [FEATURE]\n- Why it matters (benefit): [PRIMARY BENEFIT]\n- Proof we can mention (data, testimonial, demo, case study): [PROOF]\n- Brand voice: friendly, helpful, and clear (not hypey)\n- Offer/CTA: [FREE TRIAL / DEMO / WAITLIST / DOWNLOAD]\n- Constraints (claims to avoid, regulated language, competitors, etc.): [CONSTRAINTS]\n\nDeliverables (keep messaging consistent, adapt to channel):\n1) Positioning snippet\n- 1-sentence value proposition using the feature + benefit\n- 3 supporting bullets (each with a tangible outcome)\n\n2) Landing page section\n- Headline (max 10 words)\n- Subheadline (1\u20132 sentences)\n- 3 benefit bullets\n- 1 short \u201chow it works\u201d (3 steps)\n- CTA button copy (3 options)\n\n3) Email sequence (3 emails)\nFor each email: Subject line (3 options), preview text, body (120\u2013180 words), CTA.\n- Email 1: introduce the feature + problem\n- Email 2: show proof + how it helps\n- Email 3: handle objections + clear next step\n\n4) Social posts\n- LinkedIn: 2 posts (120\u2013180 words) with a strong hook in the first line\n- X/Twitter: 5 tweets (each < 240 characters)\n- Each post should include one concrete detail (number, example, mini-scenario) and avoid generic buzzwords.\n\n5) Short-form video script (30\u201345s)\n- Hook (first 2 seconds)\n- 3 beats (problem \u2192 feature \u2192 payoff)\n- On-screen text suggestions\n- Closing CTA\n\n6) In-app notification + push\n- In-app banner: headline (max 40 chars) + body (max 80 chars)\n- Push notification: title (max 30 chars) + body (max 90 chars)\n\nRules:\n- Write to [AUDIENCE] using plain language and active voice.\n- Make benefits specific (time saved, errors reduced, clarity gained, money saved, risk reduced\u2014choose what fits).\n- Don\u2019t invent facts. If [PROOF] is missing, flag where proof is needed and suggest 2 safe alternatives (e.g., \u201csee it in a 2-min demo\u201d).\n- End with a quick \u201cMessage map\u201d table: Channel \u2192 core message \u2192 CTA \u2192 proof used.\n\nIf anything is unclear, ask up to 3 questions first. Otherwise, proceed with reasonable assumptions and list them at the top.",
         "images": [
             {
-                "original_filename": "cafe-landing-page-mockup-ceramic-table-01.jpg",
+                "original_filename": "single-feature-week-of-content-hero-01.jpg",
                 "is_cover": true
+            },
+            {
+                "original_filename": "feature-to-multichannel-ripple-still-life-02.jpg",
+                "is_cover": false
             }
         ]
     },
     {
         "key": "growthgrid-013",
-        "title": "Hero image for a B2B email newsletter (confident, clean, grid theme)",
+        "title": "Cinematic email dashboard hero image for a dark UI",
         "type": "image",
         "category_key": "email",
-        "content": "Create a modern hero image for a B2B growth newsletter email.\n\nSubject & concept: An abstract \u201cgrowth grid\u201d visual\u2014an isometric grid of thin white lines forming a subtle 3D plane, with a few highlighted nodes connected by minimalist lines, implying momentum and clarity (no charts with numbers).\n\nComposition: Wide banner crop (recommended 1200\u00d7600). Clear safe area in the center-right for headline text overlay (leave it visually quiet). Primary focal point on the left third.\n\nStyle: Minimal, confident, structured, tech-forward. Crisp geometry, no clutter. No people, no devices, no logos, no readable text.\n\nColor palette: Deep navy background (#0B1020) with accents in electric teal (#2DE2E6) and soft lime (#B8FF4A). Use subtle gradients, not neon bloom.\n\nLighting & texture: Soft studio lighting, gentle vignette, faint grain. Nodes should have a restrained glow and slight depth (embossed or glass-like spheres), lines razor-sharp.\n\nCamera & rendering: Isometric angle (~30\u201335\u00b0 tilt), high detail, clean edges, premium 3D/CG render look (Octane/Redshift vibe), sharp but not overly glossy.\n\nNegative prompts: Avoid busy dashboards, stock-photo vibe, exaggerated lens flares, heavy bokeh, cartoon style, visible UI text, brand marks, and harsh noise.\n\nDeliverable: Single image, email-safe hero banner, high contrast, ample whitespace for copy.",
+        "content": "Create a premium, cinematic hero image for an email product inside a dark interface.\n\nScene: a minimalist workspace with a floating, semi-transparent UI panel showing an email inbox + campaign analytics (open rate, click rate, deliverability), with a few highlighted message cards and subtle graphs. No readable brand names; use abstract UI shapes and short, nonsensical labels.\n\nSubject & composition: 3/4 angle view of the UI panel hovering above a matte black desk surface; a sleek laptop edge partially visible in the foreground (out of focus). Use strong depth of field, subject centered slightly left, generous negative space on the right for potential headline text.\n\nLighting & mood: low-key, cool directional key light from upper left; soft rim light outlining the UI edges; gentle volumetric falloff; subtle reflections on glass and anodized metal. Calm, confident, structured vibe.\n\nColor palette: deep navy/charcoal background, cool whites, restrained cyan accents, hints of muted violet for chart highlights; controlled saturation; no warm daylight tones.\n\nStyle: high-end product render / photoreal hybrid, ultra-clean, crisp UI lines, soft shadows, minimal clutter.\n\nCamera: 50mm lens look, f/1.8 depth of field, slight bloom on highlights, high dynamic range, noise-free.\n\nInclude: small envelope icon motif embedded subtly in the UI; a thin progress bar and segmented metrics cards.\n\nAvoid: bright white backgrounds, sunny lifestyle scenes, wood-heavy warmth, messy desks, visible real email content, legible logos, cartoon styling.\n\nOutput: 16:9 aspect ratio, 4k detail, premium dark UI aesthetic.\n\nOptional placeholders: primary accent color = {ACCENT_COLOR (default: muted cyan)}; secondary accent = {SECONDARY_ACCENT (default: muted violet)}; device style = {DEVICE_STYLE (default: matte black)}",
         "images": [
             {
-                "original_filename": "b2b-growth-grid-hero-banner-01.jpg",
+                "original_filename": "cinematic-dark-email-dashboard-hero-01.jpg",
                 "is_cover": true
+            },
+            {
+                "original_filename": "teal-magenta-dark-email-ui-hero-02.jpg",
+                "is_cover": false
             }
         ]
     },
     {
         "key": "growthgrid-014",
-        "title": "Create a 90-Day Growth Plan with Weekly Experiments (B2B or B2C)",
+        "title": "Turn Raw Feature Notes Into a Clear Product Value Proposition (with options)",
         "type": "text",
         "category_key": "business",
-        "content": "Act like a pragmatic growth lead. Build a 90-day growth plan for my business with weekly experiments I can actually run.\n\nBusiness context:\n- What we sell:\n- Target customer:\n- Price point / contract size:\n- Current monthly traffic + top channels:\n- Current conversion rates (visit\u2192lead, lead\u2192trial/demo, trial\u2192paid):\n- Sales cycle length:\n- Main constraint (time, budget, team, product, data):\n- What\u2019s already been tried:\n- North Star metric:\n\nOutput requirements (be specific, no fluff):\n1) Growth model (1 page max):\n   - The funnel stages that matter for this business\n   - 3\u20135 leading indicators I should track weekly\n   - The single biggest bottleneck you suspect and why\n\n2) KPI targets for 90 days:\n   - Give a realistic baseline\u2192target for each KPI\n   - Include assumptions behind the math (keep it simple)\n\n3) Weekly experiment roadmap (12 weeks):\n   - 2 experiments per week (24 total)\n   - For each experiment include:\n     - Hypothesis\n     - Segment / audience\n     - Channel + tactic\n     - What to build/change (exact deliverable)\n     - Success metric + threshold\n     - Effort level (S/M/L) and expected impact (Low/Med/High)\n     - How to run it in 3\u20135 steps\n     - What could make results misleading\n\n4) Channel mix:\n   - Choose 3 \u201cprimary\u201d channels and 2 \u201csecondary\u201d channels\n   - Explain why they fit this business and constraint\n\n5) Messaging:\n   - 1 positioning statement\n   - 5 headline/value-prop variations\n   - 10 ad angles or outreach hooks (short, punchy)\n\n6) Ops + cadence:\n   - A weekly ritual (30\u201360 min) for reviewing results and deciding next actions\n   - A simple experiment log template (table)\n\nRules:\n- Prefer fast, testable actions over big projects.\n- If information is missing, make reasonable assumptions and list them.\n- Keep everything in clear tables/bullets so I can copy it into Notion.\n\nStart by asking up to 5 clarifying questions only if you truly need them; otherwise proceed with assumptions.",
+        "content": "I\u2019m going to paste messy notes about a product feature. Convert them into a crisp value proposition I can reuse across marketing and sales.\n\nInput notes:\n[PASTE NOTES HERE]\n\nAudience & context (if known):\n- Target customer:\n- Industry/use case:\n- Pricing tier (free/pro/enterprise):\n- Primary competitor / alternative:\n\nOutput (keep it modern, direct, and specific):\n1) One-sentence value proposition (max 18 words)\n2) 3 positioning angles (each with: headline + 2 bullet benefits)\n3) \u201cSo what?\u201d translation: map features \u2192 customer outcomes (table)\n4) Objections + counters: 5 common objections with short, confident replies\n5) Proof points I should collect (not claims): 6 items (metrics, testimonials, case study data, benchmarks)\n6) Website hero set: headline, subhead, primary CTA, secondary CTA (2 variants)\n7) Sales blurb: 75\u2013100 words, no fluff\n8) Tagline options: 12 punchy options, not cheesy\n\nRules:\n- Don\u2019t invent capabilities; if something is missing, write: \u201cNeed to confirm: ____\u201d.\n- Avoid buzzwords unless they add clarity (no \u201csynergy,\u201d \u201crevolutionary,\u201d \u201cbest-in-class\u201d).\n- Prefer concrete outcomes (time saved, errors reduced, revenue protected) over vague benefits.\n- If my notes are contradictory, point it out and offer the cleanest assumption set.\n- Keep sentences short. Make every line skimmable.",
         "images": [
             {
-                "original_filename": "90-day-growth-experiments-sticky-wall-01.jpg",
+                "original_filename": "messy-notes-to-clear-positioning-wall-01.jpg",
                 "is_cover": true
             }
         ]
     },
     {
         "key": "growthgrid-015",
-        "title": "Quick UI Critique + Actionable Fixes (Accessibility, UX, Visual Hierarchy)",
+        "title": "Turn a rough feature idea into a crisp UI spec (screen + states)",
         "type": "text",
         "category_key": "design",
-        "content": "Act as a senior product designer. I\u2019m going to paste a UI description (or screenshot text) below. Give a quick, practical critique and a short list of fixes I can implement today.\n\nUI/context:\n- Product + screen: \n- Primary user goal on this screen: \n- Platform (web/iOS/Android): \n- Key constraints (brand, dev limits, deadline): \n\nWhat I need from you:\n1) Biggest 3 usability issues (in plain language) and why they matter.\n2) Visual hierarchy check: what should be the #1 focal point, what currently is, and how to correct it.\n3) Accessibility pass: color contrast, text sizing, focus states/keyboard nav, tap targets (call out likely WCAG pitfalls without being preachy).\n4) Microcopy improvements: rewrite labels/buttons/errors (max 6 rewrites) to be clearer and more consistent.\n5) \u201cDo this first\u201d plan: 5 bullet-point changes ordered by impact vs effort.\n\nKeep it concise. If details are missing, make reasonable assumptions and list them under \u201cAssumptions.\u201d\n\nHere\u2019s the UI description:\n[PASTE HERE]",
+        "content": "I\u2019m designing a UI for: [product/app]\nFeature: [feature name]\nPrimary user: [who]\nCore goal: [what they\u2019re trying to do]\nPlatform: [web/ios/android]\nConstraints: [brand, accessibility, tech, timeline]\n\nTake my rough notes below and turn them into a clear, build-ready UI spec for ONE screen.\n\nRough notes:\n[paste notes]\n\nOutput format (keep it concise, no fluff):\n1) Screen purpose (1\u20132 sentences)\n2) Information architecture: list the sections in top-to-bottom order\n3) Component inventory: table with Component | Purpose | Default content | Variants/states (hover/active/disabled/loading/empty/error) | Notes\n4) Interaction rules: bullet list of key behaviors (validation, confirmations, keyboard, gestures)\n5) Edge cases: 6\u201310 bullets that a designer/engineer would actually miss\n6) Acceptance criteria: 8\u201312 testable statements (Given/When/Then)\n\nGuidelines:\n- Prefer standard UI patterns over novelty.\n- Call out any missing info as \u201cOpen questions\u201d at the end (max 6), but still make reasonable assumptions.\n- Write like you\u2019re handing this to a product engineer tomorrow.",
         "images": [
             {
-                "original_filename": "skybridge-ui-critique-morning-01.jpg",
+                "original_filename": "streetlight-tablet-ui-spec-01.jpg",
                 "is_cover": true
+            },
+            {
+                "original_filename": "rainy-bus-stop-mobile-states-02.jpg",
+                "is_cover": false
             }
         ]
     },
     {
         "key": "growthgrid-016",
-        "title": "Campaign Ops System: UTM schema, lead routing, and attribution rules (copy/paste)",
+        "title": "Campaign Ops + Attribution Router (UTMs, channels, owners, SLAs, dashboards)",
         "type": "other",
         "category_key": "marketing",
-        "content": "Act as a campaign-ops architect. Build a reusable growth system that standardizes tracking, attribution, and lead routing across paid + owned channels.\n\nContext\n- Company/product: [brief description]\n- ICPs: [list]\n- Markets/regions: [list]\n- Primary conversion events: [e.g., demo request, trial start, purchase]\n- CRM: [HubSpot/Salesforce/other]\n- Ad platforms: [Google, Meta, LinkedIn, etc.]\n- Analytics: [GA4/Amplitude/Mixpanel/other]\n- Data warehouse (optional): [BigQuery/Snowflake/none]\n- Routing constraints: [territories, segments, SLAs, round robin, named accounts]\n\nDeliverables (return in the exact structure below)\n\n1) Canonical Naming + UTM/Parameter Spec\n- Provide a table with:\n  - Field name (utm_source, utm_medium, utm_campaign, utm_content, utm_term, plus any custom params like gclid/fbclid/msclkid, campaign_id, adset_id, ad_id, creative_id, placement)\n  - Allowed values / controlled vocabulary\n  - Format rules (case, separators, max length)\n  - Example\n- Include a campaign naming convention formula that encodes: channel, objective, ICP/segment, geo, offer, quarter, and experiment flag.\n- Add validation rules that can be enforced at link-creation time.\n\n2) Channel Mapping Matrix\n- Create a matrix mapping common sources/mediums to standardized channel groupings.\n- Include rules to normalize messy inputs (e.g., \u201cpaid_social\u201d vs \u201cpaidsocial\u201d, \u201clinkedin.com\u201d vs \u201clinkedin\u201d, email vendors, affiliates, partner referrals).\n- Output as a simple, machine-friendly table.\n\n3) Attribution Model Rules (Operational)\n- Define how to calculate:\n  - First-touch\n  - Last-touch\n  - Lead-creation touch\n  - Opportunity-creation touch\n  - Revenue touch\n- Specify lookback windows per channel (paid search, paid social, email, direct/organic).\n- Provide tie-breakers when multiple touches qualify.\n- State how you will handle:\n  - Cross-domain tracking\n  - Cookie loss / ITP\n  - Offline conversions (calls, events)\n  - Self-referrals and payment providers\n\n4) Lead Routing Logic\n- Produce routing rules in a decision-tree format (if/then) that assigns:\n  - Owner (AE/SDR/CS)\n  - Pipeline (inbound, self-serve, partner, expansion)\n  - Priority score (P0/P1/P2)\n  - SLA (time-to-first-touch)\n- Inputs available: form fields, geo, employee size, industry, intent score, product interest, existing account match, partner code.\n- Include a fallback path for missing/invalid data.\n\n5) Data Contract (Events + Properties)\n- Define a minimal event schema for the funnel with:\n  - Event names (page_view, form_submit, signup_start, signup_complete, demo_request, trial_start, purchase, etc.)\n  - Required properties (user_id, anonymous_id, timestamp, url, referrer, utm fields, campaign_id, device, geo)\n  - Identity stitching rules\n- Output in JSON Schema-like format.\n\n6) QA Checklist + Monitoring\n- Provide a pre-launch checklist (links, UTMs, pixel firing, form mapping, CRM fields).\n- Provide post-launch monitoring queries/alerts described in plain steps (e.g., \u201calert if >10% of leads have null utm_campaign\u201d, \u201cspike in direct traffic\u201d).\n- Include a weekly ops review template that produces metrics, not prose.\n\n7) Example Implementation Pack\n- Give:\n  - 5 example campaign names + UTMs for different channels\n  - 3 example routing outcomes with sample lead payloads\n  - A short \u201cDo/Don\u2019t\u201d list for marketers creating links\n\nConstraints\n- Keep it platform-agnostic.\n- Prefer deterministic rules over vague guidance.\n- Use concise language; tables and structured blocks over paragraphs.\n\nAsk up to 5 clarifying questions only if critical information is missing; otherwise make reasonable assumptions and state them briefly at the top.",
+        "content": "Act as my campaign-operations architect. Build a reusable routing + attribution system for marketing growth.\n\nContext\n- Company/product: {{company}}\n- Primary goal: {{goal}} (e.g., pipeline, trials, purchases, retention)\n- Geo/timezone: {{geo_tz}}\n- Sales motion: {{sales_motion}} (PLG / sales-led / hybrid)\n- CRM + MAP: {{crm_map}} (e.g., HubSpot + Salesforce)\n- Source channels we use: {{channels}} (paid search, paid social, affiliates, email, SEO, partners, events, communities, etc.)\n- Destinations: {{destinations}} (landing pages, app, checkout, demo form, webinar reg)\n- Team/owners: {{teams_and_owners}} (names/roles or functions)\n- Constraints: {{constraints}} (budget caps, compliance, sales territories, data retention)\n\nDeliverable\nCreate an operational spec that I can hand to both marketing and analytics. Output in structured sections with tables where helpful.\n\n1) Canonical UTM + Tracking Taxonomy\n- Define required parameters (utm_source, utm_medium, utm_campaign, utm_content, utm_term) plus any additional keys we should standardize (e.g., utm_id, creative_id, adset_id, placement, matchtype).\n- Provide allowed values and naming conventions (case, separators, date rules, campaign hierarchies).\n- Include 8\u201312 examples across our channels showing \u201cgood\u201d UTMs.\n- Include rules for special cases: dark social, offline/event scans, QR codes, partner links, influencer codes, app-to-web, web-to-app.\n\n2) Source-of-Truth Mapping (Attribution Inputs)\n- Define how we map raw inbound data into:\n  - Channel Group\n  - Campaign\n  - Initiative/Theme\n  - Offer\n  - Audience/ICP segment\n  - Geo/territory\n- Provide a mapping table with:\n  - Incoming signal (UTM/referrer/platform field)\n  - Transformation rule (regex/lookup)\n  - Output field\n  - Fallback when missing\n- Specify precedence order when fields conflict (e.g., gclid vs UTMs, platform click IDs vs referrer).\n\n3) Lead/Signup Routing Logic (Decision Tree)\n- Build a decision tree that assigns each inbound lead/signup to:\n  - Owner/team\n  - Priority (P0/P1/P2)\n  - SLA (time-to-first-touch)\n  - Next action (sequence, call, nurture, product prompt)\n- Inputs to consider: channel, intent, form type, company size, job title, geo, existing account match, product usage, partner source.\n- Include dedupe/merge rules (email/domain matching), and what happens when data is incomplete.\n\n4) Lifecycle + Conversion Definitions\n- Define lifecycle stages and the exact entry/exit criteria (MQL/SQL/Opportunity/Activated/Retained\u2014tailor to our goal).\n- Provide event instrumentation checklist for each destination (landing page, form, app events, checkout).\n- Specify how we handle multi-touch vs last-touch, and recommend a default attribution model with justification.\n\n5) Operational Workflow (Campaign Intake \u2192 Launch \u2192 QA \u2192 Reporting)\n- Create a lightweight process with roles, required fields, and approvals.\n- Include:\n  - Campaign intake form fields\n  - Pre-launch QA checklist (links, UTMs, pixels, events, consent, CRM field capture)\n  - Post-launch monitoring checks (spend anomalies, conversion drops)\n  - Weekly hygiene tasks (taxonomy audits, broken UTMs, unmapped sources)\n\n6) Dashboard + Reporting Schema\n- Define a minimal data model (tables/fields) for reporting: Sessions/Clicks, Leads/Signups, Opportunities/Revenue, Costs.\n- Provide the KPI set by funnel stage, with formulas.\n- Specify breakdowns that must always work (channel group, campaign, geo, device, landing page, audience).\n- Include a reconciliation plan between ad platforms, analytics, and CRM.\n\n7) Output Artifacts\nReturn the following artifacts in your final answer:\n- A \u201cUTM Standard\u201d one-pager (bullets)\n- A mapping rules table (operator-ready)\n- A routing decision tree (readable text or pseudo-logic)\n- A launch QA checklist\n- A dashboard field dictionary\n\nConstraints\n- Keep it practical; avoid vendor-specific steps unless I name tools.\n- Prefer deterministic rules over vague guidance.\n- Call out assumptions explicitly.\n\nIf anything essential is missing, ask up to 5 clarifying questions; otherwise proceed with reasonable defaults and label them as defaults.",
         "images": [
             {
-                "original_filename": "utm-routing-attribution-machine-01.jpg",
+                "original_filename": "attribution-routing-switchboard-hub-01.jpg",
                 "is_cover": true
             }
         ]

@@ -1,195 +1,195 @@
 [
     {
         "key": "classmind-001",
-        "title": "Turn Rough Notes into a Clear One-Page Class Handout",
+        "title": "Turn rough notes into a clear one-page memo (no fluff)",
         "type": "text",
         "category_key": "writing",
-        "content": "Take my rough notes and turn them into a one-page handout for students.\n\nRequirements:\n- Audience: [grade/level + subject]\n- Goal: Students should understand and be able to do: [learning objective]\n- Keep it concise, plain language, and classroom-ready.\n- Do not add new concepts I didn\u2019t mention; you may add tiny bridging phrases only.\n\nOutput format:\n1) Title\n2) \u201cWhat you need to know\u201d (3\u20136 bullets)\n3) Key terms (up to 6, each with a one-line definition)\n4) Worked example (if my notes include procedures/problems; otherwise skip)\n5) Common mistakes (3 bullets)\n6) Quick check (5 short questions: mix of multiple-choice and short answer)\n7) Answer key\n\nHere are my notes (messy is fine):\n[paste notes here]",
+        "content": "Rewrite the notes below into a clear, practical one-page memo.\n\nRequirements:\n- Keep the meaning; don\u2019t add new claims.\n- Use plain English and short sentences.\n- Remove repetition and filler.\n- If something is unclear or missing, insert a bracketed question like: [Need date], [Define KPI].\n- Keep it to ~300\u2013450 words.\n\nStructure:\n1) Title (specific)\n2) Purpose (1\u20132 sentences)\n3) Key points (bullets)\n4) Decision / ask (what needs to happen next)\n5) Next steps (3\u20135 bullets with owner + due date placeholders)\n\nNotes to rewrite:\n[paste notes here]",
         "images": [
             {
-                "original_filename": "library-rough-notes-to-handout-01.jpg",
+                "original_filename": "chaos-to-clear-one-page-memo-01.jpg",
                 "is_cover": true
             }
         ]
     },
     {
         "key": "classmind-002",
-        "title": "Write a concise product landing page hero section (headline, subhead, CTA)",
+        "title": "Turn Product Notes Into a Clear Landing Page Hero (Headline + Subhead + CTAs)",
         "type": "text",
         "category_key": "marketing",
-        "content": "Write a landing page hero section for the product described below.\n\nProduct details:\n- Product name: [Name]\n- What it is (1 sentence): [Description]\n- Target customer: [Audience]\n- Main pain point: [Pain]\n- Key benefit/outcome: [Benefit]\n- Top 3 features (bullets): [Feature 1], [Feature 2], [Feature 3]\n- Proof/trust signals: [Metrics, customers, testimonials, compliance]\n- Tone: professional, concise\n\nOutput requirements:\n- Headline: 6\u201310 words, clear outcome-focused (no hype)\n- Subheadline: 1\u20132 sentences, specify who it\u2019s for + how it helps\n- 3 benefit bullets (not features), each 6\u201310 words\n- Primary CTA button text (2\u20134 words) + secondary CTA (2\u20134 words)\n- One sentence of microcopy under CTA that reduces friction (e.g., \u201cNo credit card required.\u201d)\n- Provide 3 alternative headlines at the end.\n\nConstraints:\n- Avoid jargon, exclamation points, and vague claims (\u201cbest\u201d, \u201crevolutionary\u201d).\n- Use plain language and concrete outcomes.",
+        "content": "Use the details below to write a landing page hero section that\u2019s clear, specific, and conversion-focused.\n\nInput\n- Product/service: \n- Target customer: \n- Top problem they feel today: \n- Key outcome they want: \n- 3 main features (plain language): \n- Proof (metrics, logos, testimonials, years, or \"none\"): \n- Differentiator (why us vs alternatives): \n- Offer (free trial/demo/consultation/etc.): \n- Primary CTA text (if you have one): \n- Brand voice keywords (e.g., direct, calm, bold): \n- Must-avoid words/claims: \n\nOutput (professional, concise)\n1) 10 headline options (max 8 words each). Avoid hype; make the value concrete.\n2) For the best 3 headlines, write matching subheads (1\u20132 sentences) that clarify who it\u2019s for and what changes.\n3) 2 CTA button options + 2 secondary CTA options.\n4) One-sentence \u201cmicro-proof\u201d line (use proof provided; if none, write a credibility-safe line without numbers).\n\nRules\n- No clich\u00e9s (\"revolutionary\", \"game-changer\", \"world-class\").\n- Prefer specific nouns/verbs over adjectives.\n- If any input is missing or vague, make the smallest reasonable assumption and keep claims conservative.",
         "images": [
             {
-                "original_filename": "calm-cta-decision-coffee-shop-hero-01.jpg",
+                "original_filename": "clarity-from-notes-hero-wall-01.jpg",
                 "is_cover": true
             }
         ]
     },
     {
         "key": "classmind-003",
-        "title": "Friendly Instagram Carousel: 5 Study Tips With Clean Icons on Pastel Gradient",
+        "title": "Friendly social media Q&A sticker set on dark UI (premium, cinematic)",
         "type": "image",
         "category_key": "social_media",
-        "content": "Design a 5-slide Instagram carousel that teaches simple study tips in a friendly, helpful style.\n\nVisual style: clean modern vector illustration, soft pastel gradient backgrounds (mint \u2192 lavender), rounded shapes, subtle grain texture, lots of white space, high contrast for readability, consistent icon set (line icons with rounded corners), gentle drop shadows.\n\nFormat: 1080x1350 (4:5) for each slide, safe margins, space at the bottom for UI. Keep text minimal and bold.\n\nSlide-by-slide composition:\n1) Cover: big title \u201c5 Study Tips That Actually Work\u201d + small subtitle \u201cSave this for later\u201d + friendly character holding a notebook, confetti-like dots.\n2) Tip 1: \u201cStudy in 25-minute sprints\u201d (Pomodoro) + timer icon + small progress bar.\n3) Tip 2: \u201cTest yourself, don\u2019t reread\u201d + flashcard icon + checkmarks.\n4) Tip 3: \u201cExplain it like you\u2019re teaching\u201d + speech bubble + simple diagram doodle.\n5) Tip 4 & 5 split: left \u201cPlan tomorrow in 2 minutes\u201d (calendar icon) right \u201cSleep = memory\u201d (moon icon) + tiny footer \u201c@classmind\u201d.\n\nTypography: bold rounded sans-serif for headings, smaller regular sans-serif for subtext; ensure crisp, legible text.\n\nLighting/mood: bright, upbeat, approachable; no harsh shadows.\n\nNegative prompts: photorealistic people, cluttered layout, excessive text, neon colors, messy handwriting, watermark, low-res, blurry text.\n\nOutput: five separate images, consistent layout system and color palette across all slides.",
+        "content": "Create a cohesive set of 6 square social media story stickers (1:1) designed for a dark-mode interface. Each sticker should feature a friendly, helpful micro-prompt for audience engagement (e.g., \u201cAsk me anything\u201d, \u201cQuick poll\u201d, \u201cThis or that\u201d, \u201cDrop a win\u201d, \u201cNeed advice?\u201d, \u201cHot take?\u201d) using short text that is clearly readable.\n\nVisual style: premium, cinematic, low-key lighting; cool/neutral color grading; deep navy/charcoal backgrounds with subtle grain and soft vignette; restrained saturation; gentle glow accents in cool cyan/blue-violet; minimal geometric shapes (rounded rectangles, thin outlines), soft shadows, and tasteful depth.\n\nComposition: centered text with ample padding; one small icon per sticker (outline style) that matches the prompt (speech bubble, sliders, checkmarks, lightning bolt, etc.); consistent typography feel (clean modern sans, slightly condensed, high legibility). Keep a unified design system across all 6\u2014same spacing, corner radius, icon stroke weight, and lighting.\n\nCamera/texture cues: crisp vector-like edges blended with subtle realistic UI lighting; slight emboss/deboss effect; soft reflections as if viewed on a high-end OLED screen.\n\nAvoid: bright white backgrounds, warm cozy daylight, busy patterns, cluttered gradients, heavy neon, playful cartoon vibes, random fonts.\n\nOutput: one image containing a 2x3 grid of the six stickers, evenly spaced, on a dark canvas; no logos or brand names; no watermarks; text must be spelled correctly and fully readable.",
         "images": [
             {
-                "original_filename": "study-tips-carousel-pastel-gradient-icons-01.jpg",
+                "original_filename": "dark-ui-cinematic-qa-sticker-grid-01.jpg",
                 "is_cover": true
             }
         ]
     },
     {
         "key": "classmind-004",
-        "title": "Write a confident, structured email that drives a clear decision",
+        "title": "Write a confident, structured email that gets a clear decision",
         "type": "text",
         "category_key": "email",
-        "content": "Draft a confident, structured email for the situation below.\n\nContext\n- Who I\u2019m writing to (role + relationship): [e.g., vendor account manager / internal stakeholder / client]\n- What I need from them (single decision or action): [decision/action]\n- Why now (deadline or trigger): [date/event]\n- Background in 2\u20134 bullets (only what they need):\n  - [bullet]\n  - [bullet]\n  - [bullet]\n- Constraints (budget, scope, policy, dependencies): [constraints]\n- My preferred outcome: [what \u201cyes\u201d looks like]\n- Acceptable alternatives: [option B/C]\n- Attachments/links to reference (if any): [items]\n\nRequirements\n- Tone: confident, structured, calm; no fluff; no apologies unless truly needed\n- Keep it concise (120\u2013220 words) but complete\n- Use short paragraphs and, if helpful, a tiny bullet list\n- Include a clear call to action with a specific deadline\n- Avoid jargon; make it easy to skim on mobile\n\nOutput format\n1) Subject line options (3), each under 60 characters\n2) Email body\n3) One-line follow-up message to send if no reply after 2 business days\n\nWrite the email now using my details.",
+        "content": "Help me write a confident, structured email that drives a clear decision without sounding pushy.\n\nContext (paste and keep what\u2019s relevant):\n- Recipient(s) + role(s):\n- My role / team:\n- Relationship / history in 1\u20132 lines:\n- Topic / request:\n- Why it matters (impact, deadline, risk):\n- What I\u2019ve already done:\n- Constraints (budget, policy, scope, dependencies):\n- Proposed path forward:\n- Decision needed from them (be explicit):\n- Options I can offer (up to 3):\n- My recommended option and why:\n- Timeline (preferred decision date + key dates):\n- Links / docs to reference:\n- Any sensitivities (politics, tone, legal, layoffs, etc.):\n\nRequirements:\n- Tone: confident and structured; calm, professional, and respectful.\n- Keep it skimmable: short paragraphs, clear headers, and bullets where helpful.\n- Lead with the ask in the first 2 sentences.\n- Include a single, unambiguous call to action with a date/time.\n- If information is missing, make reasonable assumptions and mark them as [ASSUMPTION].\n- Avoid jargon, filler, and apology-heavy language.\n\nOutput:\n1) Subject line options (5), varying urgency.\n2) Email body.\n3) A 1-sentence follow-up message if there\u2019s no reply after 48 hours.\n4) A version that is 30% shorter (same content, tighter).\n\nHere is the raw input to use:\n<<<\nPASTE MY NOTES HERE\n>>>",
         "images": []
     },
     {
         "key": "classmind-005",
-        "title": "Turn a rough business idea into a 1-page plan + next steps",
+        "title": "Turn a messy product idea into a 1-page business pitch",
         "type": "text",
         "category_key": "business",
-        "content": "Take my rough business idea and turn it into a crisp 1-page plan I can share with a colleague.\n\nMy idea (messy is fine):\n[Paste idea here]\n\nOutput (keep it modern and direct):\n- One-sentence summary\n- Target customer: who, where they are, what they struggle with\n- Problem: 3 bullets (plain language)\n- Solution: what we do + what we don\u2019t do\n- Value proposition: 3 punchy bullets\n- How we make money: pricing options + what to test first\n- Go-to-market: 5 concrete channels/tactics with first action for each\n- Differentiation: 3 likely competitors/alternatives and how we\u2019re different\n- Risks & assumptions: top 5 with how to validate quickly\n- 14-day plan: day-by-day actions (small team, limited budget)\n\nConstraints:\n- No buzzwords, no fluff, no long paragraphs.\n- If something is unclear, make a reasonable assumption and label it \u201cAssumption: \u2026\u201d.\n- End with 5 questions I should answer next to tighten the plan.",
+        "content": "Take my rough product idea below and turn it into a crisp 1-page business pitch I can paste into a doc.\n\nRequirements:\n- Keep it modern, direct, and free of buzzwords.\n- If something is unclear, make the smallest reasonable assumption and flag it as an assumption (don\u2019t ask me questions first).\n- Use short sections with punchy bullets.\n- Focus on what an operator or investor would actually want to know.\n\nInclude these sections:\n1) One-liner (what it is + who it\u2019s for + outcome)\n2) Problem (3 bullets) and why now (2 bullets)\n3) Target customer (primary + secondary) + a concrete use case\n4) Solution overview (what the user does in 5 steps)\n5) Differentiation (3 clear points vs. common alternatives)\n6) Business model (pricing idea + what drives expansion)\n7) Go-to-market (first 3 channels + first 2 partnerships)\n8) Metrics that matter (activation, retention, revenue, efficiency)\n9) Risks & mitigations (top 3)\n10) 30/60/90-day plan (specific actions, not goals)\n\nMy rough idea (paste and work from this):\n[IDEA]",
         "images": [
             {
-                "original_filename": "founder-turning-idea-into-one-page-plan-01.jpg",
+                "original_filename": "one-page-pitch-clarity-moment-01.jpg",
                 "is_cover": true
             }
         ]
     },
     {
         "key": "classmind-006",
-        "title": "Quick UX critique with prioritized fixes (for a screen or flow)",
+        "title": "Turn a rough product idea into a simple UI concept and layout plan",
         "type": "text",
         "category_key": "design",
-        "content": "Act as a UX designer doing a fast, practical critique.\n\nContext:\n- Product/app: [what it is]\n- Target user: [who]\n- User goal: [what they\u2019re trying to do]\n- Screen/flow to review: [paste copy, describe layout, or list steps]\n- Constraints: [deadlines, tech limits, brand rules]\n\nDeliver:\n1) Top 5 issues you see (highest impact first). For each: what\u2019s happening, why it\u2019s a problem, and who it affects.\n2) Recommended fixes for each issue, written as concrete UI changes (copy, layout, controls, states).\n3) A \u201cdo this first\u201d plan: 3 quick wins (\u22641 day each) + 2 deeper improvements (multi-day).\n4) Any missing info you\u2019d ask for, but still make reasonable assumptions and proceed.\n\nKeep it clear and actionable. Avoid jargon unless you define it briefly.",
+        "content": "I\u2019m designing a new feature/page. Take my rough description and turn it into a clear, usable UI concept.\n\nInput (messy notes):\n[PASTE IDEA HERE]\n\nOutput:\n1) One-sentence purpose of the screen\n2) Primary user and their top goal\n3) Key states to design (empty, loading, error, success, first-time)\n4) Layout plan for desktop and mobile (describe sections top-to-bottom)\n5) Core components list (buttons, tables, cards, forms, filters, etc.) with short notes on behavior\n6) Primary and secondary CTAs (exact button labels)\n7) 5 microcopy lines I can paste in (headings, helper text, empty-state text, error message)\n8) Top 3 usability risks + how to reduce them\n\nConstraints:\n- Keep it lightweight: avoid long explanations.\n- Prefer familiar patterns over novelty.\n- Assume accessibility basics (contrast, keyboard focus, clear labels).\n\nIf anything critical is missing, ask up to 3 targeted questions, then proceed with reasonable assumptions.",
         "images": [
             {
-                "original_filename": "stone-table-ux-flow-fixes-01.jpg",
+                "original_filename": "ui-layout-plan-magnetic-board-01.jpg",
                 "is_cover": true
             }
         ]
     },
     {
         "key": "classmind-007",
-        "title": "Photorealistic product hero shot for an AI classroom app (mobile UI in hand)",
-        "type": "image",
+        "title": "Premium dark UI hero image: abstract AI network orb",
+        "type": "text",
         "category_key": "image_generation",
-        "content": "Create a photorealistic product hero image for an AI classroom app called \u201cclassmind\u201d. Scene: a teacher\u2019s hand holding a modern smartphone showing a clean, minimal app dashboard (no readable text, just simple UI shapes and charts). Background: softly blurred classroom with warm daylight through windows, students out of focus, subtle chalkboard texture. Composition: vertical 4:5, phone centered slightly right, shallow depth of field (bokeh), crisp focus on the phone and fingertips. Lighting: natural morning light with gentle highlights, soft shadows, neutral color grading. Style: high-end tech marketing photo, realistic skin texture, accurate reflections on glass screen, no exaggerated HDR. Add a small desk edge at bottom-left with a notebook and pen slightly blurred. Avoid logos, watermarks, extra hands, distorted fingers, or messy UI. Output: ultra-detailed, photorealistic, clean and modern.",
+        "content": "Generate a cinematic hero image for a dark product interface.\n\nSubject: an abstract \u201cAI network orb\u201d made of thin metallic filaments and subtle glowing nodes, hovering above a matte black surface.\nComposition: centered, symmetrical, plenty of negative space for headline text; shallow depth of field; slight top-down 3/4 angle.\nLighting: low-key studio lighting with a cool rim light and soft fill; gentle specular highlights; soft shadows; no harsh reflections.\nColor grade: cool neutrals (charcoal, slate, deep navy) with restrained cyan/blue accents; minimal saturation.\nBackground: dark gradient with faint atmospheric haze; no clutter, no text, no logos.\nStyle: premium, high-end tech aesthetic; photoreal/CG hybrid; ultra-clean.\nOutput: 16:9, high resolution, crisp details, noise-free.",
         "images": [
             {
-                "original_filename": "teacher-hand-ai-app-hero-hallway-morning-01.jpg",
+                "original_filename": "ai-network-orb-dark-ui-hero-01.jpg",
                 "is_cover": true
             }
         ]
     },
     {
         "key": "classmind-008",
-        "title": "Friendly coding mentor scene: cozy desk, readable code on screen, warm lighting",
+        "title": "Cinematic dark-mode coding workspace hero image (friendly, calm, premium)",
         "type": "image",
         "category_key": "coding",
-        "content": "Create a warm, friendly illustration of a coding mentor vibe in a cozy home office.\n\nScene & subject:\n- A modern laptop on a wooden desk, screen showing a clean code editor with readable (but fictional) JavaScript/TypeScript code and helpful inline comments.\n- A sticky note near the laptop that says: \u201cYou\u2019ve got this.\u201d\n- A mug of tea/coffee, a small plant, and a simple mechanical keyboard or notebook nearby.\n\nComposition:\n- 3/4 angle from slightly above desk height, framing the laptop as the focal point.\n- Shallow depth of field: screen and hands/keyboard sharp, background softly blurred.\n- Subtle visual cues of learning: a small checklist page with a few items ticked.\n\nLighting & mood:\n- Golden hour window light from the side + soft desk lamp fill.\n- Friendly and helpful mood; inviting, calm, not overly dramatic.\n\nStyle:\n- Semi-realistic digital art (not photoreal), clean shapes, gentle textures.\n- Warm color palette (amber, soft browns, muted greens) with a touch of cool blue from the screen.\n\nDetails to avoid:\n- No logos, no identifiable brand UI, no copyrighted icons.\n- No messy clutter; keep it tidy and approachable.\n\nOutput:\n- High resolution, crisp focus on the code and desk objects, minimal noise.",
+        "content": "Cinematic hero image of a modern coding workspace designed to sit inside a dark product UI: a laptop on a matte black desk with a code editor open (clean syntax highlighting, no readable brand names), subtle terminal pane, and a small floating tooltip-style UI bubble that feels friendly and helpful (minimal rounded rectangle, soft glow, no text or only abstract glyphs). Nighttime studio setting with low-key, directional light from the left, soft shadows, gentle rim light on the laptop edges, and a faint cool neon accent (deep navy + charcoal + cool gray with a hint of blue/purple). Composition: 3/4 angle from slightly above, medium close-up, shallow depth of field, background falls into a dark blur with a few out-of-focus bokeh lights. Materials: anodized aluminum laptop, textured keycaps, microfiber desk mat, subtle cable management. Mood: calm, approachable, focused, premium. Color grading: restrained saturation, cool/neutral, high dynamic range but not harsh.\n\nCamera look: 50mm lens, f/1.8, ISO 400, 1/60, crisp foreground detail, soft atmospheric falloff.\n\nNegative prompts: bright daylight, warm orange cast, cozy lifestyle scene, white background, clutter, messy cables, readable logos/brands, meme imagery, overly vibrant colors, cartoon style, excessive bloom, busy UI text, watermarks.",
         "images": [
             {
-                "original_filename": "cozy-coding-mentor-desk-warm-light-01.jpg",
+                "original_filename": "cinematic-dark-mode-coding-workspace-hero-01.jpg",
                 "is_cover": true
             }
         ]
     },
     {
         "key": "classmind-009",
-        "title": "Weekly Productivity Reset: pick priorities, block time, and define next actions",
+        "title": "Turn a messy to-do list into a realistic daily plan (time-blocked)",
         "type": "text",
         "category_key": "productivity",
-        "content": "Help me do a 30-minute weekly productivity reset. Keep it confident, structured, and concise.\n\nMy context (paste and work from this):\n- Roles/areas: [e.g., Work, Personal, Health]\n- Big goals (next 3 months):\n  1) \u2026\n  2) \u2026\n  3) \u2026\n- Fixed commitments this week (meetings, deadlines, travel):\n- Current task dump (messy is fine):\n- Energy constraints (sleep, workouts, caregiving, etc.):\n\nWhat I want you to produce:\n1) Top 3 priorities for the week (with a one-sentence \u201cwhy now\u201d for each)\n2) A short \u201cNot doing / Defer\u201d list to protect focus\n3) For each priority: 3\u20137 concrete next actions written as verbs (each action <= 15 minutes when possible)\n4) A time-blocking plan for Mon\u2013Sun:\n   - show morning/afternoon/evening blocks\n   - include buffer time and admin time\n   - schedule the next actions into blocks\n5) A daily checklist template (5 lines max) I can reuse\n6) A risk list: what could derail me + a specific countermeasure for each\n\nRules:\n- If something is ambiguous, make a sensible assumption and note it briefly.\n- Prefer fewer, finishable commitments over exhaustive lists.\n- Use bullet points and short headings only\u2014no long paragraphs.",
+        "content": "Take my raw to-do list and turn it into a realistic plan for today.\n\nInputs I\u2019ll paste below:\n1) My to-do list (messy is fine)\n2) Any fixed appointments + times\n3) My available work window (start/end) + timezone\n\nWhat I want back:\n- A prioritized list using: Must / Should / Could\n- A time-blocked schedule that fits my work window (include short breaks)\n- For each Must item: the next physical action (one sentence)\n- If the list doesn\u2019t fit: clearly state what gets deferred and why\n- A 2-minute \u201cstart now\u201d step that gets me moving immediately\n\nRules:\n- Be strict about time; don\u2019t assume I can do 8 hours of deep work.\n- Default to 60\u201390 minute focus blocks.\n- If any task is vague, rewrite it into an actionable version.\n\nHere are my details:\n[PASTE TO-DO LIST]\n\nAppointments:\n[PASTE APPOINTMENTS]\n\nWork window/timezone:\n[PASTE HOURS + TIMEZONE]",
         "images": [
             {
-                "original_filename": "three-priorities-concrete-wall-markers-01.jpg",
+                "original_filename": "time-blocks-on-glass-board-01.jpg",
                 "is_cover": true
             },
             {
-                "original_filename": "stone-counter-30-minute-timer-02.jpg",
+                "original_filename": "must-should-could-sticky-sort-02.jpg",
                 "is_cover": false
             },
             {
-                "original_filename": "weekly-reset-in-transit-hands-03.jpg",
+                "original_filename": "focus-block-timer-start-03.jpg",
                 "is_cover": false
             },
             {
-                "original_filename": "next-action-block-move-04.jpg",
+                "original_filename": "fixed-appointment-check-watch-04.jpg",
                 "is_cover": false
             },
             {
-                "original_filename": "relief-after-weekly-reset-05.jpg",
+                "original_filename": "defer-items-into-tray-05.jpg",
                 "is_cover": false
             },
             {
-                "original_filename": "seven-day-tiles-with-buffer-06.jpg",
+                "original_filename": "planned-break-shoes-by-door-06.jpg",
                 "is_cover": false
             },
             {
-                "original_filename": "health-work-personal-bands-07.jpg",
+                "original_filename": "focused-face-scanning-plan-07.jpg",
                 "is_cover": false
             },
             {
-                "original_filename": "defer-bowl-phone-face-down-08.jpg",
+                "original_filename": "placing-break-token-in-timeline-08.jpg",
                 "is_cover": false
             },
             {
-                "original_filename": "time-block-tape-on-concrete-09.jpg",
+                "original_filename": "water-break-with-timer-09.jpg",
                 "is_cover": false
             },
             {
-                "original_filename": "metal-rings-next-actions-10.jpg",
+                "original_filename": "start-now-strip-on-board-10.jpg",
                 "is_cover": false
             },
             {
-                "original_filename": "steady-stones-risk-countermeasure-11.jpg",
+                "original_filename": "rewriting-task-labelmaker-11.jpg",
                 "is_cover": false
             },
             {
-                "original_filename": "buffer-space-in-wall-cabinet-12.jpg",
+                "original_filename": "decision-token-defer-container-12.jpg",
                 "is_cover": false
             }
         ]
     },
     {
         "key": "classmind-010",
-        "title": "Rigorous Research Plan + Annotated Bibliography (with source-quality scoring)",
+        "title": "Turn a research question into a tight literature map + synthesis outline",
         "type": "text",
         "category_key": "research",
-        "content": "Help me research the topic below and produce a decision-ready research pack.\n\nTopic / question:\n- [Paste your research question + any constraints]\n\nContext:\n- Audience: [who will use this]\n- Use case: [policy decision / product strategy / academic paper / market entry / etc.]\n- Geography + timeframe: [e.g., US, 2018\u20132026]\n- What I already believe (optional): [bullets]\n- What would change my mind: [bullets]\n\nRequirements:\n- Prioritize primary sources (peer-reviewed studies, official statistics, filings, standards, reputable investigative reporting). Use secondary sources only to point to primary.\n- If browsing isn\u2019t available, tell me exactly what to search for (queries + where to look) and still produce the structure, evaluation criteria, and provisional synthesis.\n- Be explicit about uncertainty. Don\u2019t fill gaps with assumptions.\n\nDeliverables (in this order):\n1) Sharp research framing\n   - Restate the question as 2\u20134 testable sub-questions.\n   - Define key terms and the \u201cunit of analysis.\u201d\n   - List 5\u201310 falsifiable hypotheses (what evidence would support/refute each).\n\n2) Research map\n   - A table with: Sub-question | What evidence is needed | Best source types | Likely confounders | How to validate.\n\n3) Search strategy\n   - 12\u201320 targeted search queries (not generic), grouped by sub-question.\n   - Suggested databases/sites (e.g., Google Scholar, PubMed, SSRN, OECD, World Bank, SEC, standards orgs, national statistics, industry regulators).\n   - Inclusion/exclusion criteria (date ranges, study designs, populations, jurisdictions).\n\n4) Source-quality scoring rubric\n   - Create a 0\u20135 scoring rubric with dimensions like: credibility, methodological rigor, recency, relevance, transparency, conflicts of interest.\n   - Show how to apply it (1 worked example).\n\n5) Annotated bibliography (minimum 12 sources)\n   For each source provide:\n   - Full citation + link\n   - 2\u20134 sentence annotation (what it says, why it matters)\n   - Methods/inputs used (dataset, sample size, design)\n   - Key numbers/estimates (with units)\n   - Limitations + potential bias\n   - Quality score (using your rubric)\n\n6) Evidence synthesis\n   - Combine findings into 5\u201310 bullet conclusions.\n   - For each conclusion: strength of evidence (High/Med/Low) + what would increase confidence.\n   - Call out contradictions across sources and plausible reasons (measurement differences, selection bias, causality vs correlation).\n\n7) Decision implications\n   - 3\u20135 \u201cso what\u201d implications tailored to my use case.\n   - Risks, second-order effects, and scenarios (best/base/worst) with triggers to watch.\n\n8) What\u2019s missing + next steps\n   - The highest-value gaps.\n   - A 2-week research execution plan with tasks, estimated time, and expected output artifacts.\n\nOutput format:\n- Use clear headings.\n- Use at least one table in sections 2 and 5.\n- Keep writing tight and modern.\n\nStart by asking up to 5 clarifying questions only if needed; otherwise, begin with section 1.",
+        "content": "I\u2019m starting a research project and I want you to act like a research lead who\u2019s great at scoping, narrowing, and building a defensible literature narrative.\n\nResearch question (paste):\n[...]\nContext & constraints:\n- Domain/field: [...]\n- Audience (advisor, product team, policy, etc.): [...]\n- Output length target: [...]\n- Time horizon (last X years vs seminal + recent): [...]\n- Method preference (theory, empirical, mixed): [...]\n\nDeliverables (be rigorous and specific):\n1) Reframe the question\n- Provide 3 alternative formulations: (a) broad, (b) fundable/publishable, (c) narrow + testable.\n- For each, list: key constructs, assumed mechanisms, likely confounders, and what would count as a meaningful contribution.\n\n2) Conceptual map\n- Create a structured \u201cliterature map\u201d with 4\u20137 clusters (schools of thought / mechanisms / methods).\n- For each cluster: what it explains, what it misses, common measures/proxies, typical datasets/contexts, and 2\u20133 seminal anchors + what made them influential (no need for exact citations if unsure; describe the paper type precisely so I can find it).\n\n3) Search strategy (so I can replicate)\n- Give a query bank with Boolean strings for Google Scholar / Scopus:\n  - core query\n  - mechanism-focused queries\n  - methods/identification queries\n  - adjacent-field queries\n- Include synonym sets for each key construct and \u201cexclusion\u201d terms to reduce irrelevant hits.\n\n4) Inclusion/exclusion rules\n- Define screening criteria (population/context, study design, measures, language, years).\n- Add a bias checklist: publication bias, survivorship, measurement error, reverse causality, omitted variables, p-hacking, generalizability.\n\n5) Evidence table template\n- Produce a copy-paste table schema with columns for: claim, study type, sample/context, identification strategy, measures, effect direction/magnitude (if known), robustness checks, limitations, and how it connects to my question.\n\n6) Synthesis plan\n- Write a synthesis outline (not a full essay) that:\n  - states the debate(s)\n  - compares clusters\n  - identifies contradictions and why they occur (method, context, definitions)\n  - ends with a clean \u201cgap \u2192 approach \u2192 expected contribution\u201d arc\n- Provide 2 competing theoretical explanations and what evidence would discriminate between them.\n\n7) Next-step recommendations\n- Propose 3 concrete project paths:\n  - one low-risk / incremental\n  - one medium-risk with a stronger contribution\n  - one high-risk / high-upside\n- For each: minimal viable dataset or data collection plan, analysis approach, and main threats to validity.\n\nStyle requirements:\n- Modern, direct, and structured.\n- Make uncertainty explicit (use confidence levels) and never invent citations. If you\u2019re not sure about a specific paper, describe it so I can locate it.\n- If crucial details are missing, ask up to 5 targeted questions before proceeding, otherwise make reasonable assumptions and label them.",
         "images": [
             {
-                "original_filename": "glass-hourglass-research-rigor-01.jpg",
+                "original_filename": "library-atrim-literature-map-glass-wall-01.jpg",
                 "is_cover": true
             }
         ]
     },
     {
         "key": "classmind-011",
-        "title": "Turn a Single Product Feature List Into a Clear Landing Page Copy (Hero + Benefits + CTA)",
+        "title": "Write a high-converting landing page section (headline, subhead, bullets, CTA)",
         "type": "text",
         "category_key": "marketing",
-        "content": "Write landing page copy for the product described below. Keep it clear, practical, and easy to skim. Avoid hype, jargon, and vague claims. If a claim needs proof, either soften it or turn it into a benefit statement without numbers.\n\nProduct details (paste):\n- Product name:\n- Target customer:\n- Customer problem (what they struggle with):\n- Key features (bullet list):\n- Differentiators (why choose this over alternatives):\n- Pricing/plan notes (optional):\n- Primary call-to-action (signup, book demo, buy, etc.):\n- Any constraints (regulated industry, no superlatives, etc.):\n\nOutput exactly in this structure:\n1) Hero section\n- Headline (max 9 words)\n- Subheadline (1\u20132 sentences)\n- Primary CTA button text (2\u20134 words)\n- Secondary CTA text (optional)\n\n2) Benefits section\n- 5 benefit bullets. Each bullet must:\n  - start with a strong verb\n  - be no more than 14 words\n  - map to at least one feature\n\n3) \u201cHow it works\u201d\n- 3 steps, each step: title (3\u20135 words) + one sentence\n\n4) Objection handling\n- 4 common objections from this customer\n- For each: a practical response (1\u20132 sentences)\n\n5) Credibility\n- 3 trust builders (choose from: guarantee, security/compliance, support, case study angle, integration note). No fake logos or fabricated stats.\n\n6) Final CTA\n- 1 short paragraph (2\u20133 sentences)\n- Repeat CTA button text\n\nBefore writing, list:\n- The single most important outcome for the customer (one sentence)\n- The single clearest differentiator (one sentence)\n\nIf any essential input is missing, make the smallest reasonable assumption and label it \u201cAssumption:\u201d.",
+        "content": "Create copy for a landing page section that sells the offer below. Keep it clear, practical, and skimmable (no hype, no buzzwords, no fluff). Write in plain English.\n\nOffer details:\n- Product/service: [what it is]\n- Target audience: [who it\u2019s for]\n- Primary pain point: [what they struggle with]\n- Desired outcome: [what they want]\n- Key features (3\u20136): [feature list]\n- Proof (optional): [numbers, logos, testimonial snippet]\n- Objections to address: [price/time/trust/etc.]\n- Call to action: [button text] + [what happens next]\n\nOutput (in this exact order):\n1) 10 headline options (max 8 words each). Focus on the outcome and the audience.\n2) 5 subheadline options (1\u20132 sentences each). Add clarity and specificity.\n3) One final recommended headline + subheadline pair (choose the best combination and state why in one short sentence).\n4) Benefit bullets: 6 bullets total.\n   - 3 \u201cOutcome\u201d bullets (end result)\n   - 3 \u201cHow it works\u201d bullets (mechanism)\n5) Objection-handling mini-FAQ: 4 Q&As, each answer max 2 sentences.\n6) Primary CTA: 3 button text options + one supporting line under the button (microcopy).\n\nConstraints:\n- Write at an 8th-grade reading level.\n- Use concrete words; avoid vague claims like \u201cboost,\u201d \u201crevolutionary,\u201d \u201cnext-level.\u201d\n- If info is missing, make reasonable assumptions and mark them with (Assumption: \u2026).",
         "images": [
             {
-                "original_filename": "features-to-landing-page-hero-stone-01.jpg",
+                "original_filename": "moody-landing-page-clarity-moment-01.jpg",
                 "is_cover": true
             }
         ]
     },
     {
         "key": "classmind-012",
-        "title": "Build a research lesson rubric + quiz generator with mastery thresholds",
+        "title": "Research Learning Ops: Rubric + Quiz Generator with Mastery Routing",
         "type": "other",
         "category_key": "research",
-        "content": "Act as a learning-ops designer for a research methods course. I will paste a topic, audience level, and timebox. Produce a reusable system: a lesson rubric, a mastery map, and an auto-generated quiz bank with grading logic.\n\nInputs (I will provide):\n- Topic / skill: \n- Audience level (HS / undergrad / grad / professional): \n- Timebox (minutes or sessions): \n- Constraints (tools allowed, citations required, solo/group, open/closed book): \n- Common failure modes I\u2019ve observed (optional): \n\nOutput format (use these exact headings):\n1) Learning Objectives (3\u20136)\n- Write measurable objectives using action verbs.\n- Tag each as: Concept / Procedure / Judgment.\n\n2) Prerequisite Check (5-minute diagnostic)\n- 4 questions that detect missing prerequisites.\n- For each question: correct answer + what a wrong answer implies.\n\n3) Lesson Flow Logic (operator-ready)\n- A step-by-step flow with time estimates.\n- Include decision points (IF diagnostic shows X, THEN do Y).\n- Include an \u201cabort/deferral rule\u201d if prerequisites are not met.\n\n4) Rubric (mastery-based)\n- 4 performance levels: Not Yet / Developing / Proficient / Advanced.\n- 5\u20138 criteria aligned to objectives.\n- For each criterion: observable evidence, common pitfalls, and \u201cwhat to coach next.\u201d\n\n5) Mastery Thresholds + Retake Policy\n- Define what counts as mastery (e.g., % score + must-pass criteria).\n- Retake rules: what changes, what stays, and how to prevent memorization.\n\n6) Quiz Bank (auto-generated)\nCreate 18 questions total, grouped as:\n- 6 Recall & Definitions\n- 6 Application (scenario-based)\n- 4 Critical Evaluation (spot flaws, bias, confounds, validity threats)\n- 2 Synthesis (design or critique a mini-study)\nFor each question provide:\n- Question text\n- Answer key\n- Rationale (1\u20133 sentences)\n- Difficulty (Easy/Medium/Hard)\n- Objective tags (from section 1)\n\n7) Grading & Feedback Rules (machine-usable)\n- Provide a JSON object with:\n  - \"scoring\": points per question type, partial credit rules\n  - \"common_errors\": list of error codes with triggers and feedback snippets\n  - \"rubric_mapping\": how quiz outcomes map to rubric criteria\n  - \"mastery_decision\": logic for Pass/Needs Review/Retake\n\n8) Integrity & Edge Cases\n- How to handle: guessing patterns, very short answers, overly verbose answers, use of external tools, ambiguous responses.\n\nStyle constraints:\n- Keep it professional and concise.\n- Avoid long narrative explanations.\n- Ensure every rubric criterion is directly assessable by the quiz or an observable task.\n\nStart by asking me for any missing inputs, then generate the full system.",
+        "content": "Build a reusable learning-ops system for teaching a research skill (topic can vary). Output must be operational artifacts (tables, rules, item banks), not an essay.\n\nInput (fill in):\n- Learner level: [high school | undergrad | grad | professional]\n- Research skill focus: [e.g., literature search, hypothesis design, operationalization, survey design, causal inference, qualitative coding, replication]\n- Domain/context: [e.g., public health, product analytics, education, finance]\n- Time available: [minutes or sessions]\n- Allowed tools: [none | Google Scholar | PubMed | Scopus | Zotero | R | Python | Excel]\n- Constraints: [e.g., no paywalled sources, must use primary studies, limited sample size]\n\nDeliverables (produce in this order):\n1) Learning objective map\n- 3\u20136 measurable objectives (verb + observable evidence).\n- For each: prerequisites, common misconceptions, and an example \u201cacceptable evidence\u201d artifact.\n\n2) Rubric (analytic)\n- Create a rubric table with 4 performance levels: Novice / Developing / Proficient / Advanced.\n- Rows must cover: problem framing, source quality, method fit, validity threats/bias, synthesis/logic, transparency/reproducibility.\n- Include explicit observable criteria per cell (no vague adjectives).\n- Add a scoring rule: weights that sum to 100 and a pass threshold.\n\n3) Question bank with tagging (15 items)\n- Generate 15 assessment items: 6 multiple-choice, 5 short-answer, 4 scenario-based.\n- Each item must include:\n  - ID\n  - Objective tag(s)\n  - Difficulty (1\u20135)\n  - Format\n  - Prompt\n  - Correct answer / key\n  - Rationale (1\u20132 lines)\n  - Common wrong answer(s) + why they\u2019re wrong\n- Ensure at least 5 items directly test validity threats/bias and at least 4 items test synthesis across sources.\n\n4) Mastery routing logic\n- Create a simple decision system that routes learners based on performance:\n  - If overall score >= [X] and no objective below \u201cProficient\u201d \u2192 \u201cAdvance\u201d track\n  - If score in middle band or any objective below \u201cDeveloping\u201d \u2192 \u201cTargeted practice\u201d track\n  - If score low or multiple objectives \u201cNovice\u201d \u2192 \u201cRe-teach\u201d track\n- Specify X and bands using your rubric weights.\n- Output as:\n  - a rules table (conditions \u2192 action)\n  - plus pseudocode.\n\n5) Targeted practice generator (templates)\n- For each objective, create:\n  - 2 micro-drills (5\u201310 min)\n  - 1 retrieval practice prompt\n  - 1 error-correction prompt that uses the learner\u2019s wrong answer.\n\n6) Instructor checklist + QA\n- A 10-point checklist for instructors/graders to keep scoring consistent.\n- Include 5 QA tests to detect bad items (ambiguity, multiple correct answers, mis-tagging, tool dependence, domain leakage).\n\nConstraints on your output:\n- Keep everything concise and scannable.\n- Use tables where helpful.\n- Avoid referencing external documents; if you cite examples, invent them realistically.\n- If any input is missing, make sensible assumptions and state them in one line at the top before the deliverables.",
         "images": [
             {
-                "original_filename": "ceramic-mastery-engine-quiz-rubric-01.jpg",
+                "original_filename": "mastery-routing-evaluation-machine-01.jpg",
                 "is_cover": true
             }
         ]

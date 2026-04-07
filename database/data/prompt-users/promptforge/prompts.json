@@ -1,312 +1,287 @@
 [
     {
         "key": "promptforge-001",
-        "title": "Rewrite My Draft to Be Clear, Friendly, and Skimmable (Keep Meaning Intact)",
+        "title": "Rewrite my rough draft into a clear, friendly message (keep my meaning)",
         "type": "text",
         "category_key": "writing",
-        "content": "Rewrite the text below so it\u2019s clear, friendly, and easy to skim.\n\nRules:\n- Keep the meaning and key details exactly the same (don\u2019t add new claims).\n- Use plain English and short sentences.\n- If something is ambiguous, keep it neutral rather than guessing.\n- Preserve names, dates, numbers, links, and any requirements.\n- Improve flow with light structure (short paragraphs + optional bullets).\n- Remove fluff, repetition, and passive voice where possible.\n\nOutput:\n1) Revised version\n2) 3\u20135 suggested subject lines / titles (if relevant)\n3) A short list of any unclear parts you noticed (as questions)\n\nText to rewrite:\n[PASTE HERE]",
+        "content": "Rewrite the text below into a clear, friendly message that keeps my original meaning and key details. Don\u2019t add new facts. If something is ambiguous, keep it neutral rather than guessing.\n\nRequirements:\n- Keep it concise and easy to skim\n- Preserve any dates, numbers, names, and action items exactly\n- Use a warm, helpful tone (not overly formal)\n- If the message includes requests, make them explicit and polite\n- Fix grammar, tighten wording, remove repetition\n\nOutput:\n1) Improved version\n2) 3 alternative subject lines (if it\u2019s an email/message with a subject)\n3) A short list of any unclear points you noticed (as questions I could answer)\n\nText to rewrite:\n[PASTE HERE]",
         "images": [
             {
-                "original_filename": "quiet-library-clear-friendly-rewrite-01.jpg",
+                "original_filename": "confident-message-send-cinematic-01.jpg",
                 "is_cover": false
             }
         ]
     },
     {
         "key": "promptforge-002",
-        "title": "Turn Product Features Into Benefit-First Marketing Copy (Landing + Ads)",
+        "title": "Turn product features into benefit-led landing page copy (fast, structured)",
         "type": "text",
         "category_key": "marketing",
-        "content": "I\u2019m going to paste product info. Turn it into benefit-first marketing copy that\u2019s ready to use.\n\nInput (paste below):\n- Product name:\n- Target customer (who they are + what they care about):\n- 3\u20137 key features (bullets):\n- Main problem it solves:\n- Proof (numbers, testimonials, logos, guarantees) if any:\n- Price/plan notes (optional):\n- Primary CTA (e.g., Start free trial, Book a demo):\n- Brand voice (e.g., bold, friendly, premium):\n- Competitors / alternatives (optional):\n\nOutput (keep it concise and structured):\n1) One-sentence positioning statement (clear, specific)\n2) Landing page hero section:\n   - Headline (max 10 words)\n   - Subheadline (1\u20132 sentences)\n   - 3 benefit bullets (not features)\n   - CTA button text + one microcopy line under the button\n3) Social proof block: 2 short lines (use provided proof; if none, write \u201cproof placeholders\u201d without inventing facts)\n4) 3 ad variations for paid social:\n   - Primary text (max 25 words)\n   - Headline (max 6 words)\n   - CTA\n   - Each variation should focus on a different angle (speed, savings, simplicity, results, risk-free, etc.)\n\nRules:\n- No buzzword fluff. Write like a real brand.\n- Don\u2019t invent stats or customer names.\n- Prefer concrete outcomes over vague claims.\n- If the input is missing something critical, make the best assumption and list it under \u201cAssumptions\u201d at the end (max 3).",
+        "content": "Write landing page copy for the product described below. Keep the tone confident and structured. Don\u2019t be fluffy; be specific and customer-focused.\n\nProduct info (paste and fill in):\n- Product name:\n- Target customer (role + context):\n- Primary problem it solves:\n- 3\u20136 key features (bullets):\n- Differentiator vs alternatives:\n- Proof (numbers, testimonials, logos, case study, or \u201cnone yet\u201d):\n- Desired action (CTA):\n- Brand voice constraints (words to use/avoid):\n\nOutput exactly these sections:\n1) Hero\n- Headline (max 10 words)\n- Subheadline (1\u20132 sentences)\n- Primary CTA + secondary CTA\n\n2) \u201cWhy this\u201d value props\n- 3 benefit-led bullets (each starts with a strong verb)\n\n3) How it works\n- 3 steps, one short sentence each\n\n4) Key features \u2192 benefits\n- A two-column list: Feature | Customer benefit (5 rows)\n\n5) Social proof\n- If proof exists: 2 short proof bullets + 1 testimonial (2\u20133 sentences)\n- If none: write 3 credibility builders (e.g., process, guarantees, founder expertise) without pretending you have metrics\n\n6) Objections handled\n- 4 common objections with crisp rebuttals (1\u20132 sentences each)\n\n7) Final CTA block\n- 1 closing paragraph (max 60 words)\n- Repeat primary CTA\n\nRules:\n- Write for a scanning reader: short lines, no long paragraphs.\n- Avoid jargon unless the target customer uses it daily.\n- If the inputs are vague, make 3 reasonable assumptions and list them at the top before writing the copy.",
         "images": [
             {
-                "original_filename": "benefit-first-copy-glass-bottle-premium-01.jpg",
+                "original_filename": "smoked-glass-benefits-framework-wall-01.jpg",
                 "is_cover": true
             }
         ]
     },
     {
         "key": "promptforge-003",
-        "title": "Minimalist social media product teaser (bold type + clean studio lighting)",
+        "title": "Cinematic dark-mode social post: product-in-hand hero shot",
         "type": "image",
         "category_key": "social_media",
-        "content": "Create a modern social media teaser image for a new product launch.\n\nSubject: a sleek matte-black wireless earbud case (closed) with a subtle embossed logo (no readable brand text).\nComposition: square 1:1, centered product on a smooth gradient backdrop (deep charcoal to soft graphite), generous negative space. Add one bold headline in the top-left: \u201cDROP 01\u201d (simple sans-serif, high contrast, clean kerning). Add a small subline beneath it: \u201cAvailable Friday\u201d (smaller weight). Keep text minimal and crisp.\nLighting: soft studio key light from upper right, gentle rim light on left edge, natural shadow under the case, mild specular highlights.\nStyle: high-end minimalist product photography, modern and direct, no clutter, no extra props.\nColor palette: monochrome with a single accent color (electric cyan) used only as a thin underline beneath \u201cDROP 01\u201d.\nCamera: 50mm look, slight top-down angle (~10\u201315\u00b0), sharp focus on product, clean edges.\nOutput: ultra-detailed, realistic, social-feed ready, no watermark, no mock UI, no additional text beyond the two lines specified.",
+        "content": "Create a square (1:1) social media hero image with a premium dark-mode aesthetic. Subject: a hand holding a sleek matte-black smartphone at a slight angle, screen on, showing an abstract UI (no readable text), with subtle blue/purple gradient glow reflecting on the fingers. Setting: minimal studio scene with a deep charcoal background and faint haze for depth.\n\nComposition: tight crop, rule-of-thirds, phone centered slightly right, shallow depth of field, bokeh falloff, negative space on the left for optional overlay. Lighting: low-key, single soft key light from upper left + dim rim light from behind to separate edges; soft shadows, controlled specular highlights on the phone frame.\n\nStyle: modern, clean, restrained saturation, cool/neutral color grading, cinematic contrast, high-end tech advertising feel. Camera: 50mm, f/1.8, ISO 200, 1/125. Render as photorealistic. Avoid: bright daylight, warm cozy tones, cluttered backgrounds, visible brand logos, readable UI text, exaggerated neon, lens distortion.",
         "images": [
             {
-                "original_filename": "matte-black-earbud-case-drop-01-teaser-01.jpg",
+                "original_filename": "dark-mode-smartphone-in-hand-hero-01.jpg",
                 "is_cover": true
             }
         ]
     },
     {
         "key": "promptforge-004",
-        "title": "Turn rough notes into a clear, action-oriented email (with subject options)",
+        "title": "Write a clear decision-request email that gets a fast yes/no",
         "type": "text",
         "category_key": "email",
-        "content": "Rewrite my notes into a concise, practical email that\u2019s easy to act on.\n\nContext/notes (verbatim):\n[PASTE NOTES]\n\nAudience:\n- Recipient: [name/role]\n- Relationship: [client/teammate/vendor/etc.]\n- Goal of the email: [request/decision/update/follow-up]\n\nConstraints:\n- Length: 120\u2013200 words unless my notes require more\n- Tone: clear, practical, calm\n- Avoid fluff, clich\u00e9s, and excessive apologies\n- Use plain language; keep sentences short\n\nDeliver:\n1) 6 subject line options (mix of straightforward + slightly more specific)\n2) The email body with:\n   - One-sentence opener that states why I\u2019m writing\n   - 2\u20134 tight bullet points for key info\n   - A direct ask with a deadline/date if applicable\n   - A short closing line\n3) If anything is missing or ambiguous, list up to 3 targeted questions at the end (don\u2019t block the draft).\n\nOptional:\n- Provide a second version that\u2019s 30% shorter.\n- If my notes include sensitive/negative info, keep the wording neutral and professional.",
+        "content": "Help me draft a concise decision-request email.\n\nContext (paste and keep it brief):\n- Recipient role + relationship to me:\n- Topic/decision needed:\n- Why it matters / impact:\n- Options (A/B/C) with 1\u20132 pros/cons each:\n- My recommendation:\n- Deadline / when we need the answer:\n- Constraints (budget, timeline, policy, dependencies):\n- Links or references to include:\n\nRequirements:\n- Tone: clear, practical, respectful, not salesy.\n- Length: 120\u2013180 words.\n- Make the decision request explicit and easy to answer.\n- Use short paragraphs and, if helpful, a compact bullet list for options.\n- Include a specific call to action with a deadline.\n- Avoid jargon and vague language.\n\nDeliver:\n1) Subject line options (5), optimized for quick open + clarity.\n2) The email body.\n3) A one-line \u201cIf you\u2019re short on time\u201d version.\n\nOutput only the subject lines and email text (no explanations).",
         "images": []
     },
     {
         "key": "promptforge-005",
-        "title": "Write a 1-page business case for a proposed initiative (clear ROI, risks, next steps)",
+        "title": "Turn a messy meeting transcript into an actionable decision log + owners",
         "type": "text",
         "category_key": "business",
-        "content": "Write a one-page business case for the initiative described below. Keep it professional, concise, and easy for executives to scan.\n\nInitiative:\n- Name:\n- Problem/opportunity (current state + impact):\n- Proposed solution (what will change):\n- Target customers/users:\n- Strategic alignment (company goals this supports):\n- Timeline (start date, milestones, go-live):\n- Estimated costs (one-time, recurring):\n- Expected benefits (revenue, savings, risk reduction, customer impact):\n- Key assumptions:\n- Constraints/dependencies:\n- Main risks + mitigations:\n- Alternatives considered (and why not chosen):\n- Decision needed from leadership:\n\nOutput format (use these headings exactly):\n1) Executive summary (3\u20134 sentences)\n2) Why now (2\u20133 bullets)\n3) Proposal (4\u20136 bullets)\n4) Cost & resourcing (table: item | amount | notes)\n5) Benefits & ROI (table: benefit | metric | estimate | timing)\n6) Risks & mitigations (table: risk | likelihood | impact | mitigation)\n7) Success metrics (5 measurable KPIs)\n8) Recommendation & next steps (3 bullets with owners)\n\nRules:\n- Use plain language; avoid jargon.\n- Include realistic ranges if numbers are uncertain (e.g., \"$80\u2013120k\").\n- If any input is missing, state it as an assumption rather than asking questions.",
+        "content": "Convert the text below into a crisp decision log and action plan for a business team.\n\nInput:\n[PASTE MEETING NOTES / TRANSCRIPT]\n\nOutput (use exactly these sections):\n1) Decisions made (bullet list)\n- Decision:\n- Rationale (1 line):\n- Date/meeting:\n\n2) Action items (table)\nColumns: Task | Owner | Due date | Priority (H/M/L) | Dependencies | Success criteria\n\n3) Open questions / unresolved items\n- Question:\n- Who will answer:\n- By when:\n\n4) Risks & blockers\n- Risk/blocker:\n- Impact:\n- Mitigation:\n- Owner:\n\nRules:\n- If an owner or due date isn\u2019t stated, infer a reasonable placeholder (e.g., \u201cTBD\u2014Project Lead\u201d, \u201cTBD\u2014next weekly sync\u201d) and flag it with \u201c(TBD)\u201d.\n- Merge duplicates, remove chatter, and keep wording businesslike.\n- Do not invent facts; only infer structure and missing fields.\n- Keep the whole output under 350 words unless the input is extremely long.",
         "images": [
             {
-                "original_filename": "executive-business-case-decision-moment-01.jpg",
+                "original_filename": "from-chaos-to-decision-log-01.jpg",
                 "is_cover": true
             }
         ]
     },
     {
         "key": "promptforge-006",
-        "title": "Turn a Rough Product Idea Into a Simple UI Concept + Key Screens",
+        "title": "Quick UX critique + 5 actionable fixes for a screen or flow",
         "type": "text",
         "category_key": "design",
-        "content": "Help me turn this product idea into a clear, simple UI concept.\n\nProduct idea (rough notes):\n[Paste notes here]\n\nConstraints:\n- Target users: [who]\n- Platform: [web / iOS / Android / desktop]\n- Primary goal (1 sentence): [goal]\n- Must-have features: [list]\n- Nice-to-haves: [list]\n- Brand vibe (3\u20135 words): [e.g., calm, playful, premium]\n\nWhat I want from you (keep it lightweight):\n1) A one-paragraph product pitch (plain language, no jargon).\n2) The core user flow in 5\u20138 steps.\n3) A list of the 3\u20135 most important screens, each with:\n   - Screen name\n   - Purpose\n   - Key UI elements (bullets)\n   - Primary CTA\n4) A quick navigation structure (e.g., tabs, sidebar, or single-flow) and why it fits.\n5) 3 UX risks or confusing spots you anticipate, with a fix for each.\n\nGuidelines:\n- Prioritize clarity and speed over fancy features.\n- If my notes conflict, pick the simplest assumption and state it.\n- Use short bullets; avoid long explanations.",
+        "content": "Act like a practical UX designer. I\u2019ll paste a screen description, wireframe notes, or a flow. Give me a quick critique and concrete improvements.\n\nInput:\n- Product + audience:\n- Goal of the screen/flow:\n- Context (mobile/web, logged in/out, constraints):\n- Current copy (if any):\n- What I\u2019m worried about:\n\nOutput (keep it concise and friendly):\n1) One-sentence verdict (what\u2019s working / what\u2019s not)\n2) The top 5 issues (ranked by user impact) \u2014 each with: why it\u2019s a problem + a specific fix\n3) Revised structure: suggested layout/sections or step-by-step flow (bulleted)\n4) Copy improvements: rewrite the primary CTA, one key headline, and any error/helper text you think is missing\n5) 3 quick questions I should answer to finalize the design\n\nAssume standard UX best practices, avoid jargon, and prioritize changes that are easy to implement.",
         "images": [
             {
-                "original_filename": "minimal-ui-concept-on-phone-concrete-01.jpg",
+                "original_filename": "ux-critique-phone-close-focus-01.jpg",
                 "is_cover": true
             }
         ]
     },
     {
         "key": "promptforge-007",
-        "title": "Cinematic Portrait Prompt Builder (subject + lighting + lens + mood)",
+        "title": "Cinematic Product Shot Prompt Builder (Dark UI-Friendly)",
         "type": "text",
         "category_key": "image_generation",
-        "content": "Create an image-generation prompt for a single portrait. Ask me for only 5 inputs (and wait for my answers):\n1) Subject (who/what) + 1 defining detail\n2) Setting (location + time of day)\n3) Mood (3 adjectives)\n4) Style target (e.g., film still, editorial, painterly, anime, 3D)\n5) Output format (aspect ratio + any must-avoid items)\n\nThen produce:\nA) One final prompt (70\u2013120 words) that specifies composition (framing, pose, camera angle), lighting (key/fill/rim or natural), lens + camera settings (focal length, aperture, ISO), color palette, textures/materials, and background details.\nB) A short \u201cnegative prompt\u201d line focused on common failures (extra limbs, deformed hands, warped face, messy text, watermark, low-res, oversharpening).\n\nConstraints:\n- Be concrete and visual; no vague adjectives without a supporting detail.\n- Keep it to one character unless I explicitly ask for more.\n- If my inputs conflict (e.g., \u2018noir\u2019 + \u2018pastel\u2019), pick the best interpretation and state the choice in one sentence before the prompt.",
+        "content": "Create an image-generation prompt for a premium, dark-interface-friendly scene.\n\nSubject: [what the image is of]\nStyle: cinematic, modern, restrained, high-end (no cheerful stock-photo vibe)\nSetting: minimal, subdued background in deep gray/charcoal/navy; subtle texture allowed (concrete, matte metal, smoked glass)\nLighting: low-key, directional key light + soft fill; controlled highlights; soft shadows; gentle falloff; no harsh sunlight\nColor grade: cool/neutral, slightly desaturated, clean contrast; avoid warm/orange casts\nComposition: clear focal point, negative space for UI overlay, shallow-to-medium depth of field; avoid clutter\nCamera: [lens mm] prime look, f/[aperture], ISO [value], 1/[shutter]s; [angle: eye-level / 3-4 view / top-down]\nMaterials detail: call out finishes (matte, anodized aluminum, frosted plastic, polished glass) and micro-texture\nQuality constraints: sharp subject edges, realistic reflections, no text, no logos, no extra objects unless specified\n\nOutput ONLY a single finished prompt with concrete specifics. Ask no questions\u2014make reasonable assumptions.\n\nExample input fields:\nSubject: compact wireless earbud case\nLens: 85mm\nAperture: f/2.8\nAngle: 3-4 view\n\nNow generate the final image prompt.",
         "images": [
             {
-                "original_filename": "cinematic-portrait-museum-overcast-ceramic-01.jpg",
+                "original_filename": "graphite-earbud-case-cinematic-dark-01.jpg",
                 "is_cover": true
             }
         ]
     },
     {
         "key": "promptforge-008",
-        "title": "Modern coding workspace hero image (no cover text, no overlay, no extra padding)",
+        "title": "Cinematic developer desk with code reflections in a dark UI aesthetic",
         "type": "image",
         "category_key": "coding",
-        "content": "Create a modern, direct \u201ccoding\u201d hero image with NO title text and NO UI overlay. Scene: a clean desk setup in a dim studio at night, single ultrawide monitor showing a code editor with a readable-but-generic code layout (no real company names, no copyrighted logos), terminal pane with subtle build output, and a small git diff panel. Include a mechanical keyboard (matte black), a minimal mouse, a ceramic mug, and a few neatly routed cables.\n\nComposition: 16:9, centered monitor, slight 3/4 angle from the right, camera at desk height, shallow depth of field (sharp on the monitor and keyboard, soft falloff to background). Lighting: moody teal-and-amber practical lighting, soft key light from monitor glow, gentle rim light on keyboard edges, realistic reflections on screen. Background: tasteful blurred shelves with a couple of books and a small plant, no readable book titles.\n\nStyle: photorealistic, modern tech aesthetic, clean surfaces, no clutter. Color palette: charcoal, slate, teal accents, warm amber highlights. Constraints: no text overlays, no watermark, no frame, no extra border/padding, no \u201ccover\u201d layout space, avoid exaggerated cyberpunk elements.",
+        "content": "Moody, cinematic close-up of a modern developer workstation at night: a matte-black desk with a low-profile mechanical keyboard, dark trackpad, and a single ultrawide monitor showing a code editor (legible-looking syntax but no brand logos). Subtle reflections of teal/blue code on the desk surface. Add a ceramic mug, a small notebook with minimal linework, and one slim desk lamp casting a narrow, cool-white beam.\n\nComposition: 3/4 angle from slightly above desk height, subject centered on the monitor + keyboard, shallow depth of field (keyboard in crisp focus, background softly falling off). Background: subdued dark studio environment with faint bokeh from a distant LED strip, no bright windows.\n\nLighting & color: low-key directional lighting, soft shadows, controlled contrast, cool/neutral grade (deep navy, charcoal, cool gray, restrained teal highlights), no warm tungsten cast. Premium, minimal, high-end product-interface feel.\n\nStyle: photorealistic, clean, modern, no clutter, no people, no visible brand marks, no on-screen UI watermarks. Camera look: 50mm equivalent, f/2.0, ISO 400, subtle film grain, slight vignette.",
         "images": [
             {
-                "original_filename": "modern-coding-workspace-ultrawide-monitor-night-01.jpg",
+                "original_filename": "cinematic-developer-desk-code-reflections-dark-ui-01.jpg",
                 "is_cover": true
             }
         ]
     },
     {
         "key": "promptforge-009",
-        "title": "Turn a messy to-do list into a realistic daily plan (with time blocks)",
+        "title": "Turn a messy to-do list into a 30-minute action plan",
         "type": "text",
         "category_key": "productivity",
-        "content": "Take my raw to-do list and turn it into a realistic plan for today.\n\nInput:\n- My working hours today: [e.g., 9:30\u20135:30]\n- Fixed commitments (meetings/appointments): [list + times]\n- My to-do list (messy is fine):\n[paste here]\n- Energy level today (low/medium/high): [ ]\n- Hard constraints (breaks, pick-up times, no deep work after 3pm, etc.): [ ]\n\nWhat I want from you:\n1) Clarify duplicates/unclear items by making smart assumptions (don\u2019t ask more than 3 questions). If something is too vague, rewrite it into a concrete next action.\n2) Estimate effort for each task (S=5\u201315 min, M=15\u201345 min, L=45\u201390 min). If you\u2019re unsure, pick a conservative estimate.\n3) Choose the 3 most important outcomes for today and explain in one line why each made the cut.\n4) Produce a time-block schedule that fits my hours and commitments:\n   - Include breaks and admin buffer time.\n   - Put deep work earlier if possible.\n   - Batch small tasks.\n   - If the list doesn\u2019t fit, push overflow to a \u201cLater\u201d section.\n5) Output format:\n   - \u201cTop 3 outcomes\u201d\n   - \u201cSchedule\u201d (timeline with start/end times)\n   - \u201cLater (not today)\u201d\n   - \u201cIf I finish early\u201d (2\u20134 optional quick wins)\n\nKeep it clear and practical. No motivational speech.",
-        "images": [
-            {
-                "original_filename": "time-block-plan-on-wood-table-01.jpg",
-                "is_cover": true
-            },
-            {
-                "original_filename": "clearing-mess-into-time-blocks-02.jpg",
-                "is_cover": false
-            },
-            {
-                "original_filename": "time-blocks-with-break-cue-03.jpg",
-                "is_cover": false
-            },
-            {
-                "original_filename": "cafe-time-block-calendar-view-04.jpg",
-                "is_cover": false
-            },
-            {
-                "original_filename": "hourglass-and-time-block-schedule-05.jpg",
-                "is_cover": false
-            },
-            {
-                "original_filename": "top-three-priorities-tokens-06.jpg",
-                "is_cover": false
-            },
-            {
-                "original_filename": "early-morning-deep-work-blocks-07.jpg",
-                "is_cover": false
-            },
-            {
-                "original_filename": "batched-tasks-stacked-cards-08.jpg",
-                "is_cover": false
-            },
-            {
-                "original_filename": "schedule-with-later-section-on-the-go-09.jpg",
-                "is_cover": false
-            },
-            {
-                "original_filename": "break-icons-on-schedule-10.jpg",
-                "is_cover": false
-            },
-            {
-                "original_filename": "tapping-a-time-block-11.jpg",
-                "is_cover": false
-            },
-            {
-                "original_filename": "end-of-day-quick-wins-12.jpg",
-                "is_cover": false
-            }
-        ]
+        "content": "I\u2019m going to paste a messy to-do list. Convert it into a focused 30-minute action plan I can start right now.\n\nRules:\n- Only include tasks I can realistically start and make progress on in the next 30 minutes.\n- Break each chosen task into tiny steps (2\u20136 minutes each).\n- If something is blocked, replace it with the quickest unblock step.\n- Keep it strict: maximum 5 tasks total.\n- Use plain language and be specific about what I should click/type/do.\n\nOutput format:\n1) Top goal for the next 30 minutes (one sentence)\n2) 30-minute timeline (00:00\u201330:00) with minute ranges and micro-steps\n3) \u201cIf I get stuck\u201d fallback list (3 quick options)\n4) What to prep before starting (max 3 items)\n\nHere\u2019s my to-do list:\n[PASTE LIST HERE]",
+        "images": []
     },
     {
         "key": "promptforge-010",
-        "title": "High-Confidence Research Brief with Claims, Evidence Grading, and Open Questions",
+        "title": "Evidence-First Research Brief with Source Quality Scoring and Open Questions",
         "type": "text",
         "category_key": "research",
-        "content": "Act as a research analyst. I\u2019m going to give you a topic and (optionally) a few starting links/notes. Produce a decision-ready research brief that prioritizes accuracy and clearly separates verified facts from hypotheses.\n\nTopic: [paste topic]\nAudience/role: [e.g., product lead, policy team, investor]\nScope boundaries (include/exclude): [paste]\nTime horizon: [e.g., last 3 years, historical]\nGeography/market: [paste]\nConstraints: [time, word count, must-use sources, etc.]\n\nDeliverable requirements (follow this structure):\n1) Executive answer (5\u20138 bullets)\n   - The \u201cso what\u201d conclusions first.\n   - Include 1\u20132 quantified statements where possible.\n\n2) Key questions and assumptions\n   - List the 6\u201310 questions that drive the analysis.\n   - State your assumptions explicitly; label each as \u201ccritical\u201d or \u201cnon-critical.\u201d\n\n3) Claims table (core of the brief)\n   - Create a table with columns:\n     Claim | Status (Supported / Mixed / Unclear / Likely false) | Evidence summary | Best sources to verify | Confidence (0\u2013100) | Notes/limitations\n   - Include 10\u201320 claims, starting with the most decision-relevant.\n\n4) Evidence map\n   - Group evidence by type: peer-reviewed research, reputable journalism, government/IGO, industry reports, company disclosures, expert commentary.\n   - For each group, explain typical strengths/biases and how you weighted it.\n\n5) What experts disagree on\n   - 3\u20137 areas of active debate.\n   - For each: the competing views, what would change your mind, and what data would resolve it.\n\n6) Risks, second-order effects, and counterarguments\n   - Provide at least 8 items.\n   - Include at least 2 \u201ccontrarian\u201d points that challenge the main narrative.\n\n7) Practical implications and options\n   - 3\u20135 options/paths forward relevant to the audience.\n   - For each: expected upside, downside, prerequisites, and leading indicators to monitor.\n\n8) Research gaps + next-step plan\n   - A prioritized list of missing info.\n   - A 2-hour, 2-day, and 2-week research plan with concrete actions.\n\nSourcing and rigor rules:\n- If you\u2019re not certain, say so and explain why.\n- Avoid \u201ccitation theater.\u201d Prefer fewer, stronger sources over many weak ones.\n- When mentioning a statistic, specify: who measured it, when, sample/coverage (if known), and any caveats.\n- Do not fabricate citations. If browsing isn\u2019t available, write \u201cNeeds verification\u201d and propose exactly where to check.\n\nOutput style:\n- Professional, concise, and skimmable.\n- Use tables where helpful.\n- Minimize jargon; define necessary terms in-line.\n\nBefore you start, ask up to 5 targeted clarifying questions only if they materially change the outcome. Otherwise proceed with stated assumptions and clearly label them.",
+        "content": "Act as my research analyst. I\u2019m going to give you a topic and (optionally) a few links or notes.\n\nDeliver an evidence-first research brief that I can trust. Keep it professional and concise, but don\u2019t skip rigor.\n\nInput (I will fill in):\n- Research question / decision to support:\n- Context (industry, geography, timeframe, audience):\n- What I already believe (so you can challenge it):\n- Constraints (budget, tools, time, risk tolerance):\n- Any sources/links/notes:\n\nOutput structure:\n1) Bottom-line answer (5\u20138 bullets)\n   - Each bullet must include: confidence (High/Med/Low) + what it depends on.\n\n2) Key findings (grouped by theme)\n   - For each finding: claim \u2192 evidence summary \u2192 citations.\n   - Highlight whether evidence is causal, correlational, or expert opinion.\n\n3) Source table\n   - Columns: Source | Type (peer-reviewed / gov / industry / news / blog / dataset) | Date | Relevance | Method notes | Limitations | Credibility score (0\u20135) | Link/citation.\n   - Scoring rubric:\n     - 5 = primary data, transparent methods, reputable publisher, recent, directly relevant.\n     - 3 = plausible secondary synthesis or older/partial primary data.\n     - 1 = anecdotal, unclear methods, marketing-driven, or outdated.\n\n4) What\u2019s uncertain / disputed\n   - List the top disagreements in the literature or industry.\n   - Explain why they disagree (definitions, measurement, incentives, sample bias, etc.).\n\n5) Decision implications\n   - If the goal is to choose between options, present a comparison table with criteria and tradeoffs.\n   - Include a \u201cwhat would change my mind\u201d section: 3\u20135 critical facts to verify.\n\n6) Research gaps and next steps\n   - The smallest set of additional checks to increase confidence quickly.\n   - Include suggested search queries, datasets, and who to interview.\n\nRules:\n- Do not invent citations. If you can\u2019t verify something, label it as \u201cunverified\u201d and suggest how to verify.\n- Prefer primary sources and data; de-emphasize press releases and SEO blogs.\n- Use crisp bullets, not long paragraphs.\n- If my question is ambiguous, ask up to 3 clarifying questions first; otherwise proceed.\n\nTopic to research: [PASTE HERE]",
         "images": [
             {
-                "original_filename": "library-ceramic-table-evidence-grading-01.jpg",
+                "original_filename": "credibility-scoring-token-concrete-01.jpg",
                 "is_cover": true
             }
         ]
     },
     {
         "key": "promptforge-011",
-        "title": "Turn a messy meeting recap into clear action items, owners, and deadlines (business-ready)",
+        "title": "Write a One-Page Business Proposal (Clear Scope, Timeline, Pricing Options, Next Steps)",
         "type": "text",
         "category_key": "business",
-        "content": "I\u2019m going to paste a rough meeting recap with scattered notes. Convert it into a clean, business-ready output that a team can act on.\n\nRequirements:\n- Tone: friendly and helpful, but concise.\n- Do NOT invent facts. If something is missing, write \u201cTBD\u201d and list it under \u201cOpen Questions\u201d.\n- Keep it skimmable and formatted with headings and bullet points.\n\nOutput format:\n1) One-sentence meeting purpose\n2) Key decisions (bullets)\n3) Action items (table with: Task | Owner | Due date | Priority | Notes)\n4) Risks / blockers (bullets)\n5) Open questions (bullets)\n6) Next meeting (proposed agenda bullets + who should attend)\n\nHere are the notes:\n[PASTE MEETING NOTES HERE]",
+        "content": "Help me write a one-page business proposal that I can paste into an email or PDF. Keep it friendly, helpful, and easy to skim. Use short paragraphs and bullets where useful.\n\nInputs (fill in what you can):\n- Client/company:\n- Their goal/problem:\n- My offer/service:\n- Key outcomes (3\u20135 bullets):\n- Scope (what\u2019s included):\n- Out of scope (what\u2019s not included):\n- Timeline:\n- Requirements from client:\n- Pricing (include 2 options if possible):\n- Payment terms:\n- Assumptions/risks:\n- Call to action (meeting link/date range):\n- My credibility (1\u20132 lines, optional):\n\nOutput format:\n1) Title + one-sentence summary\n2) Client goal (1 short paragraph)\n3) Proposed approach (3\u20136 bullets)\n4) Deliverables (bulleted list)\n5) Timeline (simple week-by-week or milestone list)\n6) Pricing (Option A / Option B with what changes)\n7) What I need from you (bullets)\n8) Next steps (single clear ask)\n\nConstraints:\n- No buzzwords or vague claims.\n- Make deliverables measurable where possible.\n- Keep it to ~300\u2013450 words.\n\nIf anything is missing, make sensible assumptions and clearly label them as \u201cAssumptions.\u201d",
         "images": [
             {
-                "original_filename": "coworking-meeting-notes-to-action-items-01.jpg",
+                "original_filename": "cinematic-consultant-proposal-walkthrough-01.jpg",
                 "is_cover": true
             }
         ]
     },
     {
         "key": "promptforge-012",
-        "title": "Turn Rough Notes Into a Clear, Actionable One-Page Brief",
+        "title": "Turn messy research into a structured outline + first draft (with citations placeholders)",
         "type": "text",
         "category_key": "writing",
-        "content": "Convert my rough notes into a one-page brief that someone can act on immediately.\n\nWhat I\u2019ll paste:\n- Audience:\n- Goal / decision needed:\n- Context (optional):\n- Notes (bullets, messy is fine):\n\nYour output (keep it under ~500 words):\n1) Headline: a single sentence that states the core point\n2) What\u2019s happening: 3\u20135 tight bullets capturing the situation\n3) Key insights: 3 bullets that explain the \u201cso what\u201d (no repeats)\n4) Recommendation: one clear recommended path, plus 1 alternative option\n5) Risks & mitigations: 3 rows in a small table (Risk | Impact | Mitigation)\n6) Next steps: 5 checklist items with an owner role (e.g., Marketing, Eng, Ops) and a suggested timeframe\n\nRules:\n- Preserve all important facts; don\u2019t invent specifics. If something is missing, add a short \u201cOpen question:\u201d bullet instead.\n- Use concrete language, active verbs, and consistent terms.\n- If the notes contain conflicting info, flag it in \u201cOpen questions\u201d and propose how to resolve.\n- Write in a confident, structured tone\u2014no fluff.\n\nStart by asking up to 3 clarifying questions only if absolutely necessary; otherwise produce the brief immediately.\n\nHere are my notes:\n[PASTE]",
+        "content": "I\u2019m going to paste messy notes and source snippets below. Turn them into a publishable piece without inventing facts.\n\nDeliverables (in this order):\n1) One-sentence thesis and 3\u20135 key takeaways.\n2) Audience + intent you infer (and one alternative angle worth considering).\n3) A clean outline with H2/H3 headings. For each section, add:\n   - the point it should prove\n   - which note/source supports it (use [S1], [S2]\u2026)\n   - one counterpoint or limitation to mention\n4) A first draft (800\u20131,200 words unless I specify otherwise) written in a confident, structured tone. Requirements:\n   - Use short paragraphs and clear transitions\n   - Define any jargon on first use\n   - Include 2\u20133 concrete examples or mini-scenarios drawn from the notes\n   - Where a claim needs support, add a citation placeholder like [S2]\n   - If the notes don\u2019t support a claim, either omit it or mark it clearly as \u201cUnverified\u201d\n5) A \u201cFact-check list\u201d: bullet the statements that should be verified, with the source tag you used or \u201cmissing source\u201d.\n\nRules:\n- Don\u2019t add new statistics, quotes, or specific historical claims not present in the notes.\n- If something is ambiguous, make the safest interpretation and flag the ambiguity.\n- If the notes contradict each other, surface the conflict and present both sides.\n\nOptional settings (use if provided):\n- Target reader: {target_reader}\n- Format: {blog post / memo / LinkedIn / script / other}\n- Length: {word_count}\n- Must-include points: {must_include}\n- Must-avoid: {must_avoid}\n\nHere are my notes and sources:\n{paste_notes_here}",
         "images": [
             {
-                "original_filename": "one-page-brief-glass-table-soft-light-01.jpg",
+                "original_filename": "library-stand-source-tabs-organizing-01.jpg",
                 "is_cover": true
+            },
+            {
+                "original_filename": "museum-archive-outline-vs-notes-02.jpg",
+                "is_cover": false
             }
         ]
     },
     {
         "key": "promptforge-013",
-        "title": "Modern product launch hero image for a SaaS landing page (clean, high-contrast)",
+        "title": "Dark UI-Friendly Product Hero Image for a SaaS Launch",
         "type": "image",
         "category_key": "marketing",
-        "content": "Create a modern marketing hero image for a SaaS product launch. Subject: a sleek, abstract \u201ccontrol center\u201d UI floating in 3D space (no readable text), composed of modular cards, charts, toggles, and a subtle network graph. Style: clean, minimal, high-contrast, modern and direct. Color palette: deep charcoal background with electric cyan and soft violet accents, small warm white highlights.\n\nComposition: wide 16:9, lots of negative space on the left for headline placement, the UI cluster sits on the right third; add a faint perspective grid and soft volumetric haze for depth. Lighting: crisp rim light, gentle top light, soft reflections, subtle bloom on accent elements; shadows are soft and controlled.\n\nMaterials: glassmorphism panels with frosted edges, anodized metal frames, thin glowing lines, micro-texture grain. Mood: confident, premium, tech-forward, not playful.\n\nCamera: 35mm equivalent, slightly above eye level, mild depth of field (keep main UI sharp). Render: ultra-clean, high resolution, realistic 3D/CGI (Octane/Redshift look), no people, no logos, no text, no watermark, no clutter.",
+        "content": "Create a premium marketing hero image for [PRODUCT/APP NAME], designed to sit inside a dark website UI.\n\nSubject & props:\n- Centerpiece: a sleek [DEVICE TYPE: phone/laptop/tablet] showing a realistic mock UI of [PRODUCT/APP NAME] (no readable brand names, use abstract UI shapes)\n- Optional supporting objects: [2\u20133 PROPS] that hint at the product\u2019s use-case (keep minimal, modern)\n\nScene & styling:\n- Setting: subdued studio setup with a matte charcoal surface and a deep graphite background, minimal texture\n- Color palette: cool neutrals (deep navy, graphite, gunmetal) with a restrained accent color: [ACCENT COLOR]\n- Materials: anodized metal, frosted glass, soft-touch plastic; clean edges, no clutter\n\nComposition:\n- Aspect ratio: [ASPECT RATIO: 16:9 / 4:3 / 1:1]\n- Camera: 50mm look, slightly above eye level, 3/4 angle, tight crop with generous negative space on [LEFT/RIGHT] for headline text\n- Depth: shallow depth of field, subtle atmospheric falloff, crisp focal plane on the screen and primary edges\n\nLighting & mood:\n- Low-key, cinematic lighting with a soft key light from [LEFT/RIGHT], gentle rim light to separate the device from background\n- Soft shadows, controlled highlights, no harsh reflections, no warm daylight\n- Mood: modern, direct, high-end, quiet confidence\n\nQuality notes:\n- Ultra-detailed, clean product photography style, restrained saturation, cool color grading\n- No people, no busy backgrounds, no bright white environment, no cheesy stock-photo vibe\n\nOutput: one polished hero image that feels premium and readable against a dark interface.",
         "images": [
             {
-                "original_filename": "saas-control-center-hero-cyan-violet-01.jpg",
+                "original_filename": "lumenops-dark-saas-hero-laptop-cyan-01.jpg",
                 "is_cover": true
+            },
+            {
+                "original_filename": "pulsedesk-dark-saas-hero-phone-magenta-02.jpg",
+                "is_cover": false
             }
         ]
     },
     {
         "key": "promptforge-014",
-        "title": "Turn messy notes into a clear, action-oriented email (with subject + CTA)",
+        "title": "Turn a Long, Messy Update Into a Clear Action-Oriented Email",
         "type": "text",
         "category_key": "email",
-        "content": "Write a clear, practical email based on the notes I paste below.\n\nWhat I\u2019ll provide:\n- Audience/recipient:\n- My role (optional):\n- Goal of the email (what I want the reader to do/decide):\n- Context/background (bullets or rough text):\n- Key points to include (bullets):\n- Constraints (word limit, tone, must-mention items, dates, links):\n- Call to action + deadline (if any):\n\nYour output:\n1) 3 subject line options (one straightforward, one concise, one specific)\n2) The email body in plain text\n   - Start with 1\u20132 sentences of context\n   - Use short paragraphs and bullets where helpful\n   - Make asks and next steps unambiguous\n   - Include any dates/times in a consistent format\n3) A \u201cNext steps\u201d section with 2\u20135 bullet points\n4) If anything is unclear, list up to 3 assumptions you made (don\u2019t ask me questions unless essential)\n\nStyle rules:\n- Keep it skimmable and under the word limit if provided\n- Avoid fluff, buzzwords, and over-apologizing\n- Use simple language and active voice\n- If the notes are long, prioritize what directly supports the goal and move the rest into a short \u201cAdditional details\u201d section.\n\nNotes to convert into an email:\n[PASTE NOTES HERE]",
+        "content": "Rewrite the content below into a clear, practical email that busy recipients can scan in under 60 seconds.\n\nAudience: [who this is going to]\nMy relationship to them: [e.g., colleague, vendor, customer]\nGoal of the email: [decision? status update? request?]\nDesired tone: clear, practical, calm\n\nConstraints:\n- Keep it under 220 words unless I explicitly ask for more.\n- Use short paragraphs and bullets where helpful.\n- Lead with the ask (or the purpose) in the first 1\u20132 lines.\n- If there are multiple requests, group them and label each.\n- Include concrete dates/times if mentioned; if missing, add a bracketed placeholder like [date].\n- End with a single, specific next step and a polite sign-off.\n- Remove fluff, repetition, and internal-only details.\n\nOutput format:\n1) Subject line (max 8 words)\n2) Email body\n3) Optional: 3 alternate subject lines\n\nContent to rewrite (can be long and messy):\n[PASTE HERE]",
         "images": [
             {
-                "original_filename": "messy-notes-to-clear-email-evening-home-01.jpg",
+                "original_filename": "clear-action-email-send-moment-01.jpg",
                 "is_cover": true
             }
         ]
     },
     {
         "key": "promptforge-015",
-        "title": "Write a clear design brief from messy project notes",
+        "title": "Turn a feature list into a clean, developer-ready UI spec",
         "type": "text",
         "category_key": "design",
-        "content": "Turn my rough notes into a one-page design brief a designer can start from immediately.\n\nInput (paste below):\n- Project/background:\n- Target audience:\n- Problem to solve:\n- Key messages:\n- Brand/product context (links, competitors, existing assets):\n- Deliverables needed:\n- Must-haves / constraints (legal, accessibility, platforms, sizes):\n- Nice-to-haves:\n- Timeline and milestones:\n- Stakeholders/approvers:\n- Success criteria:\n\nOutput requirements:\n- Keep it professional and concise.\n- Use headings and tight bullet points.\n- Flag assumptions and risks.\n- List exactly 5 open questions that would unblock the work.\n- Include a \u201cScope boundaries\u201d section (what\u2019s explicitly out of scope).\n\nMy notes:\n[PASTE HERE]",
+        "content": "Convert the following product notes into a concise UI specification a designer and developer can build from.\n\nContext\n- Product: [what this is]\n- Platform: [web / iOS / Android / desktop]\n- Primary user: [who]\n- Core job-to-be-done: [what they\u2019re trying to accomplish]\n- Constraints: [timeline, tech, accessibility, localization, etc.]\n\nInput notes (paste)\n[FEATURE NOTES]\n\nOutput requirements\n1) Screen(s) list with one-line purpose each.\n2) For each screen, include:\n   - Layout structure (header/body/footer, key regions)\n   - UI components (inputs, tables, cards, modals, etc.)\n   - States (empty/loading/error/success/disabled)\n   - Validation rules and edge cases\n   - Primary/secondary actions\n3) Interaction rules\n   - Navigation flow between screens\n   - Key micro-interactions (hover, focus, keyboard, gestures as relevant)\n4) Data + content\n   - Field definitions (name, type, required, constraints, example)\n   - Default copy placeholders where needed\n5) Acceptance criteria\n   - 6\u201312 bullet points written as testable statements.\n\nStyle\n- Use crisp bullets, no fluff.\n- If something is ambiguous, make the minimum reasonable assumption and list it under \u201cOpen questions\u201d (max 5).",
         "images": [
             {
-                "original_filename": "from-messy-notes-to-clear-design-brief-01.jpg",
+                "original_filename": "skybridge-ui-spec-tablet-cinematic-01.jpg",
                 "is_cover": true
+            },
+            {
+                "original_filename": "modular-ui-components-grid-night-02.jpg",
+                "is_cover": false
             }
         ]
     },
     {
         "key": "promptforge-016",
-        "title": "Rewrite My Draft to Be Clear, Friendly, and Skimmable (Keep My Meaning)",
+        "title": "Turn Rough Notes Into a Clear One-Page Writing Brief (with next steps)",
         "type": "text",
         "category_key": "writing",
-        "content": "Rewrite the text below so it\u2019s clearer, friendlier, and easier to skim\u2014without changing the meaning or adding new claims.\n\nWhat I\u2019m sending this for: [email / Slack / doc / support reply / announcement]\nAudience: [who it\u2019s for]\nDesired tone: friendly, helpful, confident (not salesy)\nLength target: [short / medium / keep similar]\nCall to action (if any): [what you want them to do]\n\nText to rewrite:\n---\n[paste draft here]\n---\n\nConstraints:\n- Keep all factual details (dates, numbers, names). If something is ambiguous, flag it instead of guessing.\n- Preserve my intent, but remove fluff, repeated phrases, and overly formal wording.\n- Prefer active voice and simple verbs.\n- Use short paragraphs and add bullets where it improves readability.\n- If there\u2019s a sensitive point (delay, mistake, refusal), state it directly but tactfully.\n\nOutput:\n1) Rewritten version\n2) 3\u20135 suggested subject lines / opening lines (if relevant)\n3) A quick checklist of anything unclear or missing that I should confirm",
+        "content": "I\u2019m going to paste messy notes for a writing project. Turn them into a clean one-page brief I can actually write from.\n\nNotes:\n[PASTE NOTES HERE]\n\nOutput requirements:\n- Keep it friendly and practical. No fluff.\n- Do not invent facts; if something is missing or contradictory, flag it under \u201cOpen questions\u201d.\n- Preserve my intent and wording when it matters (names, quotes, numbers).\n\nPlease produce:\n1) Project snapshot (2\u20133 sentences)\n2) Audience + what they care about (bullets)\n3) Goal of the piece + success criteria (bullets)\n4) Core message (one sentence) + 3 supporting points\n5) Recommended structure (H1/H2/H3 outline)\n6) Key facts to verify (bullets)\n7) Voice & tone guidance (3\u20135 bullets, including do/don\u2019t)\n8) Call to action options (3 variations)\n9) Open questions (the minimum list needed to proceed)\n10) First drafting step: tell me exactly what to write first (1\u20132 paragraphs of starter text OR a detailed opening plan\u2014choose whichever fits best)\n\nIf the notes include multiple possible directions, suggest up to 2 angles with a quick \u201cwhy this works\u201d for each, then pick the best default and proceed with the brief.",
         "images": [
             {
-                "original_filename": "friendly-skimmable-message-evening-living-room-01.jpg",
+                "original_filename": "messy-notes-to-one-page-brief-01.jpg",
                 "is_cover": true
             }
         ]
     },
     {
         "key": "promptforge-017",
-        "title": "Launch Email + Landing Page Copy for a New Feature (Benefit-First)",
+        "title": "Turn Product Notes Into a High-Converting Landing Page (Hero + Sections)",
         "type": "text",
         "category_key": "marketing",
-        "content": "Write benefit-first marketing copy for launching a new feature. Keep it confident, structured, and easy to skim.\n\nContext\n- Product/company: [WHAT YOU SELL]\n- Audience: [WHO IT\u2019S FOR]\n- New feature: [FEATURE NAME + 1-SENTENCE DESCRIPTION]\n- Primary customer pain it solves: [PAIN]\n- Key benefits (3): [BENEFIT 1], [BENEFIT 2], [BENEFIT 3]\n- Proof/credibility: [METRIC/QUOTE/LOGO/RESULT]\n- CTA: [START TRIAL / BOOK DEMO / UPGRADE / BUY]\n- Offer or urgency (optional): [DEADLINE / BONUS]\n- Compliance notes (optional): [RESTRICTIONS]\n\nDeliverables\n1) Subject lines (6)\n- 2 curiosity-driven\n- 2 benefit-driven\n- 2 short (under 35 characters)\n\n2) Launch email (one email)\n- 1 strong opening line that names the pain\n- 3 short sections with headings (one per key benefit)\n- One sentence of proof placed after the second section\n- Clear CTA button copy + a fallback text link\n- P.S. that reiterates the main outcome + urgency/offer if provided\n- Max 180 words, no jargon\n\n3) Landing page copy (above-the-fold only)\n- Headline (max 10 words)\n- Subheadline (1\u20132 sentences)\n- 5 bullet benefits (each starts with a verb)\n- \u201cHow it works\u201d in 3 steps (each step max 8 words)\n- Social proof line (1 sentence)\n- Primary CTA + secondary CTA\n\nStyle rules\n- Write in second person (\u201cyou\u201d)\n- Use concrete outcomes (time saved, errors reduced, revenue gained)\n- Avoid hype words (revolutionary, game-changing, best-in-class)\n- If any input is missing, make a reasonable assumption and note it briefly at the end under \u201cAssumptions.\u201d",
+        "content": "Write landing page copy that converts based on the details below. Keep it confident, structured, and skimmable. Avoid hype, buzzwords, and vague claims\u2014make benefits concrete.\n\nPRODUCT NOTES\n- Product/service: [what it is]\n- Target audience: [who it\u2019s for]\n- Primary problem it solves: [pain]\n- Key outcome/benefit: [main win]\n- 3\u20136 features (plain words): [feature list]\n- Differentiator / why choose us: [unique angle]\n- Proof available (pick what\u2019s true): [metrics, logos, testimonials, case study, years, certifications]\n- Pricing/plan info (if any): [price / free trial / guarantee]\n- Primary CTA: [e.g., Start free trial]\n- Secondary CTA: [e.g., Book a demo]\n- Brand voice constraints (optional): [e.g., no jokes, no slang]\n\nOUTPUT\n1) Hero section\n- Headline (<= 10 words)\n- Subheadline (1\u20132 sentences)\n- 3 bullet benefits (outcomes, not features)\n- Primary CTA + secondary CTA\n\n2) Social proof strip\n- 1 short proof line using provided proof (no inventing)\n\n3) \u201cHow it works\u201d section\n- 3 steps with short titles + 1 sentence each\n\n4) Benefits section\n- 4 benefit cards: Title + 2 sentences each\n\n5) Feature-to-benefit mapping\n- Table with two columns: Feature | Customer impact\n\n6) Objections & answers\n- 4 common objections from this audience + crisp responses\n\n7) Final CTA block\n- 1 closing paragraph + repeated CTA buttons\n\nRules:\n- Use specific language tied to the audience and problem.\n- If any input is missing, make your best assumption but label it clearly as an assumption (don\u2019t fabricate proof).",
         "images": [
             {
-                "original_filename": "evening-feature-launch-send-moment-01.jpg",
+                "original_filename": "product-notes-to-landing-page-hero-01.jpg",
                 "is_cover": true
             }
         ]
     },
     {
         "key": "promptforge-018",
-        "title": "Modern email workspace hero image (clean, direct, no clutter)",
+        "title": "Cinematic email inbox hero image for a dark UI (modern, direct)",
         "type": "image",
         "category_key": "email",
-        "content": "Create a modern, direct hero image for an email product page: a minimalist desk scene with a slim laptop open to a clean email client UI (inbox list on the left, single email open on the right), simple monochrome icons, clear subject lines, and a visible \u201cSend\u201d button. Include subtle emphasis on speed and clarity: one highlighted message thread, a small status chip reading \u201cScheduled 9:00 AM\u201d, and a tidy search bar at the top.\n\nStyle: contemporary tech aesthetic, crisp lines, restrained color palette (soft whites, charcoal, one accent color like cobalt), lots of negative space, no decorative clutter.\n\nComposition: 16:9 wide, camera at a slight 3/4 angle above desk level, laptop centered with generous margin for headline text on the right side of the frame.\n\nLighting: soft natural window light with gentle shadows, high clarity, no harsh glare on screen.\n\nDetails: matte desk surface, one simple mug and a single pen only; no visible brand logos; UI text should be believable but not real company names; avoid unreadable microtext.\n\nMood: efficient, calm, confident.\n\nOutput: photorealistic with subtle CGI polish, ultra-sharp, high resolution.",
+        "content": "Create a premium, cinematic hero image that communicates \u201cemail\u201d without showing any readable text.\n\nScene: a minimalist modern desktop setup in a dim studio\u2014matte black desk, a thin laptop slightly angled, and a floating translucent UI panel hovering above the keyboard showing an abstract inbox layout (blocks, lines, icons only; no letters, no numbers). Include a subtle envelope glyph and a small notification dot as the primary visual cue.\n\nArt direction: modern and direct, high-end product interface vibe. Controlled low-key lighting with a cool/neutral grade (deep navy, graphite, cool whites). Soft rim light along the laptop edge, gentle specular highlights, clean shadows, and slight atmospheric falloff for depth. Background nearly black with a faint gradient and minimal bokeh.\n\nComposition: 16:9, subject centered-left with generous negative space on the right for UI copy. Eye-level camera, 50mm look, shallow depth of field (inbox panel sharp, desk edges softly fading).\n\nMaterials: anodized aluminum laptop, matte glass UI panel, subtle reflections, no fingerprints, no clutter.\n\nConstraints: avoid warm daylight, cozy lifestyle elements, wood-heavy tones, bright white rooms, and any legible text/logos.\n\nOptional placeholders (apply if provided): accent color = [ACCENT_COLOR] (use sparingly for the notification dot and one UI highlight); device style = [DEVICE_STYLE] (e.g., \u201cultra-thin laptop\u201d or \u201cdesktop monitor\u201d); background tone = [BG_TONE] (e.g., \u201cdeep navy\u201d or \u201ccharcoal\u201d).",
         "images": [
             {
-                "original_filename": "modern-email-workspace-hero-laptop-desk-01.jpg",
+                "original_filename": "cinematic-dark-inbox-laptop-hero-01.jpg",
                 "is_cover": true
+            },
+            {
+                "original_filename": "dark-inbox-desktop-monitor-magenta-02.jpg",
+                "is_cover": false
+            },
+            {
+                "original_filename": "dark-inbox-convertible-device-acid-green-03.jpg",
+                "is_cover": false
             }
         ]
     },
     {
         "key": "promptforge-019",
-        "title": "Turn messy notes into an actionable plan (with priorities and next steps)",
+        "title": "Turn a Messy Idea Into a Clear 10-Minute Action Plan",
         "type": "text",
         "category_key": null,
-        "content": "Take the text I paste below (it may be messy, repetitive, or out of order) and turn it into a clear, practical action plan.\n\nRequirements:\n- Keep it short and usable, not essay-like.\n- Preserve any concrete facts, dates, numbers, and constraints exactly.\n- If something is ambiguous, flag it as an open question instead of guessing.\n- Use plain language.\n\nOutput format:\n1) One-sentence goal\n2) Key context (3\u20136 bullets)\n3) Priorities (P0/P1/P2) with 1-line rationale each\n4) Action steps (5\u201312 bullets) written as verbs, each with an owner (if known) and a due date (if mentioned)\n5) Risks & blockers (bullets)\n6) Open questions (bullets)\n\nHere are the notes:\n[PASTE NOTES HERE]",
+        "content": "Take the rough idea below and turn it into a simple action plan I can start today.\n\nIdea (messy on purpose):\n[PASTE YOUR IDEA / NOTES]\n\nOutput requirements:\n- One-sentence goal (what \u201cdone\u201d looks like)\n- Assumptions (up to 3) you\u2019re making based on my notes\n- The smallest next step I can do in 10 minutes\n- A 30-minute follow-up step (only if the 10-minute step goes well)\n- A \u201cstop doing\u201d list (2\u20134 things to avoid that waste time)\n- 3 quick checkpoints to verify I\u2019m on track (measurable, no fluff)\n\nConstraints:\n- Keep it practical and specific; no motivational language\n- If my idea is too vague, propose 2 possible interpretations and build a plan for each\n- Use plain language and short bullets",
         "images": [
             {
-                "original_filename": "glass-wall-priorities-action-plan-01.jpg",
+                "original_filename": "messy-idea-to-clear-action-plan-01.jpg",
                 "is_cover": true
             }
         ]
     },
     {
         "key": "promptforge-020",
-        "title": "Turn Messy Notes Into a Decision-Ready One-Pager (Options, Risks, Ask)",
+        "title": "Turn messy research into a publishable outline + first draft (with citations placeholders)",
         "type": "text",
         "category_key": "writing",
-        "content": "Act as a senior staff writer for internal business memos. I\u2019m going to paste raw, messy notes. Convert them into a crisp, decision-ready one-pager that an executive can approve in under 3 minutes.\n\nConstraints\n- Professional, concise, no hype.\n- Use plain language; define acronyms on first use.\n- Keep to ~400\u2013650 words unless the content truly demands more.\n- Don\u2019t invent facts. If something is missing, call it out under \u201cOpen Questions\u201d.\n- Preserve numbers, dates, and commitments exactly as given.\n\nOutput format (use these headings exactly)\n1) Decision Needed (1\u20132 sentences)\n2) Context (why now; 3\u20135 bullets)\n3) Proposal (what will be done; 4\u20137 bullets)\n4) Options Considered (2\u20134 options, each with Pros / Cons / Cost / Timeline)\n5) Risks & Mitigations (table: Risk | Impact | Likelihood | Mitigation | Owner)\n6) Dependencies & Assumptions (bullets)\n7) Success Metrics (5\u20138 measurable metrics; include target and time window)\n8) Timeline & Milestones (bullets with dates if available)\n9) Open Questions (bullets; phrase as answerable questions)\n10) Appendix: Source Notes (verbatim, lightly cleaned only for typos)\n\nProcess rules\n- If the notes include multiple threads, consolidate into one coherent narrative; do not duplicate points.\n- Translate vague statements into specific, testable language (e.g., \u201cimprove performance\u201d \u2192 \u201creduce p95 latency by X%\u201d), but only when the notes provide enough to do so; otherwise leave as \u201cTBD\u201d.\n- Where trade-offs exist, make them explicit and balanced.\n\nHere are the raw notes:\n[PASTE NOTES HERE]",
+        "content": "I\u2019m writing a piece and I have messy inputs. Convert them into (1) a crisp outline and (2) a solid first draft that follows the outline.\n\nConstraints\n- Tone: professional, concise, plain English.\n- Audience: [AUDIENCE].\n- Goal: [WHAT THIS SHOULD ACHIEVE FOR THE READER].\n- Length: outline \u2264 [N] headings; draft \u2248 [WORD COUNT] words.\n- Must avoid: hype, filler, grand claims, jargon without explanation.\n- If anything is unclear or contradictory, flag it instead of guessing.\n\nInputs\n- Topic/title idea: [TOPIC]\n- Angle/thesis (if any): [THESIS OR \u201cUNKNOWN\u201d]\n- Key points / bullet notes (raw):\n  [PASTE NOTES]\n- Source snippets / quotes / links (optional):\n  [PASTE SOURCES]\n- Required inclusions (terms, examples, constraints):\n  [MUST INCLUDE]\n- Exclusions / sensitive areas:\n  [MUST AVOID]\n\nOutput format\nA) One-paragraph premise\n- 3\u20135 sentences: what the piece covers, why it matters, what it will *not* cover.\n\nB) Outline\n- H1/H2/H3 structure.\n- For each section: 1\u20132 bullets explaining the point + what evidence/example supports it.\n- Mark where you\u2019re relying on assumptions with: (ASSUMPTION).\n\nC) Draft\n- Use the outline structure.\n- Start with a direct lead (no anecdotes unless explicitly supported by notes).\n- Every major claim must have one of:\n  - a cited source placeholder like [SOURCE: \u2026]\n  - an internal support note like [FROM NOTES]\n  - or be rewritten into a narrower, safer claim.\n- Include at least:\n  - one concrete example\n  - one counterpoint + response\n  - one short \u201cSo what / next steps\u201d section\n\nD) Gaps & questions\n- List missing data, weak claims, and 5\u201310 targeted questions that would improve the piece fastest.\n\nE) Optional upgrades (only if helpful)\n- 3 alternate titles (non-clickbait).\n- A 2-sentence executive summary.\n\nBefore you begin, ask up to 5 clarifying questions *only if* they materially change the structure or accuracy. Otherwise proceed and note assumptions.",
         "images": [
             {
-                "original_filename": "decision-ready-one-pager-on-concrete-table-01.jpg",
+                "original_filename": "messy-research-to-clean-outline-01.jpg",
                 "is_cover": true
+            },
+            {
+                "original_filename": "first-draft-emerges-from-notes-02.jpg",
+                "is_cover": false
             }
         ]
     },
     {
         "key": "promptforge-021",
-        "title": "Turn Product Features Into Benefit-Driven Marketing Copy (Website + Ads)",
+        "title": "Turn a Product Feature List into a Landing Page Hero + CTA Variations",
         "type": "text",
         "category_key": "marketing",
-        "content": "I\u2019m going to paste product info. Turn it into benefit-driven marketing copy that\u2019s clear, friendly, and easy to scan.\n\nProduct info:\n- Product name:\n- What it does (1\u20132 sentences):\n- Target customer:\n- Top 5 features (bullets):\n- Key differentiator vs alternatives:\n- Price point (optional):\n- Proof (reviews, stats, clients) (optional):\n- Primary call to action:\n\nCreate:\n1) A one-line positioning statement (plain language)\n2) A homepage hero section: headline (max 8 words) + subheadline (max 25 words) + CTA button text (2 options)\n3) Three benefit bullets (not features)\n4) A short product description (60\u201390 words)\n5) Five ad headlines (max 30 characters each)\n6) Five ad descriptions (max 90 characters each)\n7) Three social captions (one punchy, one story-style, one question-led)\n\nRules:\n- Avoid hype and jargon. No exclamation marks.\n- Keep the tone warm, confident, and helpful.\n- If info is missing, make reasonable assumptions and note them at the end under \u201cAssumptions.\u201d",
+        "content": "Take the product info below and write landing-page hero copy that\u2019s clear, specific, and friendly.\n\nInput:\n- Product name:\n- Target customer (role + industry):\n- Top 3 problems they have:\n- Top 5 features (bullet list):\n- 1\u20132 key differentiators vs alternatives:\n- Proof (metrics, customer logos, testimonial snippet, or \u201cnone yet\u201d):\n- Primary call to action (e.g., Start free trial, Book a demo):\n- Tone constraints (optional):\n\nOutput:\n1) Hero headline options (8): max 8\u201310 words each, no buzzword salad.\n2) Subheadline options (5): 1\u20132 sentences, explain outcome + who it\u2019s for.\n3) Benefit bullets (6): short, concrete, start with verbs.\n4) CTA button copy (10): mix of action + low-friction options.\n5) Microcopy under CTA (3): reduce anxiety (time, setup, cancel anytime, privacy).\n6) \u201cHow it works\u201d (3 steps): each step 1 sentence.\n7) One short testimonial draft (if proof is \u201cnone yet,\u201d write a placeholder that doesn\u2019t fake specifics).\n\nRules:\n- Use plain English and specific outcomes.\n- Avoid clich\u00e9s like \u201crevolutionary,\u201d \u201cgame-changer,\u201d \u201cseamless,\u201d \u201cworld-class.\u201d\n- If an input is missing, make a reasonable assumption and label it as [Assumption].\n- Keep it skimmable.\n\nHere\u2019s the product info:\n[paste here]",
         "images": [
             {
-                "original_filename": "benefit-driven-marketing-copy-outdoor-hero-01.jpg",
+                "original_filename": "dusk-cta-tap-tablet-marketer-01.jpg",
                 "is_cover": true
             }
         ]
@@ -316,36 +291,48 @@
         "title": "Write a confident, structured email that gets a clear decision",
         "type": "text",
         "category_key": "email",
-        "content": "Draft a confident, structured email based on the details below. Keep it concise, action-oriented, and easy to scan. Use short paragraphs and bullets where helpful.\n\nContext\n- Recipient (name + role): \n- My role/company: \n- Relationship/history (new contact / existing / stakeholder): \n- Topic in one line: \n- Why this matters now (deadline, risk, opportunity): \n\nWhat I need\n- The decision I\u2019m asking for (be explicit): \n- Options (if any) + my recommendation: \n- Exact call to action (reply with X / approve Y / choose A or B): \n- Deadline for response: \n\nSupporting details (only the essentials)\n- Key facts (max 3): \n- Constraints (budget, timeline, dependencies): \n- What happens if we don\u2019t decide: \n\nPreferences\n- Tone: confident, structured, respectful\n- Length: 120\u2013200 words (unless more is truly required)\n- Sign-off style (formal / friendly): \n\nOutput requirements\n1) Subject line: 1\u20132 strong options\n2) Email body:\n   - Opening sentence that sets context\n   - 2\u20134 bullets with the key info\n   - Clear ask + deadline\n   - Polite close\n3) Add a brief \u201cIf they push back\u201d section with 2 short follow-up replies for common objections.\n\nIf anything important is missing, ask up to 3 clarifying questions before drafting.",
+        "content": "Draft a confident, structured email based on the details below. Keep it concise, action-oriented, and easy to scan.\n\nContext\n- Recipient: [who they are / relationship]\n- Goal: [what decision or outcome you want]\n- Background (1\u20133 bullets):\n  - [fact 1]\n  - [fact 2]\n  - [fact 3]\n- Options (if any): [option A vs option B]\n- Deadline / urgency: [date + why]\n- Constraints: [budget, policy, dependencies]\n- Your preferred path: [what you recommend]\n\nRequirements\n- Provide 3 subject line options (short, specific, no hype).\n- Email structure must be:\n  1) One-sentence opener with the ask\n  2) 2\u20134 bullets of key context\n  3) Clear recommendation\n  4) Explicit decision request with deadline\n  5) Next steps (what you\u2019ll do once approved)\n- Use confident language without sounding aggressive.\n- Avoid long paragraphs; max 160 words for the email body.\n- End with a simple sign-off.\n\nOutput format\n1) Subject lines:\n- \u2026\n- \u2026\n- \u2026\n\n2) Email:\n[full email text]",
         "images": [
             {
-                "original_filename": "confident-email-decision-send-morning-01.jpg",
+                "original_filename": "decision-email-send-moment-01.jpg",
                 "is_cover": true
             }
         ]
     },
     {
         "key": "promptforge-023",
-        "title": "Modern business hero image: diverse team in a glass-walled meeting room",
+        "title": "Cinematic SaaS dashboard hero image with device mockup and subtle data glow",
         "type": "image",
         "category_key": "business",
-        "content": "Create a modern business website hero image showing a diverse team of 5 in a glass-walled conference room, mid-discussion around a clean white table with a laptop, minimal notebooks, and a single carafe of water. Setting: high-rise office with floor-to-ceiling windows, soft city skyline out of focus. Composition: wide horizontal (16:9) with negative space on the left for headline text; subjects positioned on the right third; candid but confident body language (no forced smiles). Lighting: bright natural daylight with soft shadows; subtle rim light on shoulders; neutral color temperature. Styling: contemporary tailored clothing in muted tones (navy, charcoal, beige), no loud patterns, no visible brand logos. Camera: eye-level, 35mm lens look, shallow depth of field (faces sharp, background gently blurred). Mood: focused, decisive, collaborative. Photorealistic, high detail, clean and minimal, no exaggerated lens flare, no text, no watermark.",
+        "content": "Create a modern business hero image for a SaaS product.\n\nSubject: a sleek laptop (and optional phone) showing a {PRODUCT_NAME} dashboard UI (charts, table, KPI cards) with legible but non-branded placeholder text and data.\n\nScene & setting: minimal studio setup in a dark premium interface-friendly environment; matte black desk surface, soft haze in the background, no clutter, no warm wood.\n\nComposition: 3/4 angle from slightly above, device centered-left with negative space on the right for headline copy; shallow depth of field; clean leading lines toward the screen.\n\nLighting: low-key, directional key light from upper left + subtle rim light on device edges; soft shadows; controlled reflections on the screen (no blown highlights).\n\nColor & mood: cool/neutral grading (deep navy, charcoal, cool gray), restrained saturation, subtle cyan/blue data glow accents; calm, confident, high-end.\n\nStyle: photorealistic product photography with a cinematic feel; crisp materials (anodized aluminum, glass), fine texture detail.\n\nConstraints: no people, no logos, no recognizable brands, no bright daylight, no busy office background.\n\nOptional variations: include a floating translucent analytics overlay (thin lines, subtle glow) around the screen; add a faint grid pattern in the background.\n\nOutput: ultra-high resolution, sharp focus on device and UI, premium commercial look.",
         "images": [
             {
-                "original_filename": "diverse-team-glass-conference-room-hero-01.jpg",
+                "original_filename": "cloudflow-analytics-dashboard-laptop-hero-01.jpg",
                 "is_cover": true
+            },
+            {
+                "original_filename": "novaledger-finance-dashboard-dark-hero-02.jpg",
+                "is_cover": false
+            },
+            {
+                "original_filename": "pulseops-monitoring-dashboard-overlay-hero-03.jpg",
+                "is_cover": false
+            },
+            {
+                "original_filename": "vertexcrm-pipeline-dashboard-grid-hero-04.jpg",
+                "is_cover": false
             }
         ]
     },
     {
         "key": "promptforge-024",
-        "title": "Writing Request Router: classify tasks, ask minimum questions, output next action",
+        "title": "LLM Writing Intake Router: classify requests and output the right workflow",
         "type": "other",
         "category_key": "writing",
-        "content": "Act as my writing-ops router. Your job is to take any incoming writing request and turn it into an actionable workflow, not a polished draft.\n\nInput I\u2019ll paste:\n- The user\u2019s request (raw text)\n- Any constraints (audience, length, tone, channel, deadline)\n- Any source material (notes, links, outline) if available\n\nYour output must be a structured routing package with these sections:\n\n1) Task Classification\n- Primary task type: {drafting | rewriting | summarizing | brainstorming | outlining | editing | translation | research-needed | formatting | other}\n- Writing asset: {email | memo | blog | script | proposal | resume | cover letter | report | social | documentation | story | other}\n- Stage: {discovery | first pass | revision | final polish}\n- Risk flags (if any): {legal/medical/financial advice | privacy | plagiarism | sensitive topic | brand risk | none}\n\n2) Missing Information (Minimum Questions)\n- Ask only the smallest set of questions required to proceed.\n- Cap at 5 questions.\n- If you can proceed without asking, write \u201cNone required\u201d and state assumptions.\n\n3) Recommended Workflow\nProvide a step-by-step plan (5\u201310 steps) tailored to the classification, including:\n- What you will produce at each step (artifact name)\n- What you need from me at that step (if anything)\n- Quality checks (accuracy, tone, constraints, structure)\n\n4) Output Specification (Machine-usable)\nReturn a JSON object describing what should be generated next:\n{\n  \"next_action\": \"ask_questions\" | \"generate_outline\" | \"generate_first_draft\" | \"rewrite\" | \"edit\" | \"create_variants\" | \"extract_requirements\" | \"refuse_or_safe_complete\",\n  \"deliverables\": [\"...\"],\n  \"constraints\": {\n    \"audience\": \"...\",\n    \"tone\": \"...\",\n    \"length\": \"...\",\n    \"format\": \"...\",\n    \"must_include\": [\"...\"],\n    \"must_avoid\": [\"...\"],\n    \"deadline\": \"...\"\n  },\n  \"assumptions\": [\"...\"],\n  \"open_questions\": [\"...\"],\n  \"acceptance_checks\": [\"...\"]\n}\n\n5) Fast Start (Optional)\nIf it\u2019s reasonable, include a tiny starter artifact (choose one):\n- 5-bullet outline, OR\n- a section-by-section skeleton with headings, OR\n- a rewrite plan with before/after rules\nKeep this to under 120 words.\n\nRules\n- Do not write the full final piece unless the JSON next_action says to generate a first draft.\n- If the request is unsafe or asks for disallowed content, route to refuse_or_safe_complete and propose a safe alternative deliverable.\n- Be clear, practical, and concise.\n\nNow wait for my request and run the router.",
+        "content": "Build an intake-and-routing system for writing-related requests. Your output must be an operator-usable routing artifact (not a polished article/email).\n\nInput I will provide each time:\n- USER_REQUEST: the raw text from the user\n- (optional) CONTEXT: audience, channel, constraints, examples, brand voice, deadlines\n\nYour job:\n1) Classify the request into exactly ONE primary route.\n2) Produce the workflow steps + required fields for that route.\n3) Return a structured \u201cwork order\u201d the operator (or downstream agent) can execute.\n4) If information is missing, ask only the minimum high-impact questions (max 5) and still produce a provisional work order with assumptions clearly marked.\n\nRoutes (choose one):\nA) Draft from scratch (new content)\nB) Rewrite / reframe (existing text provided)\nC) Shorten / expand to target length\nD) Tone & voice alignment (brand/persona constraints)\nE) Structural edit (outline, flow, headings, argument)\nF) Copyediting (grammar, clarity, consistency)\nG) Fact-check & citation plan (verification workflow, not actual browsing)\nH) Multi-asset repurpose (one source \u2192 many formats)\nI) Prompt creation (meta: writing prompts, templates, macros)\nJ) Other writing-adjacent (explain why it doesn\u2019t fit above)\n\nRouting rules:\n- If USER_REQUEST includes existing text to transform, prefer B/F/E depending on goal.\n- If the user asks for \u201cmake it shorter/longer,\u201d prefer C unless they also request tone or structure as primary.\n- If the user wants multiple deliverables (tweet thread + blog + email), choose H.\n- If the user explicitly wants a reusable prompt/template, choose I.\n- If the user emphasizes correctness, sources, or claims, choose G.\n\nOutput format (strict JSON):\n{\n  \"route\": \"A|B|C|D|E|F|G|H|I|J\",\n  \"confidence\": 0.0,\n  \"reason\": \"1-2 sentences\",\n  \"inputs_needed\": {\n    \"required\": [\"...\"],\n    \"optional\": [\"...\"],\n    \"detected_from_user\": {\"field\": \"value\"}\n  },\n  \"clarifying_questions\": [\"... up to 5\"],\n  \"assumptions\": [\"...\"],\n  \"workflow\": [\n    {\"step\": 1, \"name\": \"...\", \"instructions\": \"...\", \"checks\": [\"...\"]}\n  ],\n  \"deliverable_spec\": {\n    \"format\": \"e.g., outline, edited text with track-changes markers, headline set, content matrix\",\n    \"length_or_limits\": \"...\",\n    \"voice\": \"...\",\n    \"structure\": \"...\",\n    \"acceptance_criteria\": [\"...\"]\n  },\n  \"handoff\": {\n    \"to_downstream_agent\": \"what to do next\",\n    \"paste_ready_prompt\": \"A single prompt that can be sent to a writing agent to execute this work order. Keep it under 1800 characters.\"\n  }\n}\n\nQuality checks (apply to every run):\n- Ensure the chosen route is singular and defensible.\n- Make acceptance criteria testable (e.g., word count range, reading level, must-include points).\n- If safety/legal/medical claims appear, add a check step for risk flags and suggest disclaimers as a workflow step (do not write the full disclaimer text).\n\nNow wait for my USER_REQUEST and CONTEXT.",
         "images": [
             {
-                "original_filename": "writing-request-router-machine-01.jpg",
+                "original_filename": "writing-intake-router-selector-wheel-01.jpg",
                 "is_cover": true
             }
         ]
