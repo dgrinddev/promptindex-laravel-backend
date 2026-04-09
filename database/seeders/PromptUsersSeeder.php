@@ -23,6 +23,61 @@ class PromptUsersSeeder extends Seeder
     use WithoutModelEvents;
 
     /**
+     * Prompts inserted last to control what appears on the first page of
+     * promptindex.io/prompts/prompt-library.
+     *
+     * These are chosen to ensure a good representation of:
+     * - different users
+     * - categories
+     * - prompt types
+     *
+     * As well as edge cases:
+     * - 0 images
+     * - multiple images (2+ and many)
+     * - no category
+     * - 1 image without cover (lands first on page 2)
+     *
+     * Selection overview:
+     *
+     * | Order | Key             | Images    | Type  | Category     | User        |
+     * | ----- | --------------- | --------- | ----- | ------------ | ----------- |
+     * | 1     | promptforge-023 | 4 images  | image | business     | promptforge |
+     * | 2     | devnotes-009    | 12 images | text  | productivity | devnotes    |
+     * | 3     | pixel-sora-019  | 1 image   | text  | none         | pixel-sora  |
+     * | 4     | classmind-009   | 12 images | text  | productivity | classmind   |
+     * | 5     | growthgrid-013  | 2 images  | image | email        | growthgrid  |
+     * | 6     | pixel-sora-020  | 1 image   | other | writing      | pixel-sora  |
+     * | 7     | classmind-003   | 1 image   | image | social media | classmind   |
+     * | 8     | devnotes-004    | 0 images  | text  | email        | devnotes    |
+     * | 9     | promptforge-024 | 1 image   | other | writing      | promptforge |
+     * | 10    | pixel-sora-018  | 3 images  | image | social media | pixel-sora  |
+     * | 11    | growthgrid-012  | 2 images  | text  | marketing    | growthgrid  |
+     * | 12    | classmind-012   | 1 image   | other | research     | classmind   |
+     * | 13    | promptforge-001 | 1 image*  | text  | writing      | promptforge |
+     *
+     * Note: `*` indicates 1 image without cover
+     * 
+     * Ordered newest-first.
+     * The first item ends up with the latest created_at timestamp,
+     * the last item ends up with the earliest timestamp in the late range.
+     */
+    private array $latePromptKeys = [
+        'promptforge-023',
+        'devnotes-009',
+        'pixel-sora-019',
+        'classmind-009',
+        'growthgrid-013',
+        'pixel-sora-020',
+        'classmind-003',
+        'devnotes-004',
+        'promptforge-024',
+        'pixel-sora-018',
+        'growthgrid-012',
+        'classmind-012',
+        'promptforge-001',
+    ];
+
+    /**
      * Run the database seeds.
      */
     public function run(): void
@@ -35,6 +90,11 @@ class PromptUsersSeeder extends Seeder
 
         $appNameSlug = Str::slug(config('app.name'));
 
+        // Collect each user object alongside its full prompt data so we can
+        // look up late prompts by key in the second pass below.
+        $userPromptMap = []; // [ 'promptforge' => ['user' => User, 'prompts' => Collection] ]
+
+        // foreach user: create user, load their prompts from JSON, and store in $userPromptMap for later seeding.
         foreach ($usersData as $userItem) {
             $userCreatedAt = $this->randomDateBetween('-7 days', '-6 days');
 
@@ -47,14 +107,54 @@ class PromptUsersSeeder extends Seeder
             ]);
             
             $promptsData = collect(
-                json_decode(file_get_contents(base_path('database/data/prompt-users/' . $userItem['name'] . '/prompts.json')), true)
+                json_decode(file_get_contents(base_path('database/data/prompt-users/' . $user->name . '/prompts.json')), true)
             )->map(function ($item) {
                 $item['images'] = collect($item['images']);
                 return $item;
             });
             
-            foreach ($promptsData as $p) {
-                $this->seedPrompt($user, $p, $categoriesData);
+            $userPromptMap[$user->name] = [
+                'user' => $user,
+                'prompts' => $promptsData,
+            ];
+        }
+
+        // First pass: seed only the normal (non-late) prompts for this user.
+        foreach ($userPromptMap as $data) {
+            foreach ($data['prompts'] as $p) {
+                if (!in_array($p['key'], $this->latePromptKeys)) {
+                    $this->seedPrompt($data['user'], $p, $categoriesData);
+                }
+            }
+        }
+
+        // Second pass: seed late prompts in reverse list order so that the
+        // last item in $latePromptKeys gets the oldest created_at timestamp and the first
+        // item gets the newest created_at timestamp within the -4 days to -3 days range.
+        $reversedKeys  = array_reverse($this->latePromptKeys);
+        $lateCount     = count($reversedKeys);
+        $rangeStart    = Carbon::parse('-4 days');
+        $rangeEnd      = Carbon::parse('-3 days');
+        $totalSeconds  = $rangeEnd->timestamp - $rangeStart->timestamp; // 86400 seconds in 1 day
+        $secondsPerSlot = (int) floor($totalSeconds / $lateCount);
+
+        foreach ($reversedKeys as $index => $key) {
+            // Find the user who owns this prompt key.
+            foreach ($userPromptMap as $data) {
+                $promptData = $data['prompts']->firstWhere('key', $key);
+
+                if ($promptData) {
+                    // Spread timestamps evenly, with a small random jitter inside each slot —
+                    // same technique used for $imageCreatedAt.
+                    $forcedCreatedAt = $rangeStart->copy()->addSeconds(
+                        ($index * $secondsPerSlot) + random_int(0, $secondsPerSlot - 1)
+                    );
+                    // updated_at is a random moment between created_at and -2 days.
+                    $forcedUpdatedAt = $this->randomDateBetween($forcedCreatedAt, '-2 days');
+
+                    $this->seedPrompt($data['user'], $promptData, $categoriesData, $forcedCreatedAt, $forcedUpdatedAt);
+                    break;
+                }
             }
         }
     }
@@ -84,9 +184,11 @@ class PromptUsersSeeder extends Seeder
     }
 
     /**
-     * Create a single prompt (with all its images)
+     * Create a single prompt (with all its images).
+     * $forcedCreatedAt and $forcedUpdatedAt are used by the late-prompt pass (second pass)
+     * to pin timestamps to the -4 days / -3 days range instead of the default range.
      */
-    private function seedPrompt(User $user, array $p, Collection $categoriesData): void
+    private function seedPrompt(User $user, array $p, Collection $categoriesData, ?Carbon $forcedCreatedAt = null, ?Carbon $forcedUpdatedAt = null): void
     {
         $category = null;
         $categoryKey = $p['category_key'];
@@ -99,8 +201,10 @@ class PromptUsersSeeder extends Seeder
             }
         }
 
-        $promptCreatedAt = $this->randomDateBetween($user->created_at, '-5 days');
-        $promptUpdatedAt = $this->randomDateBetween($promptCreatedAt, '-4 days');
+        // Use forced timestamps when provided (late-prompt pass), otherwise
+        // fall back to the original random ranges.
+        $promptCreatedAt = $forcedCreatedAt ?? $this->randomDateBetween($user->created_at, '-5 days');
+        $promptUpdatedAt = $forcedUpdatedAt ?? $this->randomDateBetween($promptCreatedAt, '-4 days');
 
         $prompt = Prompt::factory()->create([
             'user_id' => $user->id,
