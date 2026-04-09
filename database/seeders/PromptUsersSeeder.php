@@ -84,7 +84,7 @@ class PromptUsersSeeder extends Seeder
     }
 
     /**
-     * Create a single prompt (with its images)
+     * Create a single prompt (with all its images)
      */
     private function seedPrompt(User $user, array $p, Collection $categoriesData): void
     {
