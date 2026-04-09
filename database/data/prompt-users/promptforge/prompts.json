@@ -14,7 +14,7 @@
     },
     {
         "key": "promptforge-002",
-        "title": "Turn product features into benefit-led landing page copy (fast, structured)",
+        "title": "Landing page copy (fast, structured)",
         "type": "text",
         "category_key": "marketing",
         "content": "Write landing page copy for the product described below. Keep the tone confident and structured. Don\u2019t be fluffy; be specific and customer-focused.\n\nProduct info (paste and fill in):\n- Product name:\n- Target customer (role + context):\n- Primary problem it solves:\n- 3\u20136 key features (bullets):\n- Differentiator vs alternatives:\n- Proof (numbers, testimonials, logos, case study, or \u201cnone yet\u201d):\n- Desired action (CTA):\n- Brand voice constraints (words to use/avoid):\n\nOutput exactly these sections:\n1) Hero\n- Headline (max 10 words)\n- Subheadline (1\u20132 sentences)\n- Primary CTA + secondary CTA\n\n2) \u201cWhy this\u201d value props\n- 3 benefit-led bullets (each starts with a strong verb)\n\n3) How it works\n- 3 steps, one short sentence each\n\n4) Key features \u2192 benefits\n- A two-column list: Feature | Customer benefit (5 rows)\n\n5) Social proof\n- If proof exists: 2 short proof bullets + 1 testimonial (2\u20133 sentences)\n- If none: write 3 credibility builders (e.g., process, guarantees, founder expertise) without pretending you have metrics\n\n6) Objections handled\n- 4 common objections with crisp rebuttals (1\u20132 sentences each)\n\n7) Final CTA block\n- 1 closing paragraph (max 60 words)\n- Repeat primary CTA\n\nRules:\n- Write for a scanning reader: short lines, no long paragraphs.\n- Avoid jargon unless the target customer uses it daily.\n- If the inputs are vague, make 3 reasonable assumptions and list them at the top before writing the copy.",
@@ -27,7 +27,7 @@
     },
     {
         "key": "promptforge-003",
-        "title": "Cinematic dark-mode social post: product-in-hand hero shot",
+        "title": "Social post: product-in-hand hero shot",
         "type": "image",
         "category_key": "social_media",
         "content": "Create a square (1:1) social media hero image with a premium dark-mode aesthetic. Subject: a hand holding a sleek matte-black smartphone at a slight angle, screen on, showing an abstract UI (no readable text), with subtle blue/purple gradient glow reflecting on the fingers. Setting: minimal studio scene with a deep charcoal background and faint haze for depth.\n\nComposition: tight crop, rule-of-thirds, phone centered slightly right, shallow depth of field, bokeh falloff, negative space on the left for optional overlay. Lighting: low-key, single soft key light from upper left + dim rim light from behind to separate edges; soft shadows, controlled specular highlights on the phone frame.\n\nStyle: modern, clean, restrained saturation, cool/neutral color grading, cinematic contrast, high-end tech advertising feel. Camera: 50mm, f/1.8, ISO 200, 1/125. Render as photorealistic. Avoid: bright daylight, warm cozy tones, cluttered backgrounds, visible brand logos, readable UI text, exaggerated neon, lens distortion.",
@@ -48,7 +48,7 @@
     },
     {
         "key": "promptforge-005",
-        "title": "Turn a messy meeting transcript into an actionable decision log + owners",
+        "title": "From messy meeting transcript to an actionable decision log + owners",
         "type": "text",
         "category_key": "business",
         "content": "Convert the text below into a crisp decision log and action plan for a business team.\n\nInput:\n[PASTE MEETING NOTES / TRANSCRIPT]\n\nOutput (use exactly these sections):\n1) Decisions made (bullet list)\n- Decision:\n- Rationale (1 line):\n- Date/meeting:\n\n2) Action items (table)\nColumns: Task | Owner | Due date | Priority (H/M/L) | Dependencies | Success criteria\n\n3) Open questions / unresolved items\n- Question:\n- Who will answer:\n- By when:\n\n4) Risks & blockers\n- Risk/blocker:\n- Impact:\n- Mitigation:\n- Owner:\n\nRules:\n- If an owner or due date isn\u2019t stated, infer a reasonable placeholder (e.g., \u201cTBD\u2014Project Lead\u201d, \u201cTBD\u2014next weekly sync\u201d) and flag it with \u201c(TBD)\u201d.\n- Merge duplicates, remove chatter, and keep wording businesslike.\n- Do not invent facts; only infer structure and missing fields.\n- Keep the whole output under 350 words unless the input is extremely long.",
@@ -74,7 +74,7 @@
     },
     {
         "key": "promptforge-007",
-        "title": "Cinematic Product Shot Prompt Builder (Dark UI-Friendly)",
+        "title": "Product Shot Prompt Builder",
         "type": "text",
         "category_key": "image_generation",
         "content": "Create an image-generation prompt for a premium, dark-interface-friendly scene.\n\nSubject: [what the image is of]\nStyle: cinematic, modern, restrained, high-end (no cheerful stock-photo vibe)\nSetting: minimal, subdued background in deep gray/charcoal/navy; subtle texture allowed (concrete, matte metal, smoked glass)\nLighting: low-key, directional key light + soft fill; controlled highlights; soft shadows; gentle falloff; no harsh sunlight\nColor grade: cool/neutral, slightly desaturated, clean contrast; avoid warm/orange casts\nComposition: clear focal point, negative space for UI overlay, shallow-to-medium depth of field; avoid clutter\nCamera: [lens mm] prime look, f/[aperture], ISO [value], 1/[shutter]s; [angle: eye-level / 3-4 view / top-down]\nMaterials detail: call out finishes (matte, anodized aluminum, frosted plastic, polished glass) and micro-texture\nQuality constraints: sharp subject edges, realistic reflections, no text, no logos, no extra objects unless specified\n\nOutput ONLY a single finished prompt with concrete specifics. Ask no questions\u2014make reasonable assumptions.\n\nExample input fields:\nSubject: compact wireless earbud case\nLens: 85mm\nAperture: f/2.8\nAngle: 3-4 view\n\nNow generate the final image prompt.",
@@ -87,7 +87,7 @@
     },
     {
         "key": "promptforge-008",
-        "title": "Cinematic developer desk with code reflections in a dark UI aesthetic",
+        "title": "Developer desk with code reflections",
         "type": "image",
         "category_key": "coding",
         "content": "Moody, cinematic close-up of a modern developer workstation at night: a matte-black desk with a low-profile mechanical keyboard, dark trackpad, and a single ultrawide monitor showing a code editor (legible-looking syntax but no brand logos). Subtle reflections of teal/blue code on the desk surface. Add a ceramic mug, a small notebook with minimal linework, and one slim desk lamp casting a narrow, cool-white beam.\n\nComposition: 3/4 angle from slightly above desk height, subject centered on the monitor + keyboard, shallow depth of field (keyboard in crisp focus, background softly falling off). Background: subdued dark studio environment with faint bokeh from a distant LED strip, no bright windows.\n\nLighting & color: low-key directional lighting, soft shadows, controlled contrast, cool/neutral grade (deep navy, charcoal, cool gray, restrained teal highlights), no warm tungsten cast. Premium, minimal, high-end product-interface feel.\n\nStyle: photorealistic, clean, modern, no clutter, no people, no visible brand marks, no on-screen UI watermarks. Camera look: 50mm equivalent, f/2.0, ISO 400, subtle film grain, slight vignette.",
@@ -100,7 +100,7 @@
     },
     {
         "key": "promptforge-009",
-        "title": "Turn a messy to-do list into a 30-minute action plan",
+        "title": "30-minute action plan",
         "type": "text",
         "category_key": "productivity",
         "content": "I\u2019m going to paste a messy to-do list. Convert it into a focused 30-minute action plan I can start right now.\n\nRules:\n- Only include tasks I can realistically start and make progress on in the next 30 minutes.\n- Break each chosen task into tiny steps (2\u20136 minutes each).\n- If something is blocked, replace it with the quickest unblock step.\n- Keep it strict: maximum 5 tasks total.\n- Use plain language and be specific about what I should click/type/do.\n\nOutput format:\n1) Top goal for the next 30 minutes (one sentence)\n2) 30-minute timeline (00:00\u201330:00) with minute ranges and micro-steps\n3) \u201cIf I get stuck\u201d fallback list (3 quick options)\n4) What to prep before starting (max 3 items)\n\nHere\u2019s my to-do list:\n[PASTE LIST HERE]",
@@ -134,7 +134,7 @@
     },
     {
         "key": "promptforge-012",
-        "title": "Turn messy research into a structured outline + first draft (with citations placeholders)",
+        "title": "Messy research into a structured outline + first draft (with citations placeholders)",
         "type": "text",
         "category_key": "writing",
         "content": "I\u2019m going to paste messy notes and source snippets below. Turn them into a publishable piece without inventing facts.\n\nDeliverables (in this order):\n1) One-sentence thesis and 3\u20135 key takeaways.\n2) Audience + intent you infer (and one alternative angle worth considering).\n3) A clean outline with H2/H3 headings. For each section, add:\n   - the point it should prove\n   - which note/source supports it (use [S1], [S2]\u2026)\n   - one counterpoint or limitation to mention\n4) A first draft (800\u20131,200 words unless I specify otherwise) written in a confident, structured tone. Requirements:\n   - Use short paragraphs and clear transitions\n   - Define any jargon on first use\n   - Include 2\u20133 concrete examples or mini-scenarios drawn from the notes\n   - Where a claim needs support, add a citation placeholder like [S2]\n   - If the notes don\u2019t support a claim, either omit it or mark it clearly as \u201cUnverified\u201d\n5) A \u201cFact-check list\u201d: bullet the statements that should be verified, with the source tag you used or \u201cmissing source\u201d.\n\nRules:\n- Don\u2019t add new statistics, quotes, or specific historical claims not present in the notes.\n- If something is ambiguous, make the safest interpretation and flag the ambiguity.\n- If the notes contradict each other, surface the conflict and present both sides.\n\nOptional settings (use if provided):\n- Target reader: {target_reader}\n- Format: {blog post / memo / LinkedIn / script / other}\n- Length: {word_count}\n- Must-include points: {must_include}\n- Must-avoid: {must_avoid}\n\nHere are my notes and sources:\n{paste_notes_here}",
@@ -151,7 +151,7 @@
     },
     {
         "key": "promptforge-013",
-        "title": "Dark UI-Friendly Product Hero Image for a SaaS Launch",
+        "title": "Product Hero Image for a SaaS Launch",
         "type": "image",
         "category_key": "marketing",
         "content": "Create a premium marketing hero image for [PRODUCT/APP NAME], designed to sit inside a dark website UI.\n\nSubject & props:\n- Centerpiece: a sleek [DEVICE TYPE: phone/laptop/tablet] showing a realistic mock UI of [PRODUCT/APP NAME] (no readable brand names, use abstract UI shapes)\n- Optional supporting objects: [2\u20133 PROPS] that hint at the product\u2019s use-case (keep minimal, modern)\n\nScene & styling:\n- Setting: subdued studio setup with a matte charcoal surface and a deep graphite background, minimal texture\n- Color palette: cool neutrals (deep navy, graphite, gunmetal) with a restrained accent color: [ACCENT COLOR]\n- Materials: anodized metal, frosted glass, soft-touch plastic; clean edges, no clutter\n\nComposition:\n- Aspect ratio: [ASPECT RATIO: 16:9 / 4:3 / 1:1]\n- Camera: 50mm look, slightly above eye level, 3/4 angle, tight crop with generous negative space on [LEFT/RIGHT] for headline text\n- Depth: shallow depth of field, subtle atmospheric falloff, crisp focal plane on the screen and primary edges\n\nLighting & mood:\n- Low-key, cinematic lighting with a soft key light from [LEFT/RIGHT], gentle rim light to separate the device from background\n- Soft shadows, controlled highlights, no harsh reflections, no warm daylight\n- Mood: modern, direct, high-end, quiet confidence\n\nQuality notes:\n- Ultra-detailed, clean product photography style, restrained saturation, cool color grading\n- No people, no busy backgrounds, no bright white environment, no cheesy stock-photo vibe\n\nOutput: one polished hero image that feels premium and readable against a dark interface.",
@@ -168,7 +168,7 @@
     },
     {
         "key": "promptforge-014",
-        "title": "Turn a Long, Messy Update Into a Clear Action-Oriented Email",
+        "title": "From a Long, Messy Update Into a Clear Action-Oriented Email",
         "type": "text",
         "category_key": "email",
         "content": "Rewrite the content below into a clear, practical email that busy recipients can scan in under 60 seconds.\n\nAudience: [who this is going to]\nMy relationship to them: [e.g., colleague, vendor, customer]\nGoal of the email: [decision? status update? request?]\nDesired tone: clear, practical, calm\n\nConstraints:\n- Keep it under 220 words unless I explicitly ask for more.\n- Use short paragraphs and bullets where helpful.\n- Lead with the ask (or the purpose) in the first 1\u20132 lines.\n- If there are multiple requests, group them and label each.\n- Include concrete dates/times if mentioned; if missing, add a bracketed placeholder like [date].\n- End with a single, specific next step and a polite sign-off.\n- Remove fluff, repetition, and internal-only details.\n\nOutput format:\n1) Subject line (max 8 words)\n2) Email body\n3) Optional: 3 alternate subject lines\n\nContent to rewrite (can be long and messy):\n[PASTE HERE]",
@@ -181,7 +181,7 @@
     },
     {
         "key": "promptforge-015",
-        "title": "Turn a feature list into a clean, developer-ready UI spec",
+        "title": "A clean, developer-ready UI spec",
         "type": "text",
         "category_key": "design",
         "content": "Convert the following product notes into a concise UI specification a designer and developer can build from.\n\nContext\n- Product: [what this is]\n- Platform: [web / iOS / Android / desktop]\n- Primary user: [who]\n- Core job-to-be-done: [what they\u2019re trying to accomplish]\n- Constraints: [timeline, tech, accessibility, localization, etc.]\n\nInput notes (paste)\n[FEATURE NOTES]\n\nOutput requirements\n1) Screen(s) list with one-line purpose each.\n2) For each screen, include:\n   - Layout structure (header/body/footer, key regions)\n   - UI components (inputs, tables, cards, modals, etc.)\n   - States (empty/loading/error/success/disabled)\n   - Validation rules and edge cases\n   - Primary/secondary actions\n3) Interaction rules\n   - Navigation flow between screens\n   - Key micro-interactions (hover, focus, keyboard, gestures as relevant)\n4) Data + content\n   - Field definitions (name, type, required, constraints, example)\n   - Default copy placeholders where needed\n5) Acceptance criteria\n   - 6\u201312 bullet points written as testable statements.\n\nStyle\n- Use crisp bullets, no fluff.\n- If something is ambiguous, make the minimum reasonable assumption and list it under \u201cOpen questions\u201d (max 5).",
@@ -198,7 +198,7 @@
     },
     {
         "key": "promptforge-016",
-        "title": "Turn Rough Notes Into a Clear One-Page Writing Brief (with next steps)",
+        "title": "A Clear One-Page Writing Brief (with next steps)",
         "type": "text",
         "category_key": "writing",
         "content": "I\u2019m going to paste messy notes for a writing project. Turn them into a clean one-page brief I can actually write from.\n\nNotes:\n[PASTE NOTES HERE]\n\nOutput requirements:\n- Keep it friendly and practical. No fluff.\n- Do not invent facts; if something is missing or contradictory, flag it under \u201cOpen questions\u201d.\n- Preserve my intent and wording when it matters (names, quotes, numbers).\n\nPlease produce:\n1) Project snapshot (2\u20133 sentences)\n2) Audience + what they care about (bullets)\n3) Goal of the piece + success criteria (bullets)\n4) Core message (one sentence) + 3 supporting points\n5) Recommended structure (H1/H2/H3 outline)\n6) Key facts to verify (bullets)\n7) Voice & tone guidance (3\u20135 bullets, including do/don\u2019t)\n8) Call to action options (3 variations)\n9) Open questions (the minimum list needed to proceed)\n10) First drafting step: tell me exactly what to write first (1\u20132 paragraphs of starter text OR a detailed opening plan\u2014choose whichever fits best)\n\nIf the notes include multiple possible directions, suggest up to 2 angles with a quick \u201cwhy this works\u201d for each, then pick the best default and proceed with the brief.",
@@ -211,7 +211,7 @@
     },
     {
         "key": "promptforge-017",
-        "title": "Turn Product Notes Into a High-Converting Landing Page (Hero + Sections)",
+        "title": "High-Converting Landing Page (Hero + Sections)",
         "type": "text",
         "category_key": "marketing",
         "content": "Write landing page copy that converts based on the details below. Keep it confident, structured, and skimmable. Avoid hype, buzzwords, and vague claims\u2014make benefits concrete.\n\nPRODUCT NOTES\n- Product/service: [what it is]\n- Target audience: [who it\u2019s for]\n- Primary problem it solves: [pain]\n- Key outcome/benefit: [main win]\n- 3\u20136 features (plain words): [feature list]\n- Differentiator / why choose us: [unique angle]\n- Proof available (pick what\u2019s true): [metrics, logos, testimonials, case study, years, certifications]\n- Pricing/plan info (if any): [price / free trial / guarantee]\n- Primary CTA: [e.g., Start free trial]\n- Secondary CTA: [e.g., Book a demo]\n- Brand voice constraints (optional): [e.g., no jokes, no slang]\n\nOUTPUT\n1) Hero section\n- Headline (<= 10 words)\n- Subheadline (1\u20132 sentences)\n- 3 bullet benefits (outcomes, not features)\n- Primary CTA + secondary CTA\n\n2) Social proof strip\n- 1 short proof line using provided proof (no inventing)\n\n3) \u201cHow it works\u201d section\n- 3 steps with short titles + 1 sentence each\n\n4) Benefits section\n- 4 benefit cards: Title + 2 sentences each\n\n5) Feature-to-benefit mapping\n- Table with two columns: Feature | Customer impact\n\n6) Objections & answers\n- 4 common objections from this audience + crisp responses\n\n7) Final CTA block\n- 1 closing paragraph + repeated CTA buttons\n\nRules:\n- Use specific language tied to the audience and problem.\n- If any input is missing, make your best assumption but label it clearly as an assumption (don\u2019t fabricate proof).",
@@ -224,7 +224,7 @@
     },
     {
         "key": "promptforge-018",
-        "title": "Cinematic email inbox hero image for a dark UI (modern, direct)",
+        "title": "Email inbox hero image (modern, direct)",
         "type": "image",
         "category_key": "email",
         "content": "Create a premium, cinematic hero image that communicates \u201cemail\u201d without showing any readable text.\n\nScene: a minimalist modern desktop setup in a dim studio\u2014matte black desk, a thin laptop slightly angled, and a floating translucent UI panel hovering above the keyboard showing an abstract inbox layout (blocks, lines, icons only; no letters, no numbers). Include a subtle envelope glyph and a small notification dot as the primary visual cue.\n\nArt direction: modern and direct, high-end product interface vibe. Controlled low-key lighting with a cool/neutral grade (deep navy, graphite, cool whites). Soft rim light along the laptop edge, gentle specular highlights, clean shadows, and slight atmospheric falloff for depth. Background nearly black with a faint gradient and minimal bokeh.\n\nComposition: 16:9, subject centered-left with generous negative space on the right for UI copy. Eye-level camera, 50mm look, shallow depth of field (inbox panel sharp, desk edges softly fading).\n\nMaterials: anodized aluminum laptop, matte glass UI panel, subtle reflections, no fingerprints, no clutter.\n\nConstraints: avoid warm daylight, cozy lifestyle elements, wood-heavy tones, bright white rooms, and any legible text/logos.\n\nOptional placeholders (apply if provided): accent color = [ACCENT_COLOR] (use sparingly for the notification dot and one UI highlight); device style = [DEVICE_STYLE] (e.g., \u201cultra-thin laptop\u201d or \u201cdesktop monitor\u201d); background tone = [BG_TONE] (e.g., \u201cdeep navy\u201d or \u201ccharcoal\u201d).",
@@ -245,7 +245,7 @@
     },
     {
         "key": "promptforge-019",
-        "title": "Turn a Messy Idea Into a Clear 10-Minute Action Plan",
+        "title": "A Clear 10-Minute Action Plan",
         "type": "text",
         "category_key": null,
         "content": "Take the rough idea below and turn it into a simple action plan I can start today.\n\nIdea (messy on purpose):\n[PASTE YOUR IDEA / NOTES]\n\nOutput requirements:\n- One-sentence goal (what \u201cdone\u201d looks like)\n- Assumptions (up to 3) you\u2019re making based on my notes\n- The smallest next step I can do in 10 minutes\n- A 30-minute follow-up step (only if the 10-minute step goes well)\n- A \u201cstop doing\u201d list (2\u20134 things to avoid that waste time)\n- 3 quick checkpoints to verify I\u2019m on track (measurable, no fluff)\n\nConstraints:\n- Keep it practical and specific; no motivational language\n- If my idea is too vague, propose 2 possible interpretations and build a plan for each\n- Use plain language and short bullets",
@@ -275,7 +275,7 @@
     },
     {
         "key": "promptforge-021",
-        "title": "Turn a Product Feature List into a Landing Page Hero + CTA Variations",
+        "title": "Landing Page Hero + CTA Variations",
         "type": "text",
         "category_key": "marketing",
         "content": "Take the product info below and write landing-page hero copy that\u2019s clear, specific, and friendly.\n\nInput:\n- Product name:\n- Target customer (role + industry):\n- Top 3 problems they have:\n- Top 5 features (bullet list):\n- 1\u20132 key differentiators vs alternatives:\n- Proof (metrics, customer logos, testimonial snippet, or \u201cnone yet\u201d):\n- Primary call to action (e.g., Start free trial, Book a demo):\n- Tone constraints (optional):\n\nOutput:\n1) Hero headline options (8): max 8\u201310 words each, no buzzword salad.\n2) Subheadline options (5): 1\u20132 sentences, explain outcome + who it\u2019s for.\n3) Benefit bullets (6): short, concrete, start with verbs.\n4) CTA button copy (10): mix of action + low-friction options.\n5) Microcopy under CTA (3): reduce anxiety (time, setup, cancel anytime, privacy).\n6) \u201cHow it works\u201d (3 steps): each step 1 sentence.\n7) One short testimonial draft (if proof is \u201cnone yet,\u201d write a placeholder that doesn\u2019t fake specifics).\n\nRules:\n- Use plain English and specific outcomes.\n- Avoid clich\u00e9s like \u201crevolutionary,\u201d \u201cgame-changer,\u201d \u201cseamless,\u201d \u201cworld-class.\u201d\n- If an input is missing, make a reasonable assumption and label it as [Assumption].\n- Keep it skimmable.\n\nHere\u2019s the product info:\n[paste here]",
@@ -301,14 +301,14 @@
     },
     {
         "key": "promptforge-023",
-        "title": "Cinematic SaaS dashboard hero image with device mockup and subtle data glow",
+        "title": "SaaS dashboard hero image with device mockup and subtle data glow",
         "type": "image",
         "category_key": "business",
         "content": "Create a modern business hero image for a SaaS product.\n\nSubject: a sleek laptop (and optional phone) showing a {PRODUCT_NAME} dashboard UI (charts, table, KPI cards) with legible but non-branded placeholder text and data.\n\nScene & setting: minimal studio setup in a dark premium interface-friendly environment; matte black desk surface, soft haze in the background, no clutter, no warm wood.\n\nComposition: 3/4 angle from slightly above, device centered-left with negative space on the right for headline copy; shallow depth of field; clean leading lines toward the screen.\n\nLighting: low-key, directional key light from upper left + subtle rim light on device edges; soft shadows; controlled reflections on the screen (no blown highlights).\n\nColor & mood: cool/neutral grading (deep navy, charcoal, cool gray), restrained saturation, subtle cyan/blue data glow accents; calm, confident, high-end.\n\nStyle: photorealistic product photography with a cinematic feel; crisp materials (anodized aluminum, glass), fine texture detail.\n\nConstraints: no people, no logos, no recognizable brands, no bright daylight, no busy office background.\n\nOptional variations: include a floating translucent analytics overlay (thin lines, subtle glow) around the screen; add a faint grid pattern in the background.\n\nOutput: ultra-high resolution, sharp focus on device and UI, premium commercial look.",
         "images": [
             {
                 "original_filename": "cloudflow-analytics-dashboard-laptop-hero-01.jpg",
-                "is_cover": true
+                "is_cover": false
             },
             {
                 "original_filename": "novaledger-finance-dashboard-dark-hero-02.jpg",
@@ -316,7 +316,7 @@
             },
             {
                 "original_filename": "pulseops-monitoring-dashboard-overlay-hero-03.jpg",
-                "is_cover": false
+                "is_cover": true
             },
             {
                 "original_filename": "vertexcrm-pipeline-dashboard-grid-hero-04.jpg",

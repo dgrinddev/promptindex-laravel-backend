@@ -14,7 +14,7 @@
     },
     {
         "key": "growthgrid-002",
-        "title": "Turn product features into a simple marketing message (website + social + email)",
+        "title": "Simple marketing message (website + social + email)",
         "type": "text",
         "category_key": "marketing",
         "content": "I\u2019m going to paste a few product notes. Turn them into clear marketing copy that a non-expert will understand.\n\nProduct notes:\n- Product/service:\n- Who it\u2019s for:\n- The #1 problem it solves:\n- Top 3 features:\n- What makes it different:\n- Proof (numbers, testimonials, logos), if any:\n- Price/free trial/guarantee, if relevant:\n- Primary call-to-action:\n- Anything we should NOT claim:\n\nOutput (keep it simple, friendly, and not hypey):\n1) One-sentence value proposition (max 18 words)\n2) Website hero section: headline + subheadline + 3 bullet benefits + CTA button text\n3) 3 short social posts (each under 240 characters, with a light, helpful tone; no more than 2 hashtags)\n4) A short email (subject line + 120\u2013160 word body + one clear CTA)\n\nStyle rules:\n- Use plain language (aim for ~8th-grade reading level)\n- Focus on outcomes, not just features\n- Avoid buzzwords (e.g., \u201crevolutionary,\u201d \u201ccutting-edge,\u201d \u201csynergy\u201d)\n- If any details are missing, make 2\u20133 reasonable assumptions and list them at the end.",
@@ -27,7 +27,7 @@
     },
     {
         "key": "growthgrid-003",
-        "title": "Cinematic product hero image for a social media scheduler (dark UI aesthetic)",
+        "title": "Product hero image for a social media scheduler",
         "type": "image",
         "category_key": "social_media",
         "content": "Create a premium, cinematic hero image for a social media scheduling app inside a dark interface.\n\nSubject: a modern smartphone (thin bezels) and a compact laptop on a matte black desk, both screens showing a social media content calendar with color-coded posts, a \u201cSchedule\u201d button, analytics mini-cards, and a clean dark-mode UI (no real brand logos).\n\nComposition: 3/4 angle from slightly above, centered product stack with negative space on the right for headline text; subtle foreground blur; crisp focus on the calendar grid and primary CTA.\n\nLighting & mood: low-key studio lighting with a cool rim light from the left and a soft top light; controlled reflections on glass; gentle shadow falloff; confident, structured feel.\n\nColor & styling: cool/neutral grading (deep navy, charcoal, cool white accents, restrained teal highlights), minimal props (one metal pen, one small sticky note), no warm wood tones, no bright daylight.\n\nBackground: subdued dark gradient backdrop with faint bokeh and soft haze; keep it clean and minimal so it integrates with a dark product UI.\n\nLook: photorealistic, high-end tech advertising, subtle contrast, sharp micro-detail, no over-saturation.\n\nCamera: 50mm lens look, f/2.8, ISO low, shallow depth of field, ultra-high resolution.\n\nConstraints: no text that looks like a real company name, no watermarks, no busy environment, avoid cheerful lifestyle vibes.",
@@ -48,7 +48,7 @@
     },
     {
         "key": "growthgrid-005",
-        "title": "Turn a rough product idea into a one-page business brief",
+        "title": "One-page business brief",
         "type": "text",
         "category_key": "business",
         "content": "Take my rough product idea and convert it into a one-page business brief I can share with a teammate. Keep it clear, practical, and free of fluff.\n\nMy idea (paste):\n[PASTE HERE]\n\nOutput:\n- Product in one sentence: \n- Target customer: (who they are + where to find them)\n- Problem: (what hurts today, how they currently solve it)\n- Proposed solution: (key workflow in 3\u20135 steps)\n- Unique angle: (why this is meaningfully different)\n- Key features (MVP): (5 bullets max)\n- Not doing (explicit exclusions): (3 bullets)\n- Pricing hypothesis: (1\u20132 options)\n- Go-to-market first steps: (3 concrete actions for the next 2 weeks)\n- Success metrics: (3 measurable signals)\n- Biggest risks + mitigations: (3 pairs)\n\nIf anything is missing, make reasonable assumptions and label them as \u201cAssumption:\u201d rather than asking questions.",
@@ -61,7 +61,7 @@
     },
     {
         "key": "growthgrid-006",
-        "title": "Turn a Feature List Into a Clean UI Copy & Microcopy Set",
+        "title": "Make a Feature List Into a Clean UI Copy & Microcopy Set",
         "type": "text",
         "category_key": "design",
         "content": "Convert the product details below into UI-ready copy.\n\nInput\n- Product/feature description (paste):\n- Target user:\n- Primary action the screen should drive:\n- Brand voice (3 adjectives):\n- Constraints (character limits, legal notes, must-use terms):\n\nOutput (keep it concise)\n1) Screen name + one-line purpose\n2) Primary headline (3 options)\n3) Supporting subhead (3 options)\n4) Primary CTA label (5 options) + one-line rationale for the best pick\n5) Secondary CTA label (3 options)\n6) Empty state copy: title + 1\u20132 lines + button label\n7) Error states (3): short message + recovery suggestion (no blame)\n8) Helper text for 3 key fields (if applicable)\n9) Tooltip/learn-more text (2 options, max 200 chars)\n\nRules\n- Use plain language; avoid buzzwords.\n- Make actions specific (verb + outcome).\n- Prefer sentence case labels.\n- If info is missing, make reasonable assumptions and list them at the end under \u201cAssumptions.\u201d",
@@ -74,8 +74,8 @@
     },
     {
         "key": "growthgrid-007",
-        "title": "Dark, cinematic hero image of a SaaS analytics dashboard (no text)",
-        "type": "text",
+        "title": "Hero image of a SaaS analytics dashboard (no text)",
+        "type": "image",
         "category_key": "image_generation",
         "content": "Create a premium, dark-mode product hero image for a SaaS analytics platform.\n\nScene & subject:\n- A sleek laptop on a matte black desk, screen showing a modern analytics dashboard UI (charts, tables, KPI cards) with realistic layout but NO readable text (use abstract glyphs/lines).\n- Subtle secondary elements: a smartphone face-down, a metal pen, and a faintly glowing desk lamp in the background.\n\nComposition:\n- 3/4 angle from slightly above desk height, laptop centered with a gentle perspective.\n- Shallow depth of field; keep the dashboard sharp, background softly blurred.\n\nLighting & mood:\n- Low-key, cinematic lighting with a cool/neutral color grade (deep navy, charcoal, cool gray).\n- Soft directional key light from the side, minimal reflections, controlled highlights on aluminum edges.\n- Add subtle volumetric falloff and soft shadows for depth.\n\nStyle:\n- Photorealistic, high-end tech advertising aesthetic; clean, minimal, not cozy.\n- Background should be subdued and dark so it fits a dark UI context.\n\nOutput:\n- 16:9 aspect ratio, high resolution, crisp details, no logos, no watermarks, no readable text.",
         "images": [
@@ -87,7 +87,7 @@
     },
     {
         "key": "growthgrid-008",
-        "title": "Cinematic coding workstation hero image for a dark UI (no text, no cover overlay space)",
+        "title": "Coding workstation hero image (no text, no cover overlay space)",
         "type": "image",
         "category_key": "coding",
         "content": "Create a premium, cinematic hero image for a coding product interface. Subject: a modern developer workstation seen at a 3/4 angle\u2014ultrawide monitor showing a blurred, abstract code editor layout (no readable text), matte-black keyboard, graphite mouse, minimal desk items (one notebook, one pen), and a subtle glass of water. Setting: dark, subdued studio workspace with deep charcoal background and soft falloff; no bright windows, no cozy warm wood tones.\n\nLighting & mood: low-key, cool-neutral color grading with deep blacks and controlled highlights; one directional key light from screen-left creating gentle rim light on the monitor edge and keyboard; soft shadows; slight atmospheric haze for depth.\n\nComposition: center-weighted subject with balanced negative space, but NOT designed as a cover with extra blank area; fill the frame with the workstation while keeping the background clean and uncluttered. Camera: 35mm lens look, f/2.8 shallow depth of field, crisp foreground details, bokeh in the background.\n\nStyle: high-end product photography, realistic materials (anodized aluminum, matte plastics, subtle fingerprints), restrained saturation, no logos, no UI branding, no people, no visible text anywhere. Output: 16:9, sharp, high resolution.",
@@ -100,7 +100,7 @@
     },
     {
         "key": "growthgrid-009",
-        "title": "Turn a messy to-do list into a realistic 1-day plan (time-blocked)",
+        "title": "Realistic 1-day plan (time-blocked)",
         "type": "text",
         "category_key": "productivity",
         "content": "Take my raw to-do list below and convert it into a realistic plan for the next workday.\n\nRules:\n- Assume an 8-hour day with 60 minutes of total breaks.\n- Time-block the day in 30\u201390 minute blocks.\n- Prioritize impact and urgency, but keep cognitive load in mind.\n- If the list is too big, choose what to defer and explain why in one short line.\n- For each block, include: goal, first tiny action (<= 2 minutes), and a clear \u201cdone\u201d definition.\n- Add a short \u201cprep tonight\u201d checklist (max 5 bullets).\n- Do not mention images or ask for files.\n\nOutput format:\n1) Top 3 outcomes for the day (one line each)\n2) Time-blocked schedule (with times)\n3) Deferred items (grouped by reason: waiting on others / nice-to-have / too large)\n4) Risks & quick mitigations (max 5)\n5) Prep tonight (max 5)\n\nMy constraints (optional): [start time], [hard stops], [meetings], [energy highs/lows]\nMy to-do list:\n- ...",
@@ -183,24 +183,24 @@
     },
     {
         "key": "growthgrid-012",
-        "title": "Turn one product feature into a week of marketing content (multi-channel)",
+        "title": "A week of marketing content (multi-channel)",
         "type": "text",
         "category_key": "marketing",
         "content": "I\u2019m marketing a product and I want you to turn ONE feature into a cohesive, one-week content set across multiple channels.\n\nProduct context:\n- Product: [PRODUCT NAME]\n- Audience: [WHO IT\u2019S FOR]\n- The feature to focus on: [FEATURE]\n- Why it matters (benefit): [PRIMARY BENEFIT]\n- Proof we can mention (data, testimonial, demo, case study): [PROOF]\n- Brand voice: friendly, helpful, and clear (not hypey)\n- Offer/CTA: [FREE TRIAL / DEMO / WAITLIST / DOWNLOAD]\n- Constraints (claims to avoid, regulated language, competitors, etc.): [CONSTRAINTS]\n\nDeliverables (keep messaging consistent, adapt to channel):\n1) Positioning snippet\n- 1-sentence value proposition using the feature + benefit\n- 3 supporting bullets (each with a tangible outcome)\n\n2) Landing page section\n- Headline (max 10 words)\n- Subheadline (1\u20132 sentences)\n- 3 benefit bullets\n- 1 short \u201chow it works\u201d (3 steps)\n- CTA button copy (3 options)\n\n3) Email sequence (3 emails)\nFor each email: Subject line (3 options), preview text, body (120\u2013180 words), CTA.\n- Email 1: introduce the feature + problem\n- Email 2: show proof + how it helps\n- Email 3: handle objections + clear next step\n\n4) Social posts\n- LinkedIn: 2 posts (120\u2013180 words) with a strong hook in the first line\n- X/Twitter: 5 tweets (each < 240 characters)\n- Each post should include one concrete detail (number, example, mini-scenario) and avoid generic buzzwords.\n\n5) Short-form video script (30\u201345s)\n- Hook (first 2 seconds)\n- 3 beats (problem \u2192 feature \u2192 payoff)\n- On-screen text suggestions\n- Closing CTA\n\n6) In-app notification + push\n- In-app banner: headline (max 40 chars) + body (max 80 chars)\n- Push notification: title (max 30 chars) + body (max 90 chars)\n\nRules:\n- Write to [AUDIENCE] using plain language and active voice.\n- Make benefits specific (time saved, errors reduced, clarity gained, money saved, risk reduced\u2014choose what fits).\n- Don\u2019t invent facts. If [PROOF] is missing, flag where proof is needed and suggest 2 safe alternatives (e.g., \u201csee it in a 2-min demo\u201d).\n- End with a quick \u201cMessage map\u201d table: Channel \u2192 core message \u2192 CTA \u2192 proof used.\n\nIf anything is unclear, ask up to 3 questions first. Otherwise, proceed with reasonable assumptions and list them at the top.",
         "images": [
             {
                 "original_filename": "single-feature-week-of-content-hero-01.jpg",
-                "is_cover": true
+                "is_cover": false
             },
             {
                 "original_filename": "feature-to-multichannel-ripple-still-life-02.jpg",
-                "is_cover": false
+                "is_cover": true
             }
         ]
     },
     {
         "key": "growthgrid-013",
-        "title": "Cinematic email dashboard hero image for a dark UI",
+        "title": "Email dashboard hero image",
         "type": "image",
         "category_key": "email",
         "content": "Create a premium, cinematic hero image for an email product inside a dark interface.\n\nScene: a minimalist workspace with a floating, semi-transparent UI panel showing an email inbox + campaign analytics (open rate, click rate, deliverability), with a few highlighted message cards and subtle graphs. No readable brand names; use abstract UI shapes and short, nonsensical labels.\n\nSubject & composition: 3/4 angle view of the UI panel hovering above a matte black desk surface; a sleek laptop edge partially visible in the foreground (out of focus). Use strong depth of field, subject centered slightly left, generous negative space on the right for potential headline text.\n\nLighting & mood: low-key, cool directional key light from upper left; soft rim light outlining the UI edges; gentle volumetric falloff; subtle reflections on glass and anodized metal. Calm, confident, structured vibe.\n\nColor palette: deep navy/charcoal background, cool whites, restrained cyan accents, hints of muted violet for chart highlights; controlled saturation; no warm daylight tones.\n\nStyle: high-end product render / photoreal hybrid, ultra-clean, crisp UI lines, soft shadows, minimal clutter.\n\nCamera: 50mm lens look, f/1.8 depth of field, slight bloom on highlights, high dynamic range, noise-free.\n\nInclude: small envelope icon motif embedded subtly in the UI; a thin progress bar and segmented metrics cards.\n\nAvoid: bright white backgrounds, sunny lifestyle scenes, wood-heavy warmth, messy desks, visible real email content, legible logos, cartoon styling.\n\nOutput: 16:9 aspect ratio, 4k detail, premium dark UI aesthetic.\n\nOptional placeholders: primary accent color = {ACCENT_COLOR (default: muted cyan)}; secondary accent = {SECONDARY_ACCENT (default: muted violet)}; device style = {DEVICE_STYLE (default: matte black)}",
@@ -217,7 +217,7 @@
     },
     {
         "key": "growthgrid-014",
-        "title": "Turn Raw Feature Notes Into a Clear Product Value Proposition (with options)",
+        "title": "A Clear Product Value Proposition (with options)",
         "type": "text",
         "category_key": "business",
         "content": "I\u2019m going to paste messy notes about a product feature. Convert them into a crisp value proposition I can reuse across marketing and sales.\n\nInput notes:\n[PASTE NOTES HERE]\n\nAudience & context (if known):\n- Target customer:\n- Industry/use case:\n- Pricing tier (free/pro/enterprise):\n- Primary competitor / alternative:\n\nOutput (keep it modern, direct, and specific):\n1) One-sentence value proposition (max 18 words)\n2) 3 positioning angles (each with: headline + 2 bullet benefits)\n3) \u201cSo what?\u201d translation: map features \u2192 customer outcomes (table)\n4) Objections + counters: 5 common objections with short, confident replies\n5) Proof points I should collect (not claims): 6 items (metrics, testimonials, case study data, benchmarks)\n6) Website hero set: headline, subhead, primary CTA, secondary CTA (2 variants)\n7) Sales blurb: 75\u2013100 words, no fluff\n8) Tagline options: 12 punchy options, not cheesy\n\nRules:\n- Don\u2019t invent capabilities; if something is missing, write: \u201cNeed to confirm: ____\u201d.\n- Avoid buzzwords unless they add clarity (no \u201csynergy,\u201d \u201crevolutionary,\u201d \u201cbest-in-class\u201d).\n- Prefer concrete outcomes (time saved, errors reduced, revenue protected) over vague benefits.\n- If my notes are contradictory, point it out and offer the cleanest assumption set.\n- Keep sentences short. Make every line skimmable.",
@@ -230,7 +230,7 @@
     },
     {
         "key": "growthgrid-015",
-        "title": "Turn a rough feature idea into a crisp UI spec (screen + states)",
+        "title": "Convert a feature idea into a crisp UI spec (screen + states)",
         "type": "text",
         "category_key": "design",
         "content": "I\u2019m designing a UI for: [product/app]\nFeature: [feature name]\nPrimary user: [who]\nCore goal: [what they\u2019re trying to do]\nPlatform: [web/ios/android]\nConstraints: [brand, accessibility, tech, timeline]\n\nTake my rough notes below and turn them into a clear, build-ready UI spec for ONE screen.\n\nRough notes:\n[paste notes]\n\nOutput format (keep it concise, no fluff):\n1) Screen purpose (1\u20132 sentences)\n2) Information architecture: list the sections in top-to-bottom order\n3) Component inventory: table with Component | Purpose | Default content | Variants/states (hover/active/disabled/loading/empty/error) | Notes\n4) Interaction rules: bullet list of key behaviors (validation, confirmations, keyboard, gestures)\n5) Edge cases: 6\u201310 bullets that a designer/engineer would actually miss\n6) Acceptance criteria: 8\u201312 testable statements (Given/When/Then)\n\nGuidelines:\n- Prefer standard UI patterns over novelty.\n- Call out any missing info as \u201cOpen questions\u201d at the end (max 6), but still make reasonable assumptions.\n- Write like you\u2019re handing this to a product engineer tomorrow.",

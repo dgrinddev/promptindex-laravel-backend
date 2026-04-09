@@ -1,7 +1,7 @@
 [
     {
         "key": "devnotes-001",
-        "title": "Turn messy dev notes into a crisp changelog entry",
+        "title": "Transform messy dev notes into a crisp changelog entry",
         "type": "text",
         "category_key": "writing",
         "content": "Rewrite the notes below into a clean changelog entry.\n\nRequirements:\n- Tone: modern, direct, no fluff.\n- Output in Markdown.\n- Start with a 1-line summary.\n- Then sections: Added, Changed, Fixed, Deprecated (omit any empty sections).\n- Each bullet starts with a strong verb and stays under 18 words.\n- Keep product-specific names, endpoints, and flags exactly as written.\n- If something is unclear, keep it but mark with \u201c(needs confirmation)\u201d.\n- Do not invent details.\n\nMessy notes:\n[PASTE NOTES HERE]\n\nOptional context (version, date, audience):\n[PASTE CONTEXT HERE]",
@@ -14,7 +14,7 @@
     },
     {
         "key": "devnotes-002",
-        "title": "Turn a Feature List into a Landing Page Hero + Value Props",
+        "title": "From Feature List to a Landing Page Hero + Value Props",
         "type": "text",
         "category_key": "marketing",
         "content": "I\u2019m going to paste a product feature list. Turn it into concise landing page copy.\n\nInput:\n- Product name:\n- Target audience:\n- One-sentence positioning (if any):\n- Feature list (bullets):\n- Differentiator vs alternatives:\n- Primary CTA (e.g., Start free trial / Book a demo):\n- Tone constraints (optional):\n\nOutput (keep it tight, no fluff):\n1) Hero section\n- Headline (max 10 words)\n- Subhead (max 22 words)\n- 3 supporting bullets (benefit-first, not feature-first)\n- Primary CTA button text (2\u20134 words)\n- Secondary CTA button text (2\u20134 words)\n\n2) Value props\n- 4 mini-sections. Each mini-section includes:\n  - Title (max 5 words)\n  - One sentence explanation (max 18 words)\n  - One proof hook (choose one: metric, quote stub, or outcome)\n\n3) \u201cHow it works\u201d\n- 3 steps, each: Step title (max 4 words) + one sentence (max 18 words)\n\nRules:\n- Write in plain language. Prefer concrete outcomes over buzzwords.\n- Avoid: \u201cseamless\u201d, \u201crevolutionary\u201d, \u201cworld-class\u201d, \u201ccutting-edge\u201d.\n- If the input lacks specifics, make neutral assumptions and keep claims modest.\n- Use the audience\u2019s vocabulary; if unclear, default to pragmatic B2B SaaS wording.\n\nFeature list:\n[PASTE HERE]",
@@ -27,7 +27,7 @@
     },
     {
         "key": "devnotes-003",
-        "title": "Cinematic social media banner for a developer notes series (dark UI aesthetic)",
+        "title": "Social media banner for a developer notes series",
         "type": "image",
         "category_key": "social_media",
         "content": "Create a premium social media banner image for a \u201cDev Notes\u201d series.\n\nScene & subject:\n- A minimalist desk setup in a dim studio: matte-black laptop slightly open, a dark-mode code editor on screen (no readable brand/UI text), a small notebook with subtle \u201cDEV NOTES\u201d embossing, and a graphite pencil.\n- Add one secondary tech element for depth (e.g., a compact mechanical keyboard or a slim external SSD), kept understated.\n\nComposition:\n- Wide horizontal layout (banner), strong negative space on the right for future overlay text.\n- Rule-of-thirds: laptop and notebook on the left, empty dark gradient space on the right.\n- Subtle foreground blur element (e.g., out-of-focus mug silhouette) for depth.\n\nLighting & mood:\n- Low-key, cinematic lighting with a cool neutral grade (deep navy/charcoal, cool whites, restrained saturation).\n- Soft directional key light from upper left, gentle rim light for separation, controlled reflections on metal edges.\n- Background: dark, minimal, slightly textured (no bright walls, no warm wood dominance).\n\nStyle & realism:\n- Photorealistic, high-end product photography feel; crisp details, soft shadows, shallow depth of field.\n- Clean, modern, professional\u2014no playful colors, no clutter.\n\nCamera & rendering cues:\n- 35\u201350mm lens look, f/2.8 shallow DOF, subtle film grain, high dynamic range, vignette kept minimal.\n- Output: 16:9 banner, 4K.\n\nAvoid:\n- Bright daylight, warm/cozy lifestyle tones, visible logos, readable code/text, messy cables, neon colors.",
@@ -48,7 +48,7 @@
     },
     {
         "key": "devnotes-005",
-        "title": "Turn a messy business idea into a one-page execution plan",
+        "title": "Messy business idea to a one-page execution plan",
         "type": "text",
         "category_key": "business",
         "content": "Take the business idea below and turn it into a clear one-page execution plan I can act on this week. Write in a confident, structured tone and keep it practical (no fluff).\n\nBusiness idea (paste here):\n[...]\n\nContext (optional): target customer, geography, budget range, timeline, constraints\n[...]\n\nOutput exactly in this format:\n\n1) One-sentence concept\n- What it is and who it\u2019s for.\n\n2) Target customer (pick one primary segment)\n- Segment:\n- Pain points (3 bullets):\n- Current alternatives:\n\n3) Value proposition\n- Why we win (3 bullets):\n- Proof/credibility we can use now:\n\n4) Offer & pricing (simple)\n- Core offer:\n- What\u2019s included:\n- Starting price + rationale:\n\n5) Go-to-market (first 14 days)\n- Channel 1:\n  - Message angle:\n  - Daily actions (5 bullets max):\n- Channel 2:\n  - Message angle:\n  - Daily actions (5 bullets max):\n\n6) MVP scope\n- Must-have (5 bullets max):\n- Nice-to-have (3 bullets max):\n- What we are explicitly NOT doing:\n\n7) Success metrics\n- Leading indicators (3):\n- Lagging indicators (2):\n- Target numbers for week 1:\n\n8) Risks & mitigations\n- Top 3 risks:\n- Mitigation for each:\n\n9) Next actions (checklist)\n- A checklist of 10 concrete tasks ordered by priority.\n\nIf anything is unclear, make reasonable assumptions and list them under \u201cAssumptions\u201d at the end (max 6 bullets).",
@@ -61,7 +61,7 @@
     },
     {
         "key": "devnotes-006",
-        "title": "Turn a rough UI idea into a crisp, buildable screen spec",
+        "title": "From idea to a crisp, buildable screen spec",
         "type": "text",
         "category_key": "design",
         "content": "I\u2019m designing a new screen and I have a rough idea below. Turn it into a concise UI spec my dev team can build without guesswork.\n\nInput (messy notes):\n[Paste your notes here]\n\nOutput format:\n- Screen goal (1 sentence)\n- Primary user actions (3\u20136 bullets)\n- Layout: key regions top-to-bottom (bullets)\n- Components list (with brief behavior for each)\n- States: empty / loading / error / success (what the user sees + what actions are available)\n- Validation + constraints (bullets)\n- Copy: exact microcopy for labels, buttons, helper text, and error messages\n- Accessibility checklist (5\u20138 bullets)\n- Analytics events (event name + when it fires)\n\nRules:\n- Keep it modern and direct. No fluff.\n- Make reasonable assumptions, but list them at the end under \u201cAssumptions\u201d.\n- Use consistent naming for components and actions so engineers can reference them.",
@@ -74,7 +74,7 @@
     },
     {
         "key": "devnotes-007",
-        "title": "Cinematic dark UI product image prompt generator (copy/paste)",
+        "title": "Product image prompt generator (copy/paste)",
         "type": "text",
         "category_key": "image_generation",
         "content": "Create 5 image-generation prompts for a premium, dark-themed product interface.\n\nProduct/subject: [describe the product, object, or concept]\nUse case: [app screen, landing hero, feature illustration, background, thumbnail]\nFormat: [1:1, 4:5, 16:9, 9:16]\n\nRequirements for every prompt:\n- Dark, cinematic, low-key lighting; cool/neutral color grading (deep navy, charcoal, cool gray); restrained saturation\n- Subdued background that blends into a dark UI; soft shadows; subtle rim light for separation\n- Clean composition with clear focal point; minimal clutter; premium materials (glass, anodized metal, matte plastic, subtle texture)\n- Avoid bright daylight, warm cozy lifestyle vibes, white backgrounds, strong sun flares, or overly vibrant colors\n- Mention camera framing + lens feel (e.g., 50mm, shallow depth of field) and one lighting setup (e.g., softbox key + dim fill)\n\nOutput format:\n1) Prompt (one paragraph)\n2) Negative prompt (short line)\n3) Optional: small variations (2 quick tweaks)\n\nStart now using my inputs and make each of the 5 prompts noticeably different (angle, composition, environment, and props) while keeping the same dark premium aesthetic.",
@@ -87,7 +87,7 @@
     },
     {
         "key": "devnotes-008",
-        "title": "Cinematic developer desk with code editor glow (dark UI cover image)",
+        "title": "Developer desk with code editor glow",
         "type": "image",
         "category_key": "coding",
         "content": "A premium, low-key cinematic scene of a modern developer workstation at night: a single ultrawide monitor showing a crisp code editor with dark theme (no readable brand names, no real text\u2014use abstract code-like lines), subtle terminal pane, and a minimal window layout. Desk setup: matte black laptop closed to the side, compact mechanical keyboard, graphite mouse, a small notepad with faint scribbles, and a stainless pen; a single dark ceramic mug. Lighting: cool, directional key light from the monitor glow plus a soft rim light from behind, gentle shadows, controlled highlights, slight haze for depth. Color grade: neutral-to-cool (deep navy, charcoal, cool whites), restrained saturation, high-end product-interface vibe. Composition: wide horizontal cover image, lots of clean negative space on the left for UI text overlay, subject weighted to the right third; shallow depth of field with soft bokeh on background elements; subtle film grain. Camera: 35mm, eye-level, f/2.8. Background: subdued, dark wall with faint texture, no bright windows, no warm sunlight, no cozy lifestyle decor. Ultra-detailed, photorealistic, clean and modern.",
@@ -100,7 +100,7 @@
     },
     {
         "key": "devnotes-009",
-        "title": "Turn a Messy Dev Brain Dump Into Today\u2019s 3-Task Plan",
+        "title": "Today\u2019s 3-Task Plan",
         "type": "text",
         "category_key": "productivity",
         "content": "I\u2019m going to paste a messy brain dump of dev notes (ideas, bugs, links, half-sentences). Please turn it into a simple plan for today.\n\nOutput exactly:\n1) Top 3 priorities (each with a one-line \u201cwhy now\u201d)\n2) Next actions (3\u20137 concrete steps, written as verbs)\n3) Quick decisions needed (list the smallest decision that unblocks progress)\n4) Parking lot (everything else, grouped by theme)\n5) 20-minute starter task (the easiest first move to build momentum)\n\nRules:\n- Keep it short, no long explanations.\n- If something is unclear, make a reasonable assumption and mark it as \u201cAssumption: \u2026\u201d.\n- Use only the info I provide; don\u2019t invent new requirements.\n\nHere are my notes:\n<<<PASTE NOTES HERE>>>",
@@ -157,7 +157,7 @@
     },
     {
         "key": "devnotes-010",
-        "title": "Turn messy sources into a rigorous research brief with citations and open questions",
+        "title": "Rigorous research brief with citations and open questions",
         "type": "text",
         "category_key": "research",
         "content": "I\u2019m compiling a research brief and I want it to be rigorous, not a generic summary.\n\nTopic / question:\n- [Paste your research question + what decision this brief will support]\n\nAudience:\n- [Who will read it, what they already know, and what they need to decide]\n\nSources (paste any mix of notes, links, quotes, papers, transcripts):\n- [Source dump here]\n\nConstraints:\n- Time horizon: [e.g., last 2 years / historical]\n- Geography / industry scope: [scope]\n- What counts as \u201cevidence\u201d for this question: [RCTs, case studies, benchmarks, expert consensus, etc.]\n- Output length: [e.g., 1\u20132 pages]\n\nDeliver a structured brief with the sections below. If you\u2019re uncertain, say so and explain why.\n\n1) Executive answer (<= 8 bullets)\n- Directly answer the research question.\n- For each bullet, add: confidence (High/Med/Low) + 1 supporting citation.\n\n2) Definitions and scope\n- Define key terms as used in the sources.\n- Explicitly state what is out of scope.\n\n3) Evidence table\nCreate a table with columns:\n- Claim\n- Supporting evidence (quote or concrete datapoint)\n- Source (link/title/author/date)\n- Study type / methodology (if applicable)\n- Sample size / context (if applicable)\n- Limitations / confounders\n- Your confidence rating\n\n4) Synthesis (what the evidence collectively implies)\n- Group findings into 3\u20136 themes.\n- Note where sources agree, disagree, or talk past each other.\n- Identify the strongest and weakest parts of the evidence base.\n\n5) Counterarguments and failure modes\n- Steelman the best opposing view.\n- List plausible reasons the \u201cobvious\u201d conclusion could be wrong in practice.\n\n6) Practical implications\n- Translate findings into implications for: strategy, operations, and risk.\n- Include \u201cif X, then Y\u201d guidance and where it breaks.\n\n7) Open questions + research plan\n- List the top unanswered questions blocking confidence.\n- Propose a short research plan (what to read next, what data to collect, who to interview) prioritized by expected value.\n\n8) Citations\n- Provide a clean bibliography with stable URLs when possible.\n- Use consistent inline citation markers like (Source 3).\n\nRules:\n- Don\u2019t invent sources or statistics. If something isn\u2019t supported, label it as a hypothesis.\n- Prefer primary sources; flag secondary reporting.\n- When two sources conflict, present both and explain likely reasons (methods, incentives, timeframe, selection bias).\n- Keep language crisp and decision-oriented, not academic.\n\nBefore writing, ask up to 5 clarifying questions only if essential; otherwise proceed with reasonable assumptions and list them.",
@@ -170,7 +170,7 @@
     },
     {
         "key": "devnotes-011",
-        "title": "Turn messy meeting notes into a 10-minute execution plan (owners, deadlines, risks)",
+        "title": "10-minute execution plan (owners, deadlines, risks)",
         "type": "text",
         "category_key": "business",
         "content": "Take the meeting notes below and convert them into a crisp execution plan I can act on today.\n\nRequirements:\n- Keep it modern and direct. No pep talk.\n- Make reasonable assumptions only when necessary; otherwise flag unknowns.\n- If something sounds like a decision, capture it as a decision (even if informal).\n\nOutput format:\n1) Goal (1 sentence)\n2) Decisions made (bullets)\n3) Action items (table with: Task | Owner | Due date | Priority P0/P1/P2 | Dependencies | Status)\n4) Open questions (bullets, written as questions)\n5) Risks & mitigations (table: Risk | Impact | Likelihood | Mitigation | Owner)\n6) Next check-in: propose a date/time window and a short agenda (max 5 bullets)\n\nMeeting notes:\n[PASTE NOTES HERE]",
@@ -183,7 +183,7 @@
     },
     {
         "key": "devnotes-012",
-        "title": "Turn a bug report into a prioritized debugging plan (with hypotheses and checks)",
+        "title": "Bug report turned into a prioritized debugging plan (with hypotheses and checks)",
         "type": "text",
         "category_key": "coding",
         "content": "I\u2019m going to paste a bug report and any relevant code/log snippets. Turn it into a practical debugging plan I can follow.\n\nInput:\n- Bug report: [paste]\n- Expected behavior: [paste]\n- Actual behavior: [paste]\n- Environment (OS/runtime/version/flags): [paste]\n- Repro steps (or \u201cnot reliably reproducible\u201d): [paste]\n- Relevant code snippet(s): [paste]\n- Logs/stack traces: [paste]\n- Recent changes (commits/PRs/config): [paste]\n\nOutput a structured plan with:\n1) Fast triage\n   - Clarify the failure mode in 1\u20132 sentences.\n   - List the minimum info still needed (only if truly blocking), and how to collect it.\n   - Quick checks to rule out common causes (env mismatch, cache, config, permissions, timeouts).\n\n2) Reproduction strategy\n   - Most likely way to reproduce locally (exact commands, flags, sample inputs).\n   - If flaky: how to increase signal (repeat strategy, logging, toggles, time control, isolation).\n\n3) Hypotheses (ranked)\n   For each hypothesis:\n   - Why it fits the symptoms\n   - What evidence would confirm/refute it\n   - The smallest experiment to test it\n   - What to inspect (files/functions/modules) based on the snippet\n\n4) Instrumentation plan\n   - Specific log lines/metrics to add (with example messages and where to place them).\n   - Any guardrails (rate limiting logs, PII concerns).\n\n5) Root-cause isolation\n   - A step-by-step decision tree: \u201cIf X, then do Y\u201d until narrowed.\n   - Include suggested breakpoints/watch expressions if relevant.\n\n6) Fix approach options\n   - 2\u20133 possible fixes with tradeoffs (risk, scope, performance, backwards-compat).\n   - Call out any likely unintended side effects.\n\n7) Verification\n   - Exact tests to add/update (unit/integration/e2e), including what to assert.\n   - Regression checklist (edge cases, error handling, concurrency, timezones, retries).\n\nConstraints:\n- Keep it clear and actionable, no generic advice.\n- If you reference code changes, show small illustrative snippets or pseudocode, not a full rewrite.\n- Assume I want the fastest path to a confident fix with minimal thrash.",
@@ -200,7 +200,7 @@
     },
     {
         "key": "devnotes-013",
-        "title": "Cinematic dark UI productivity scene for a note-taking app hero image",
+        "title": "Productivity scene for a note-taking app hero image",
         "type": "image",
         "category_key": "productivity",
         "content": "Create a premium, cinematic hero image for a productivity/note-taking app.\n\nSubject & scene:\n- A sleek laptop on a matte charcoal desk, showing a dark-mode notes interface with a clean outline: \u201c{PROJECT}\u201d, \u201cToday\u201d, \u201cNext\u201d, and a short checklist (no logos, no recognizable brands).\n- Subtle accessories: a black mechanical pencil, a minimal notebook, and a muted ceramic mug in the background (keep them secondary).\n\nComposition:\n- 3/4 angle from slightly above, tight framing with negative space on the right for UI text overlay.\n- Shallow depth of field; the screen content is readable but not tack-sharp; background falls off into soft blur.\n\nLighting & mood:\n- Low-key, controlled directional light from the left (softbox feel), gentle specular highlights on metal edges, soft shadows.\n- Cool/neutral color grading (deep navy, graphite, cool gray), restrained saturation, high-end dark-interface aesthetic.\n\nStyle:\n- Photorealistic, modern, minimal, no clutter, no bright white surfaces, no warm sunlight.\n- Clean materials: anodized aluminum, matte plastic, textured desk surface.\n\nCamera details (if supported):\n- 50mm lens, f/1.8, ISO 200, 1/125s, subtle film grain, slight vignette.\n\nConstraints:\n- No people, no hands, no visible brand marks, no neon colors.\n- Background should be subdued and slightly darkened so it feels integrated with a dark product interface.\n\nOptional variants:\n- Swap laptop for a tablet with stylus.\n- Replace checklist with a kanban-style column view labeled \u201cBacklog / Doing / Done\u201d using \u201c{PROJECT}\u201d.",
@@ -217,7 +217,7 @@
     },
     {
         "key": "devnotes-014",
-        "title": "Turn a messy topic into a focused research plan (questions, sources, search terms)",
+        "title": "From messy topic to a focused research plan (questions, sources, search terms)",
         "type": "text",
         "category_key": "research",
         "content": "Help me research the topic below and turn it into a clear, actionable plan I can follow.\n\nTopic:\n[Paste the topic / question / problem here]\n\nMy context (optional):\n- What I already know:\n- Why I\u2019m researching this:\n- Time budget:\n- Audience (me/team/client):\n\nWhat I want from you (keep it practical, not academic):\n1) A one-paragraph framing of the problem: what it is, what it isn\u2019t, and the most important assumptions.\n2) 8\u201312 specific research questions, grouped into 3\u20135 themes.\n3) A quick glossary: key terms I should understand (with plain-English definitions).\n4) Search strategy:\n   - 20 targeted search queries (mix of broad, narrow, and \u201ccomparison\u201d queries)\n   - 10 advanced query variations using operators (quotes, site:, filetype:, OR, minus)\n5) Source map:\n   - Where to look first (e.g., standards bodies, vendor docs, academic, reputable blogs, forums)\n   - What each source type is good for + what it\u2019s bad for\n6) Credibility checklist: red flags vs green flags, and how to verify claims.\n7) A lightweight note-taking template I can copy (sections + example bullets).\n8) A 7-day or 2-week research schedule (depending on my time budget), with daily outputs.\n9) \u201cIf you only read 5 things\u201d shortlist: what those things should be (types of resources) and why.\n10) A final deliverable outline (what my finished research should look like) with headings and bullet points.\n\nStyle requirements:\n- Friendly, straightforward, and skimmable.\n- Use bullets and short sections.\n- If my topic is too vague, make reasonable assumptions and list them clearly before proceeding.",
@@ -230,7 +230,7 @@
     },
     {
         "key": "devnotes-015",
-        "title": "Turn a rough feature idea into a clear UX spec + acceptance criteria",
+        "title": "Clear UX spec + acceptance criteria",
         "type": "text",
         "category_key": "design",
         "content": "Take this rough feature idea and turn it into a compact UX spec a product team can implement.\n\nContext\n- Product: [what it is]\n- Target user: [who]\n- Core problem: [pain point]\n- Feature idea (messy notes):\n  [paste notes]\n- Platform: [web / iOS / Android]\n- Constraints: [time, tech, legal, accessibility, brand]\n\nOutput (use these headings)\n1) One-sentence summary\n2) User story (As a\u2026 I want\u2026 so that\u2026)\n3) Success criteria (3\u20136 measurable outcomes)\n4) Primary user flow (step-by-step, max 10 steps)\n5) Screens/states needed (list each state and what changes)\n6) Key UI components (inputs, controls, system feedback)\n7) Content requirements (exact microcopy for buttons, empty states, errors)\n8) Edge cases to handle (at least 8; be specific)\n9) Accessibility checklist (WCAG-minded, practical)\n10) Analytics events (event name + properties)\n11) Acceptance criteria (Given/When/Then bullets)\n\nRules\n- Keep it structured and implementation-ready, not a narrative.\n- Make assumptions only if necessary; list them under \u201cAssumptions.\u201d\n- Avoid design trends and vague language\u2014be concrete about behavior.",
@@ -247,7 +247,7 @@
     },
     {
         "key": "devnotes-016",
-        "title": "Turn a messy bug report into an actionable debugging plan (with hypotheses)",
+        "title": "Actionable debugging plan (with hypotheses)",
         "type": "text",
         "category_key": "coding",
         "content": "I\u2019m going to paste a bug report and whatever context I have. Turn it into an actionable debugging plan I can follow.\n\nInput:\n- Product/feature: [what area of the code]\n- Stack/runtime: [language/framework/runtime]\n- Environment: [local/staging/prod], [OS], [version(s)]\n- Symptom: [what users/devs see]\n- Frequency: [always/sometimes/%]\n- Recent changes: [PRs, deploys, config flips]\n- Logs/errors: [paste]\n- Steps to reproduce (if any): [paste]\n- Expected vs actual: [paste]\n- Constraints: [can/can\u2019t change, time pressure, risk]\n\nOutput requirements:\n1) Restate the issue in one sentence so it\u2019s unambiguous.\n2) List 5\u201310 plausible root-cause hypotheses, ranked by likelihood and impact. Tie each hypothesis to specific clues from the input.\n3) For the top 3 hypotheses, give:\n   - the fastest verification test (exact commands, log filters, breakpoints, or code locations to inspect)\n   - what result would confirm vs falsify it\n   - the next step depending on the outcome\n4) Identify missing information that would change the ranking (ask only the highest-leverage questions).\n5) Provide a minimal instrumentation plan: what to log/trace/metric, where to add it, and how to avoid noise or sensitive data.\n6) Suggest a safe mitigation I can ship quickly (feature flag, rollback, guard clause, retry/backoff, circuit breaker), plus risks.\n7) If you propose code changes, include small, targeted snippets or pseudocode and mention what tests to add/adjust.\n\nStyle: modern and direct. Prefer checklists and concrete next actions over long explanations.",
@@ -264,7 +264,7 @@
     },
     {
         "key": "devnotes-017",
-        "title": "Turn messy dev notes into a prioritized task list for today",
+        "title": "Dev notes transformed into a prioritized task list for today",
         "type": "text",
         "category_key": "productivity",
         "content": "I\u2019m going to paste a block of messy development notes. Convert it into a practical, prioritized task list I can execute today.\n\nRequirements:\n- Output format:\n  1) Top 3 outcomes for today (short, measurable)\n  2) Task list (prioritized). Each task: [Impact: H/M/L] [Effort: S/M/L] [Owner: me] [Timebox: minutes] + 1-line acceptance criteria\n  3) Quick decisions needed (if any) with the smallest set of options\n  4) Risks/unknowns to unblock first (bullet list)\n- Keep tasks concrete (verbs, specific files/components if mentioned).\n- If something is vague, rewrite it as a \u201cDefine/Verify\u201d task with clear next step.\n- Don\u2019t invent work that isn\u2019t supported by the notes.\n\nHere are the notes:\n\n<PASTE NOTES HERE>",

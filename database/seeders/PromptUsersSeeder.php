@@ -44,7 +44,7 @@ class PromptUsersSeeder extends Seeder
      * | 1     | promptforge-023 | 4 images  | image | business     | promptforge |
      * | 2     | devnotes-009    | 12 images | text  | productivity | devnotes    |
      * | 3     | pixel-sora-019  | 1 image   | text  | none         | pixel-sora  |
-     * | 4     | classmind-009   | 12 images | text  | productivity | classmind   |
+     * | 4     | classmind-009   | 11 images | text  | productivity | classmind   |
      * | 5     | growthgrid-013  | 2 images  | image | email        | growthgrid  |
      * | 6     | pixel-sora-020  | 1 image   | other | writing      | pixel-sora  |
      * | 7     | classmind-003   | 1 image   | image | social media | classmind   |
