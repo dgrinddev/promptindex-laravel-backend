@@ -1,59 +1,63 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# PromptIndex — Laravel Backend
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+> Backend API for [PromptIndex](https://promptindex.io/), a community-driven platform to discover and share AI prompts for ChatGPT, Midjourney, Claude, and more.
 
-## About Laravel
+This repository contains the Laravel API. The frontend (Vue SPA) lives in a [separate repository](https://github.com/dgrinddev/promptindex-vue-frontend).
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Tech stack
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- **Laravel**
+- **Laravel Sanctum** (authentication)
+- **Laravel Fortify** (authentication flows)
 
-## Learning Laravel
+Hosted on **Laravel Cloud**.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+---
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Architecture
 
-## Laravel Sponsors
+The backend is a pure API — no Blade views, no Inertia. It is consumed exclusively by the Vue SPA frontend. Authentication uses **Laravel Sanctum** with cookie-based sessions and CSRF protection.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+### API routes
 
-### Premium Partners
+Routes are defined in `api.php` and split into three groups:
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+- **Authenticated routes** — require a valid session
+- **Guest-context routes** (`/api/guest/...`) — no authentication required; used by the frontend in guest context
+- **Shared routes** — no authentication required; used by both the app and guest frontend contexts
 
-## Contributing
+### Validation
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+`SavePromptRequest.php` handles validation for both prompt creation and updates, including:
+- Unique title enforcement
+- `coverimage_id` validation — must refer to an image belonging to the prompt (or the current upload token on prompt-creation)
+- Category ID validation against the global predefined category set
 
-## Code of Conduct
+### Authorization
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Authorization is handled via **policies**. All controllers use `can()` / `Gate::authorize()` to ensure users can only access and modify resources they own.
 
-## Security Vulnerabilities
+### Categories
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Categories in PromptIndex are predefined and shared across all users. Since all prompts are public, shared categories give the prompt-library a coherent structure.
 
-## License
+---
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Image uploads
+
+Image uploading is handled via `ImageController.php`. Images can be uploaded before a prompt is created by generating an `upload_image_token` (UUID) in the frontend and attaching it to each upload request. When the prompt is eventually saved, the backend links the uploaded images to the new prompt via this token.
+
+---
+
+## Seeding
+
+`PromptUsersSeeder.php` provides a thorough seed setup for the prompt library — creating users, categories, and prompts complete with images, cover images, and realistic timestamps, sourced from structured JSON files.
+
+---
+
+## Related
+
+- [Frontend repository (Vue SPA)](https://github.com/dgrinddev/promptindex-vue-frontend)
+- [Live site](https://promptindex.io/)
