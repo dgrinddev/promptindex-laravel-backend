@@ -15,7 +15,7 @@ Route::middleware(['auth:sanctum'])->group(function () {
         return new AuthUserResource($request->user());
     });
 
-    // Routes that are used in app context only
+    // Routes that are used in 'app' context only (contexts in `type ApplicationSurface` in `src/types/ui/application.types.ts` in the frontend-repository)
     Route::prefix('app')->group(function () {
         // User settings
         Route::get('/user/edit-profile', [SettingsController::class, 'editProfile'])->name('user.edit-profile');
@@ -34,7 +34,7 @@ Route::middleware(['auth:sanctum'])->group(function () {
     });
 });
 
-// Routes that are used in guest context only
+// Routes that are used in 'guest' context only (contexts in `type ApplicationSurface` in `src/types/ui/application.types.ts` in the frontend-repository)
 Route::prefix('guest')->group(function () {
     Route::get('/prompts', [PromptController::class, 'index'])->name('prompts.index');
 
@@ -46,6 +46,6 @@ Route::prefix('guest')->group(function () {
     */
 });
 
-// Routes that are used in both app and guest contexts
+// Routes that are used in both 'app' and 'guest' contexts (contexts in `type ApplicationSurface` in `src/types/ui/application.types.ts` in the frontend-repository)
 Route::get('/prompts/{prompt}', [PromptController::class, 'show'])->name('prompts.show');
 Route::get('/categories', [CategoryController::class, 'index'])->name('categories.index');
