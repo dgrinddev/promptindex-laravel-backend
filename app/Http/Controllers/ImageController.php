@@ -6,6 +6,7 @@ use App\Http\Resources\ImageResource;
 use App\Models\Image;
 use Illuminate\Validation\Rule;
 use Illuminate\Http\Request;
+use Illuminate\Validation\ValidationException;
 
 class ImageController extends Controller
 {
@@ -32,6 +33,15 @@ class ImageController extends Controller
 		]);
 
 		$file = $validated['image'];
+
+		$original_filename = pathinfo($file->getClientOriginalName(), PATHINFO_FILENAME);
+
+		if (strlen($original_filename) > 255) {
+			throw ValidationException::withMessages([
+				'image' => ['The filename must not exceed 255 characters.'],
+			]);
+		}
+
 		$hashed_filename = $file->hashName();
 		$path = $file->storeAs('images', $hashed_filename);
 
@@ -41,7 +51,6 @@ class ImageController extends Controller
 				'the file could not be saved'
 		);
 
-		$original_filename = pathinfo($file->getClientOriginalName(), PATHINFO_FILENAME);
 		$extension = $file->extension();
 		$size = $file->getSize();
 
