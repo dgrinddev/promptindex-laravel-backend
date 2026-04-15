@@ -1,4 +1,4 @@
-# PromptIndex — Laravel Backend
+# PromptIndex - Laravel Backend
 
 > Backend API for [PromptIndex](https://promptindex.io/), a community-driven platform to discover and share AI prompts for ChatGPT, Midjourney, Claude, and more.
 
@@ -18,21 +18,21 @@ Hosted on **Laravel Cloud**.
 
 ## Architecture
 
-The backend is a pure API — no Blade views, no Inertia. It is consumed exclusively by the Vue SPA frontend. Authentication uses **Laravel Sanctum** with cookie-based sessions and CSRF protection.
+The backend is a pure API, no Blade views, no Inertia. It is consumed exclusively by the Vue SPA frontend. Authentication uses **Laravel Sanctum** with cookie-based sessions and CSRF protection.
 
 ### API routes
 
 Routes are defined in `api.php` and split into three groups:
 
-- **Authenticated routes** — require a valid session
-- **Guest-context routes** (`/api/guest/...`) — no authentication required; used by the frontend in guest context
-- **Shared routes** — no authentication required; used by both the app and guest frontend contexts
+- **Authenticated routes** - require a valid session
+- **Guest-context routes** (`/api/guest/...`) - no authentication required, used by the frontend in guest context
+- **Shared routes** - no authentication required, used by both the app and guest frontend contexts
 
 ### Validation
 
 `SavePromptRequest.php` handles validation for both prompt creation and updates, including:
 - Unique title enforcement
-- `coverimage_id` validation — must refer to an image belonging to the prompt (or the current upload token on prompt-creation)
+- `coverimage_id` validation - must refer to an image belonging to the prompt (or the current upload token on prompt-creation)
 - Category ID validation against the global predefined category set
 
 ### Authorization
@@ -53,7 +53,7 @@ Image uploading is handled via `ImageController.php`. Images can be uploaded bef
 
 ## Seeding
 
-`PromptUsersSeeder.php` provides a thorough seed setup for the prompt library — creating users, categories, and prompts complete with images, cover images, and realistic timestamps, sourced from structured JSON files.
+`PromptUsersSeeder.php` provides a thorough seed setup for the prompt library, creating users, categories, and prompts complete with images, cover images, and realistic timestamps, sourced from structured JSON files.
 
 ---
 

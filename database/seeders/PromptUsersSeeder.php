@@ -144,7 +144,7 @@ class PromptUsersSeeder extends Seeder
                 $promptData = $data['prompts']->firstWhere('key', $key);
 
                 if ($promptData) {
-                    // Spread timestamps evenly, with a small random jitter inside each slot —
+                    // Spread timestamps evenly, with a small random jitter inside each slot,
                     // same technique used for $imageCreatedAt.
                     $forcedCreatedAt = $rangeStart->copy()->addSeconds(
                         ($index * $secondsPerSlot) + random_int(0, $secondsPerSlot - 1)
