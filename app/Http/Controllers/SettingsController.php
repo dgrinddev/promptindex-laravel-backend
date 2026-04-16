@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Resources\ProfileEditResource;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Validation\ValidationException;
 
 class SettingsController extends Controller
 {
@@ -23,6 +24,12 @@ class SettingsController extends Controller
         ]);
 
         $user = $request->user();
+
+        if ($user && $user->email === config('test_user.email')) {
+            throw ValidationException::withMessages([
+                'current_password' => ['Demo account cannot be deleted.'],
+            ]);
+        }
         
         Auth::guard('web')->logout();
         
