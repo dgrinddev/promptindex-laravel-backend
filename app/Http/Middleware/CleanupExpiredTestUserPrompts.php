@@ -29,7 +29,7 @@ class CleanupExpiredTestUserPrompts
                 if ($testUserId) {
                     Prompt::query()
                         ->where('user_id', $testUserId)
-                        ->where('created_at', '<', now()->subMinutes(1))
+                        ->where('created_at', '<', now()->subMinutes(30))
                         ->delete();
                 }
             }
