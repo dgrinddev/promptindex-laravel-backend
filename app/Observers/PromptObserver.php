@@ -32,6 +32,18 @@ class PromptObserver
     }
 
     /**
+     * Before the prompt row is removed: delete related images via Eloquent so
+     * ImageObserver can remove files from storage (DB cascade alone would not).
+     */
+    public function deleting(Prompt $prompt): void
+    {
+        $prompt->loadMissing('images');
+        // Each Image must be deleted through the model so ImageObserver::deleted runs;
+        // relying on prompt_id ON DELETE CASCADE would remove rows without observers.
+        $prompt->images->each->delete();
+    }
+
+    /**
      * Handle the Prompt "deleted" event.
      */
     public function deleted(Prompt $prompt): void

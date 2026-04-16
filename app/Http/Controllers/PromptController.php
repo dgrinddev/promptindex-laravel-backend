@@ -3,10 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\SavePromptRequest;
-use App\Http\Resources\PromptResource;
 use App\Http\Resources\PromptEditResource;
+use App\Http\Resources\PromptResource;
 use App\Models\Prompt;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Gate;
 
 class PromptController extends Controller
@@ -20,6 +21,7 @@ class PromptController extends Controller
             ->where('status', 'public')
             ->latest()
             ->paginate(12);
+
         return PromptResource::collection($prompts);
     }
 
@@ -33,6 +35,7 @@ class PromptController extends Controller
             ->with(['images', 'category', 'user'])
             ->latest()
             ->paginate(12);
+
         return PromptResource::collection($prompts);
     }
 
@@ -59,6 +62,7 @@ class PromptController extends Controller
     public function show(Request $request, Prompt $prompt)
     {
         Gate::authorize('view', $prompt);
+
         return $prompt->load('images', 'category', 'user')->toResource();
     }
 
@@ -68,6 +72,7 @@ class PromptController extends Controller
     public function edit(Request $request, Prompt $prompt)
     {
         Gate::authorize('update', $prompt);
+
         return new PromptEditResource($prompt->load('images'));
     }
 
@@ -96,8 +101,13 @@ class PromptController extends Controller
         if ($request->user()->cannot('delete', $prompt)) {
             abort(403);
         }
-        
-        $prompt->delete();
+
+        // Use Eloquent $prompt->delete() (not a query builder bulk delete) so
+        // PromptObserver::deleting runs: it removes each related Image via Eloquent,
+        // which fires ImageObserver and deletes files from storage. Foreign-key
+        // cascades alone remove DB rows without observers and would leave orphaned files.
+        // The transaction keeps those deletes and the prompt row removal atomic.
+        DB::transaction(fn () => $prompt->delete());
 
         return response(null, 204);
     }

@@ -28,10 +28,13 @@ class CleanupExpiredTestUserPrompts
                     ->value('id');
 
                 if ($testUserId) {
+                    // each(...->delete()) per model, not ->delete() on the query: bulk delete
+                    // does not fire PromptObserver / ImageObserver, so image files would remain
+                    // on disk. Eloquent delete runs the same cleanup as normal prompt removal.
                     Prompt::query()
                         ->where('user_id', $testUserId)
                         ->where('created_at', '<', now()->subMinutes($cleanupTtlMinutes))
-                        ->delete();
+                        ->each(fn(Prompt $prompt) => $prompt->delete());
                 }
             }
         }

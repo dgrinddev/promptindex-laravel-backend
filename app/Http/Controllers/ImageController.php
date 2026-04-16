@@ -77,6 +77,7 @@ class ImageController extends Controller
 				abort(403);
 		}
 		
+		// Eloquent delete so ImageObserver runs and removes the file from storage
 		$image->delete();
 
 		return response(null, 204);
