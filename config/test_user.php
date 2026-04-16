@@ -12,6 +12,6 @@ return [
     */
 
     'email' => env('USER_TEST_EMAIL'),
-    'prompt_cleanup_ttl_minutes' => env('TEST_USER_PROMPT_CLEANUP_TTL_MINUTES', 30),
+    'prompt_cleanup_ttl_minutes' => env('TEST_USER_PROMPT_CLEANUP_TTL_MINUTES', 1),
 ];
 
