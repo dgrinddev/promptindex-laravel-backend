@@ -4,6 +4,7 @@ use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\SettingsController;
 use App\Http\Controllers\PromptController;
 use App\Http\Controllers\ImageController;
+use App\Http\Middleware\CleanupExpiredTestUserPrompts;
 use App\Http\Resources\AuthUserResource;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -48,4 +49,6 @@ Route::prefix('guest')->group(function () {
 
 // Routes that are used in both 'app' and 'guest' contexts (contexts in `type ApplicationSurface` in `src/types/ui/application.types.ts` in the frontend-repository)
 Route::get('/prompts/{prompt}', [PromptController::class, 'show'])->name('prompts.show');
-Route::get('/categories', [CategoryController::class, 'index'])->name('categories.index');
+Route::get('/categories', [CategoryController::class, 'index'])
+    ->middleware(CleanupExpiredTestUserPrompts::class)
+    ->name('categories.index');

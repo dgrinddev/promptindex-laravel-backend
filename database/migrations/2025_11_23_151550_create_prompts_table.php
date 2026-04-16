@@ -27,6 +27,8 @@ return new class extends Migration
                 ->constrained() // refers to the 'id' column in the 'categories' table
                 ->nullOnDelete(); // if the referenced category is deleted, the field is set to NULL
             $table->timestamps();
+
+            $table->index(['user_id', 'created_at']);
         });
     }
 
