@@ -3,6 +3,7 @@
 namespace App\Observers;
 
 use App\Models\Image;
+use Illuminate\Support\Facades\Storage;
 
 class ImageObserver
 {
@@ -27,7 +28,9 @@ class ImageObserver
      */
     public function deleted(Image $image): void
     {
-        //
+        if ($image->hashed_filename) {
+            Storage::delete("images/{$image->hashed_filename}");
+        }
     }
 
     /**
@@ -43,6 +46,8 @@ class ImageObserver
      */
     public function forceDeleted(Image $image): void
     {
-        //
+        if ($image->hashed_filename) {
+            Storage::delete("images/{$image->hashed_filename}");
+        }
     }
 }

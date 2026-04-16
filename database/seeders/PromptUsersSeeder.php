@@ -245,7 +245,7 @@ class PromptUsersSeeder extends Seeder
 
             $file = new File($filePath);
             $hashedFilename = $file->hashName();
-            $storedPath = Storage::disk('public')->putFileAs('images', $file, $hashedFilename);
+            $storedPath = Storage::putFileAs('images', $file, $hashedFilename);
 
             if (!$storedPath) {
                 throw new RuntimeException("Failed to store image: {$filePath}");
